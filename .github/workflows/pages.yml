@@ -22,7 +22,9 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      # Fails the build on a duplicate id or a dangling `mentions` reference.
+      # CI is set, so build.mjs exits non-zero on a duplicate id, a dangling
+      # `mentions` reference, or an unreadable tracks/notes file — rather than
+      # publishing a ledger with holes in it.
       - run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -222,4 +222,15 @@ console.log(
 if (problems.length) {
   console.warn("\nproblems:");
   for (const p of problems) console.warn("  " + p);
+  /*
+   * A warning locally, a failure in CI. A half-written entry that mentions
+   * something you have not added yet should not stop you previewing the site,
+   * but it should stop a broken ledger being deployed. Set STRICT=1 to get
+   * the CI behaviour locally.
+   */
+  if (process.env.CI || process.env.STRICT) {
+    console.error(`\n${problems.length} problem(s); refusing to publish.`);
+    process.exit(1);
+  }
+  console.warn("(warnings only — this would fail in CI)");
 }

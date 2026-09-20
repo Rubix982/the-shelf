@@ -1,0 +1,24 @@
+# EXAMPLES — replace with your own.
+#
+# This is the urgent category. Games are looked after by dedicated
+# communities; YouTube channels are not. They vanish permanently and usually
+# without warning, and a dead entry here is often the only remaining record
+# that the thing existed at all.
+
+- id: template-gone-channel
+  title: "— a channel you remember that no longer exists —"
+  year: 2011
+  platform: YouTube
+  what: >
+    Describe what it actually was, for someone who will never be able to
+    watch it.
+  great: >
+    Why it was worth watching. Be specific; this is the only review of it
+    that will survive.
+  mine: >
+    — your memory goes here —
+  status: gone
+  status_note: >
+    No known copy. Check archive.org/web for the channel page and
+    filmot.com for recovered titles before giving up on it.
+  tags: [youtube]

@@ -1,0 +1,71 @@
+# EXAMPLES — replace these with your own.
+#
+# The `what` and `great` fields below are real, and you can keep or rewrite
+# them. The `mine` fields are placeholders: that is the part only you can
+# write, and the part the whole ledger exists for.
+
+- id: sonic-2
+  title: Sonic the Hedgehog 2
+  year: 1992
+  platform: Mega Drive
+  by: Sega Technical Institute
+  what: >
+    The second Sonic. Added Tails, the spin dash, and a split-screen
+    two-player mode that ran the same levels at half the frame rate and
+    nobody minded.
+  great: >
+    The spin dash fixed the one real flaw in the first game — you could
+    recover speed after a mistake instead of trudging. Casino Night Zone
+    understood something most platformers still do not: that a level can be
+    a toy rather than an obstacle.
+  mine: >
+    — your memory goes here. where were you, how old, who else was in the
+    room, what you remember that nobody else would —
+  mentions: [aladdin]
+  where:
+    - label: No-Intro cartridge dumps
+      url: https://datomatic.no-intro.org
+  status: preserved
+  status_note: >
+    Dumped, verified, emulated everywhere. Nothing for me to do.
+  tags: [platformer, formative]
+
+- id: prince-of-persia
+  title: Prince of Persia
+  year: 1989
+  platform: DOS
+  by: Jordan Mechner
+  what: >
+    A single-screen platformer across the levels of a palace, with a
+    sixty-minute timer running the whole game and rotoscoped animation
+    traced from film of the author's brother.
+  great: >
+    The animation had weight. You could not stop instantly, which meant
+    every jump was a commitment made a half-second before it mattered. The
+    timer turned the whole palace into one continuous act instead of a
+    series of rooms.
+  mine: >
+    — your memory goes here —
+  where:
+    - label: Internet Archive, MS-DOS collection
+      url: https://archive.org/details/softwarelibrary_msdos_games
+  status: preserved
+  tags: [platformer, dos]
+
+- id: aladdin
+  title: Aladdin
+  year: 1993
+  platform: Mega Drive
+  by: Virgin Games
+  what: >
+    A licensed platformer whose sprites were drawn by Disney's own feature
+    animators rather than by the game studio.
+  great: >
+    Licensed games were mostly contractual obligations. This one moved like
+    the film because the people who made the film drew the frames, and it
+    is still the argument for why that collaboration is worth the cost.
+  mine: >
+    — your memory goes here —
+  mentions: [sonic-2]
+  status: preserved
+  tags: [platformer, licensed]

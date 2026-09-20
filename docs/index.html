@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Shelf — things I grew up with</title>
+    <meta
+      name="description"
+      content="A ledger of the games, music, television and channels I grew up with, kept for my kids."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&family=JetBrains+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,400&display=swap"
+      rel="stylesheet"
+    />
+    <style>/* =========================================================================
+   The Shelf
+   The machine frames it; the writing is warm. Terminal type carries the
+   chrome — boot screen, spines, labels — and a serif carries anything a
+   person actually wrote. The palette is warm-black rather than blue-black,
+   because a CRT in a dark room is dusty, not cold.
+   ========================================================================= */
+
+:root {
+  --ground: #14110d;
+  --ground-2: #1c1813;
+  --ground-3: #241f18;
+  --ink: #e8dfcf;
+  --ink-dim: #9c9183;
+  --ink-faint: #6e6458;
+  --amber: #f0a93b;
+  --amber-dim: #a8742a;
+  --jade: #6fae8f;
+  --rust: #c9563c;
+  --rule: #2e2720;
+
+  --crt: "VT323", ui-monospace, monospace;
+  --mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --prose: "Newsreader", Georgia, "Iowan Old Style", serif;
+
+  --measure: 36rem;
+  --page: 64rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font-family: var(--prose);
+  font-size: 18px;
+  line-height: 1.7;
+  font-optical-sizing: auto;
+  overflow-x: hidden;
+}
+
+/* The room: a warm vignette and the faintest raster. Both decorative, both
+   kept below the threshold where they'd fight the text. */
+.glow {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background:
+    radial-gradient(
+      120% 90% at 50% 0%,
+      rgba(240, 169, 59, 0.07) 0%,
+      rgba(240, 169, 59, 0) 55%
+    ),
+    radial-gradient(100% 100% at 50% 100%, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0) 60%);
+}
+
+.scan {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 40;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0px,
+    rgba(0, 0, 0, 0) 2px,
+    rgba(0, 0, 0, 0.035) 3px,
+    rgba(0, 0, 0, 0.035) 4px
+  );
+}
+
+@media (prefers-contrast: more) {
+  .scan,
+  .glow {
+    display: none;
+  }
+}
+
+.app {
+  position: relative;
+  z-index: 1;
+  max-width: var(--page);
+  margin: 0 auto;
+  padding: 3rem 1.5rem 6rem;
+}
+
+a {
+  color: var(--amber);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+a:hover {
+  color: var(--ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--amber);
+  outline-offset: 3px;
+}
+
+/* The router moves focus to the heading on navigation so screen readers land
+   in the right place. That should not paint a ring for sighted users. */
+[tabindex="-1"]:focus,
+[tabindex="-1"]:focus-visible {
+  outline: none;
+}
+
+/* =========================================================================
+   Boot — the way in
+   ========================================================================= */
+
+.boot__mark {
+  font-family: var(--crt);
+  font-size: clamp(3rem, 2rem + 7vw, 6rem);
+  line-height: 0.95;
+  color: var(--amber);
+  letter-spacing: 0.02em;
+  margin: 2rem 0 0;
+  text-shadow: 0 0 22px rgba(240, 169, 59, 0.35);
+}
+
+.boot__sub {
+  font-family: var(--prose);
+  font-style: italic;
+  font-size: 1.1rem;
+  color: var(--ink-dim);
+  margin: 0.4rem 0 2.75rem;
+  max-width: 28rem;
+}
+
+/* The one orchestrated moment on the site: the machine coming up. */
+.boot__lines {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  color: var(--ink-faint);
+  margin: 0 0 2.5rem;
+  min-height: 5.2rem;
+}
+
+.boot__line {
+  margin: 0 0 0.25rem;
+  opacity: 0;
+  animation: bootline 0.01s linear forwards;
+  animation-delay: calc(var(--i) * 260ms);
+}
+
+.boot__line b {
+  color: var(--jade);
+  font-weight: 500;
+}
+
+.boot__line i {
+  color: var(--rust);
+  font-style: normal;
+}
+
+@keyframes bootline {
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .boot__line {
+    animation: none;
+    opacity: 1;
+  }
+}
+
+/* The menu. A console menu, so the counts are the point. */
+.menu {
+  border-top: 1px solid var(--rule);
+  margin: 0 0 2.5rem;
+}
+
+.menu__item {
+  display: grid;
+  grid-template-columns: 1.6rem 1fr auto auto;
+  align-items: baseline;
+  gap: 0 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--rule);
+  font-family: var(--crt);
+  font-size: 1.55rem;
+  color: var(--ink);
+  text-decoration: none;
+  letter-spacing: 0.04em;
+}
+
+.menu__item:hover,
+.menu__item:focus-visible {
+  color: var(--amber);
+  background: linear-gradient(90deg, rgba(240, 169, 59, 0.07), rgba(240, 169, 59, 0));
+}
+
+.menu__caret {
+  color: var(--amber);
+  opacity: 0;
+}
+
+.menu__item:hover .menu__caret,
+.menu__item:focus-visible .menu__caret {
+  opacity: 1;
+}
+
+.menu__count {
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  color: var(--ink-dim);
+  font-variant-numeric: tabular-nums;
+}
+
+.menu__warn {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--rust);
+  min-width: 5.5rem;
+  text-align: right;
+}
+
+/* =========================================================================
+   The years strip — "over the years", as a readable range
+   ========================================================================= */
+
+.years {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  height: 3.5rem;
+  margin: 0 0 0.6rem;
+}
+
+.years__bar {
+  flex: 1 1 0;
+  min-width: 2px;
+  background: var(--amber-dim);
+  opacity: 0.55;
+  border-radius: 1px 1px 0 0;
+  position: relative;
+}
+
+.years__bar[data-n="0"] {
+  background: var(--rule);
+  opacity: 1;
+  height: 2px !important;
+}
+
+.years__bar:hover {
+  opacity: 1;
+  background: var(--amber);
+}
+
+.years__axis {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  color: var(--ink-faint);
+  border-top: 1px solid var(--rule);
+  padding-top: 0.4rem;
+  margin-bottom: 2.75rem;
+}
+
+/* =========================================================================
+   Shelf — spines you read sideways
+   ========================================================================= */
+
+.bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35rem 1.25rem;
+  font-family: var(--mono);
+  font-size: 0.76rem;
+  color: var(--ink-faint);
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 0.9rem;
+  margin-bottom: 2.25rem;
+}
+
+.bar a {
+  color: var(--ink-dim);
+  text-decoration: none;
+}
+
+.bar a:hover,
+.bar a[aria-current="page"] {
+  color: var(--amber);
+}
+
+.shelf__title {
+  font-family: var(--crt);
+  font-size: 2.4rem;
+  color: var(--amber);
+  letter-spacing: 0.05em;
+  margin: 0 0 1.75rem;
+}
+
+/*
+ * A year is one shelf: its label sits at the left of the board rather than
+ * above it. With a sparse ledger a heading per year cost a screen of empty
+ * space per entry; this keeps the whole span readable at once and reads more
+ * like a run of shelves anyway.
+ */
+.shelf__year {
+  display: grid;
+  grid-template-columns: 4.5rem minmax(0, 1fr);
+  gap: 0 1.25rem;
+  align-items: end;
+  padding-bottom: 0.6rem;
+  margin-bottom: 1.1rem;
+  border-bottom: 3px solid var(--ground-3);
+  box-shadow: 0 1px 0 var(--rule);
+}
+
+.shelf__label {
+  font-family: var(--crt);
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--ink-faint);
+  letter-spacing: 0.06em;
+  padding-bottom: 0.15rem;
+  text-align: right;
+}
+
+.shelf__row {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.spine {
+  --spine-bg: #2a2521;
+  --spine-fg: #e8dfcf;
+  --spine-band: var(--amber-dim);
+  position: relative;
+  display: block;
+  width: 2.4rem;
+  height: 9rem;
+  flex: none;
+  background: var(--spine-bg);
+  color: var(--spine-fg);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 2px 2px 0 0;
+  text-decoration: none;
+  overflow: hidden;
+  transition: transform 140ms ease, box-shadow 140ms ease;
+}
+
+.spine:hover,
+.spine:focus-visible {
+  transform: translateY(-0.7rem);
+  box-shadow: 0 0.6rem 1rem rgba(0, 0, 0, 0.45);
+  z-index: 2;
+}
+
+/* The coloured band at the head of the spine, as the platform's own livery. */
+.spine::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 0.45rem;
+  background: var(--spine-band);
+}
+
+.spine__text {
+  position: absolute;
+  inset: 0.9rem 0 1.5rem;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-family: var(--crt);
+  font-size: 1.05rem;
+  line-height: 2.4rem;
+  letter-spacing: 0.03em;
+  text-align: right;
+  /* Vertical writing mode, so this clips from the bottom and keeps clear of
+     the year stamp below. */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.spine__year {
+  position: absolute;
+  bottom: 0.3rem;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-family: var(--mono);
+  font-size: 0.56rem;
+  opacity: 0.6;
+}
+
+/* A thing with no surviving copy is a gap on the shelf, not a book on it. */
+.spine--gone {
+  background: transparent;
+  border: 1px dashed var(--rust);
+  color: var(--rust);
+  box-shadow: inset 0 0 1.5rem rgba(201, 86, 60, 0.08);
+}
+
+.spine--gone::before {
+  background: transparent;
+}
+
+.spine--gone:hover {
+  background: rgba(201, 86, 60, 0.06);
+}
+
+.shelf__empty {
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  color: var(--ink-faint);
+  padding: 2rem 0;
+}
+
+/* =========================================================================
+   Entry — the thing pulled off the shelf
+   ========================================================================= */
+
+.entry {
+  max-width: var(--page);
+}
+
+.back {
+  font-family: var(--mono);
+  font-size: 0.76rem;
+  color: var(--ink-faint);
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.back:hover {
+  color: var(--amber);
+}
+
+.entry__head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1.5rem;
+  align-items: start;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 1.5rem;
+}
+
+.entry__title {
+  font-family: var(--crt);
+  font-size: clamp(2.4rem, 1.6rem + 3.5vw, 4rem);
+  line-height: 1;
+  color: var(--amber);
+  margin: 0;
+  letter-spacing: 0.01em;
+}
+
+.entry__record {
+  display: grid;
+  grid-template-columns: 5.5rem 1fr;
+  gap: 0.15rem 1rem;
+  margin: 0;
+  font-family: var(--mono);
+  font-size: 0.76rem;
+  line-height: 1.5;
+}
+
+.entry__record dt {
+  color: var(--ink-faint);
+}
+
+.entry__record dd {
+  margin: 0;
+  color: var(--ink-dim);
+}
+
+.entry__body {
+  max-width: var(--measure);
+  margin-top: 2.5rem;
+}
+
+.block {
+  margin-bottom: 2.5rem;
+}
+
+.block__label {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--ink-faint);
+  margin: 0 0 0.5rem;
+}
+
+.block p {
+  margin: 0;
+  font-size: 1.04rem;
+}
+
+/* The memory is the reason the ledger exists, so it is set apart and set
+   larger. Everything above it is recoverable from a database; this is not. */
+.block--mine {
+  border-left: 2px solid var(--amber);
+  padding: 0.2rem 0 0.2rem 1.4rem;
+}
+
+.block--mine p {
+  font-size: 1.22rem;
+  line-height: 1.6;
+  color: var(--ink);
+}
+
+.block--mine .block__label {
+  color: var(--amber-dim);
+}
+
+.block--empty p {
+  color: var(--ink-faint);
+  font-style: italic;
+}
+
+.status {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.45rem;
+  font-family: var(--mono);
+  font-size: 0.76rem;
+}
+
+.status::before {
+  content: "";
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  transform: translateY(-0.1rem);
+  flex: none;
+}
+
+.status--preserved {
+  color: var(--jade);
+}
+.status--preserved::before {
+  background: var(--jade);
+}
+
+.status--at-risk {
+  color: var(--amber);
+}
+.status--at-risk::before {
+  background: var(--amber);
+}
+
+.status--gone {
+  color: var(--rust);
+}
+.status--gone::before {
+  background: transparent;
+  box-shadow: inset 0 0 0 1px var(--rust);
+}
+
+.where {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: var(--mono);
+  font-size: 0.8rem;
+}
+
+.where li {
+  margin-bottom: 0.3rem;
+}
+
+.mentions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.chip {
+  font-family: var(--mono);
+  font-size: 0.74rem;
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  padding: 0.15rem 0.5rem;
+  color: var(--ink-dim);
+  text-decoration: none;
+}
+
+.chip:hover {
+  border-color: var(--amber);
+  color: var(--amber);
+}
+
+.foot {
+  margin-top: 5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--rule);
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--ink-faint);
+}
+
+@media (max-width: 640px) {
+  body {
+    font-size: 17px;
+  }
+
+  .entry__head {
+    grid-template-columns: 1fr;
+  }
+
+  .spine {
+    width: 2.1rem;
+    height: 8rem;
+  }
+}
+</style>
+  </head>
+  <body>
+    <div class="scan" aria-hidden="true"></div>
+    <div class="glow" aria-hidden="true"></div>
+    <main id="app" class="app"></main>
+    <script id="ledger" type="application/json">{"entries":[{"id":"prince-of-persia","kind":"games","kindLabel":"Games","title":"Prince of Persia","year":1989,"mineYear":null,"platform":"DOS","by":"Jordan Mechner","region":"","what":"A single-screen platformer across the levels of a palace, with a sixty-minute timer running the whole game and rotoscoped animation traced from film of the author's brother.","great":"The animation had weight. You could not stop instantly, which meant every jump was a commitment made a half-second before it mattered. The timer turned the whole palace into one continuous act instead of a series of rooms.","mine":"— your memory goes here —","mentions":[],"where":[{"label":"Internet Archive, MS-DOS collection","url":"https://archive.org/details/softwarelibrary_msdos_games"}],"status":"preserved","statusNote":"","tags":["platformer","dos"]},{"id":"nevermind","kind":"music","kindLabel":"Music","title":"Nevermind","year":1991,"mineYear":null,"platform":"album","by":"Nirvana","region":"","what":"The second Nirvana album, produced by Butch Vig, and the record that moved the whole commercial centre of rock for about four years.","great":"The loud-quiet-loud structure was not new, but the production made the quiet parts genuinely quiet, so the choruses arrived as an event rather than a volume increase.","mine":"— your memory goes here. what you were doing when you first heard it —","mentions":[],"where":[],"status":"preserved","statusNote":"","tags":["rock","90s"]},{"id":"sonic-2","kind":"games","kindLabel":"Games","title":"Sonic the Hedgehog 2","year":1992,"mineYear":null,"platform":"Mega Drive","by":"Sega Technical Institute","region":"","what":"The second Sonic. Added Tails, the spin dash, and a split-screen two-player mode that ran the same levels at half the frame rate and nobody minded.","great":"The spin dash fixed the one real flaw in the first game — you could recover speed after a mistake instead of trudging. Casino Night Zone understood something most platformers still do not: that a level can be a toy rather than an obstacle.","mine":"— your memory goes here. where were you, how old, who else was in the room, what you remember that nobody else would —","mentions":["aladdin"],"where":[{"label":"No-Intro cartridge dumps","url":"https://datomatic.no-intro.org"}],"status":"preserved","statusNote":"Dumped, verified, emulated everywhere. Nothing for me to do.","tags":["platformer","formative"]},{"id":"aladdin","kind":"games","kindLabel":"Games","title":"Aladdin","year":1993,"mineYear":null,"platform":"Mega Drive","by":"Virgin Games","region":"","what":"A licensed platformer whose sprites were drawn by Disney's own feature animators rather than by the game studio.","great":"Licensed games were mostly contractual obligations. This one moved like the film because the people who made the film drew the frames, and it is still the argument for why that collaboration is worth the cost.","mine":"— your memory goes here —","mentions":["sonic-2"],"where":[],"status":"preserved","statusNote":"","tags":["platformer","licensed"]},{"id":"dexters-laboratory","kind":"television","kindLabel":"Television","title":"Dexter's Laboratory","year":1996,"mineYear":null,"platform":"Cartoon Network","by":"Genndy Tartakovsky","region":"","what":"A boy genius with a secret lab and a sister determined to get into it. Came out of Cartoon Network's What A Cartoon! shorts programme.","great":"The design language was doing something none of its contemporaries tried — thick lines, flat colour, extreme silhouettes — and it read clearly on a small CRT from across a room, which is exactly the constraint it was drawn for.","mine":"— your memory goes here —","mentions":[],"where":[],"status":"at-risk","statusNote":"Broadcast masters exist but streaming availability keeps lapsing by region. Worth checking what is actually obtainable.","tags":["animation","cartoon-network"]},{"id":"template-gone-channel","kind":"youtube","kindLabel":"YouTube","title":"— a channel you remember that no longer exists —","year":2011,"mineYear":null,"platform":"YouTube","by":"","region":"","what":"Describe what it actually was, for someone who will never be able to watch it.","great":"Why it was worth watching. Be specific; this is the only review of it that will survive.","mine":"— your memory goes here —","mentions":[],"where":[],"status":"gone","statusNote":"No known copy. Check archive.org/web for the channel page and filmot.com for recovered titles before giving up on it.","tags":["youtube"]}],"counts":{"total":6,"preserved":4,"atRisk":1,"gone":1,"byKind":{"games":3,"music":1,"television":1,"youtube":1}},"kinds":{"games":"Games","music":"Music","television":"Television","youtube":"YouTube"},"built":"2026-09-20"}</script>
+    <script>/* The Shelf — hash-routed, no framework, no build-time templating.
+   Three views: boot (the way in), shelf (the way through), entry (the thing
+   itself). Data is inlined by scripts/build.mjs, so this runs from a file://
+   URL with no server. */
+(function () {
+  "use strict";
+
+  var DATA = JSON.parse(document.getElementById("ledger").textContent);
+  var app = document.getElementById("app");
+
+  /* Platform liveries. The spine wears the colours the thing actually came
+     in, which gives the shelf variety without inventing a palette. */
+  var LIVERY = {
+    "mega drive": ["#171717", "#e8dfcf", "#d2232a"],
+    genesis: ["#171717", "#e8dfcf", "#d2232a"],
+    dreamcast: ["#eceae4", "#1d1a16", "#f07f13"],
+    "master system": ["#1b1b1f", "#e8dfcf", "#2a6ec4"],
+    nes: ["#c9c5bb", "#22201c", "#b02020"],
+    snes: ["#d5d2cc", "#22201c", "#7b62a8"],
+    "game boy": ["#8d9c6b", "#1d2213", "#5a6b45"],
+    ps1: ["#2b2f36", "#e8dfcf", "#9aa3ad"],
+    ps2: ["#15161a", "#e8dfcf", "#2a4ec4"],
+    dos: ["#cfc7b4", "#22201c", "#6d6454"],
+    pc: ["#cfc7b4", "#22201c", "#6d6454"],
+    arcade: ["#1a1420", "#f0d8a0", "#c9563c"],
+    album: ["#2a1f2b", "#efe2d4", "#8e6ba0"],
+    cassette: ["#2e2a20", "#e8dfcf", "#b99a57"],
+    youtube: ["#1a1413", "#efe2d4", "#c4302b"],
+    "cartoon network": ["#141414", "#f2f2f2", "#f2f2f2"],
+  };
+
+  function livery(platform) {
+    return LIVERY[(platform || "").toLowerCase()] || ["#2a2521", "#e8dfcf", "#a8742a"];
+  }
+
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+
+  function byId(id) {
+    for (var i = 0; i < DATA.entries.length; i++) {
+      if (DATA.entries[i].id === id) return DATA.entries[i];
+    }
+    return null;
+  }
+
+  var STATUS_WORD = { preserved: "preserved elsewhere", "at-risk": "at risk", gone: "gone" };
+
+  /* ---- boot ------------------------------------------------------------ */
+
+  function viewBoot() {
+    var c = DATA.counts;
+    var years = DATA.entries.map(function (e) { return e.year; }).filter(Boolean);
+    var lines = [
+      "the shelf &mdash; personal archive",
+      "reading ledger &hellip; " + c.total + " entries",
+      "<b>" + c.preserved + " preserved elsewhere</b> &middot; " + c.atRisk + " at risk &middot; <i>" + c.gone + " gone</i>",
+      c.gone > 0
+        ? "<i>" + c.gone + " of these exist only as the note below</i>"
+        : "nothing lost yet",
+    ];
+
+    var menu = Object.keys(DATA.kinds)
+      .map(function (k) {
+        var n = c.byKind[k] || 0;
+        var goneN = DATA.entries.filter(function (e) { return e.kind === k && e.status === "gone"; }).length;
+        return (
+          '<a class="menu__item" href="#/' + k + '">' +
+          '<span class="menu__caret">&#9656;</span>' +
+          "<span>" + esc(DATA.kinds[k]).toUpperCase() + "</span>" +
+          '<span class="menu__count">' + n + "</span>" +
+          '<span class="menu__warn">' + (goneN ? goneN + " gone" : "") + "</span>" +
+          "</a>"
+        );
+      })
+      .join("");
+
+    return (
+      '<section class="boot">' +
+      '<h1 class="boot__mark">THE SHELF</h1>' +
+      '<p class="boot__sub">Things I grew up with, written down while I still remember them, kept for my kids.</p>' +
+      '<div class="boot__lines" aria-live="off">' +
+      lines
+        .map(function (l, i) {
+          return '<p class="boot__line" style="--i:' + i + '">&gt; ' + l + "</p>";
+        })
+        .join("") +
+      "</div>" +
+      (years.length ? yearsStrip(years) : "") +
+      '<nav class="menu">' + menu + "</nav>" +
+      '<a class="menu__item" href="#/all" style="border-top:1px solid var(--rule)">' +
+      '<span class="menu__caret">&#9656;</span><span>EVERYTHING, BY YEAR</span>' +
+      '<span class="menu__count">' + c.total + '</span><span class="menu__warn"></span></a>' +
+      footer() +
+      "</section>"
+    );
+  }
+
+  function yearsStrip(years) {
+    var lo = Math.min.apply(null, years);
+    var hi = Math.max.apply(null, years);
+    var per = {};
+    years.forEach(function (y) { per[y] = (per[y] || 0) + 1; });
+    var max = Math.max.apply(null, Object.keys(per).map(function (y) { return per[y]; }));
+    var bars = "";
+    for (var y = lo; y <= hi; y++) {
+      var n = per[y] || 0;
+      var h = n ? Math.max(6, Math.round((n / max) * 100)) : 0;
+      bars +=
+        '<span class="years__bar" data-n="' + n + '" style="height:' + h + '%" title="' +
+        y + ": " + n + (n === 1 ? " entry" : " entries") + '"></span>';
+    }
+    return (
+      '<div class="years" role="img" aria-label="Entries per year, ' + lo + " to " + hi + '">' +
+      bars + "</div>" +
+      '<div class="years__axis"><span>' + lo + "</span><span>" + hi + "</span></div>"
+    );
+  }
+
+  /* ---- shelf ----------------------------------------------------------- */
+
+  function viewShelf(kind) {
+    var all = kind === "all" ? DATA.entries : DATA.entries.filter(function (e) { return e.kind === kind; });
+    var title = kind === "all" ? "Everything" : DATA.kinds[kind] || kind;
+
+    var years = {};
+    all.forEach(function (e) {
+      var y = e.year || "undated";
+      (years[y] = years[y] || []).push(e);
+    });
+    var keys = Object.keys(years).sort();
+
+    var nav =
+      '<div class="bar"><a href="#/">&#8592; shelf</a>' +
+      Object.keys(DATA.kinds)
+        .map(function (k) {
+          return '<a href="#/' + k + '"' + (k === kind ? ' aria-current="page"' : "") + ">" + esc(DATA.kinds[k]) + "</a>";
+        })
+        .join("") +
+      '<a href="#/all"' + (kind === "all" ? ' aria-current="page"' : "") + ">everything</a>" +
+      "<span>" + all.length + (all.length === 1 ? " entry" : " entries") + "</span></div>";
+
+    if (!all.length) {
+      return (
+        "<section>" + nav +
+        '<p class="shelf__empty">Nothing here yet. Add an entry to <code>ledger/' + esc(kind) + ".yml</code>.</p>" +
+        footer() + "</section>"
+      );
+    }
+
+    var body = keys
+      .map(function (y) {
+        return (
+          '<div class="shelf__year">' +
+          '<div class="shelf__label">' + esc(y) + "</div>" +
+          '<div class="shelf__row">' + years[y].map(spine).join("") + "</div>" +
+          "</div>"
+        );
+      })
+      .join("");
+
+    return (
+      "<section>" + nav +
+      '<h1 class="shelf__title">' + esc(title) + "</h1>" +
+      body + footer() + "</section>"
+    );
+  }
+
+  function spine(e) {
+    var lv = livery(e.platform);
+    var gone = e.status === "gone";
+    return (
+      '<a class="spine' + (gone ? " spine--gone" : "") + '" href="#/e/' + encodeURIComponent(e.id) + '"' +
+      ' style="--spine-bg:' + lv[0] + ";--spine-fg:" + lv[1] + ";--spine-band:" + lv[2] + '"' +
+      ' title="' + esc(e.title) + (e.year ? " (" + e.year + ")" : "") + (gone ? " — gone" : "") + '">' +
+      '<span class="spine__text">' + esc(e.title) + "</span>" +
+      (e.year ? '<span class="spine__year">' + e.year + "</span>" : "") +
+      "</a>"
+    );
+  }
+
+  /* ---- entry ----------------------------------------------------------- */
+
+  function viewEntry(id) {
+    var e = byId(id);
+    if (!e) {
+      return '<section><a class="back" href="#/">&#8592; the shelf</a><p class="shelf__empty">No entry "' + esc(id) + '".</p></section>';
+    }
+
+    var rec = [["Kind", e.kindLabel]];
+    if (e.platform) rec.push(["On", e.platform]);
+    if (e.by) rec.push(["By", e.by]);
+    if (e.year) rec.push(["Released", e.year]);
+    if (e.mineYear) rec.push(["Mine in", e.mineYear]);
+    if (e.region) rec.push(["Region", e.region]);
+
+    var blocks = "";
+    blocks += block("What it is", e.what);
+    blocks += block("What is great about it", e.great);
+    blocks += block("Mine", e.mine, "mine");
+
+    if (e.mentions.length) {
+      blocks +=
+        '<div class="block"><p class="block__label">Connects to</p><div class="mentions">' +
+        e.mentions
+          .map(function (m) {
+            var t = byId(m);
+            return t ? '<a class="chip" href="#/e/' + encodeURIComponent(m) + '">' + esc(t.title) + "</a>" : "";
+          })
+          .join("") +
+        "</div></div>";
+    }
+
+    blocks +=
+      '<div class="block"><p class="block__label">Preservation</p>' +
+      '<p class="status status--' + esc(e.status) + '">' + esc(STATUS_WORD[e.status] || e.status) + "</p>" +
+      (e.statusNote ? "<p>" + esc(e.statusNote) + "</p>" : "") +
+      (e.where.length
+        ? '<ul class="where">' +
+          e.where
+            .map(function (w) {
+              return "<li>" + (w.url ? '<a href="' + esc(w.url) + '" target="_blank" rel="noreferrer">' + esc(w.label || w.url) + "</a>" : esc(w.label)) + "</li>";
+            })
+            .join("") +
+          "</ul>"
+        : "") +
+      "</div>";
+
+    return (
+      '<article class="entry"><a class="back" href="#/' + esc(e.kind) + '">&#8592; ' + esc(e.kindLabel).toLowerCase() + " shelf</a>" +
+      '<div class="entry__head"><h1 class="entry__title">' + esc(e.title) + "</h1>" +
+      '<dl class="entry__record">' +
+      rec.map(function (r) { return "<dt>" + esc(r[0]) + "</dt><dd>" + esc(r[1]) + "</dd>"; }).join("") +
+      "</dl></div>" +
+      '<div class="entry__body">' + blocks + "</div>" +
+      footer() + "</article>"
+    );
+  }
+
+  function block(label, text, kind) {
+    var empty = !text;
+    var cls = "block" + (kind ? " block--" + kind : "") + (empty ? " block--empty" : "");
+    var body = empty
+      ? kind === "mine"
+        ? "Not written yet. This is the part nobody else can add."
+        : "&mdash;"
+      : esc(text);
+    return '<div class="' + cls + '"><p class="block__label">' + esc(label) + "</p><p>" + body + "</p></div>";
+  }
+
+  function footer() {
+    return (
+      '<p class="foot">' + DATA.counts.total + " entries &middot; last built " + esc(DATA.built) +
+      " &middot; the ledger is plain text in <code>ledger/</code></p>"
+    );
+  }
+
+  /* ---- router ---------------------------------------------------------- */
+
+  function render() {
+    var h = (location.hash || "#/").replace(/^#\/?/, "");
+    var out;
+    if (!h) out = viewBoot();
+    else if (h.indexOf("e/") === 0) out = viewEntry(decodeURIComponent(h.slice(2)));
+    else if (h === "all" || DATA.kinds[h]) out = viewShelf(h);
+    else out = viewBoot();
+    app.innerHTML = out;
+    var focus = app.querySelector("h1");
+    if (focus) {
+      focus.setAttribute("tabindex", "-1");
+      focus.focus({ preventScroll: true });
+    }
+    window.scrollTo(0, 0);
+  }
+
+  window.addEventListener("hashchange", render);
+  render();
+})();
+</script>
+  </body>
+</html>

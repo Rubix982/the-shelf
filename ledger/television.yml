@@ -1,0 +1,22 @@
+# EXAMPLES — replace with your own.
+
+- id: dexters-laboratory
+  title: Dexter's Laboratory
+  year: 1996
+  platform: Cartoon Network
+  by: Genndy Tartakovsky
+  what: >
+    A boy genius with a secret lab and a sister determined to get into it.
+    Came out of Cartoon Network's What A Cartoon! shorts programme.
+  great: >
+    The design language was doing something none of its contemporaries
+    tried — thick lines, flat colour, extreme silhouettes — and it read
+    clearly on a small CRT from across a room, which is exactly the
+    constraint it was drawn for.
+  mine: >
+    — your memory goes here —
+  status: at-risk
+  status_note: >
+    Broadcast masters exist but streaming availability keeps lapsing by
+    region. Worth checking what is actually obtainable.
+  tags: [animation, cartoon-network]

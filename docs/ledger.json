@@ -1,0 +1,168 @@
+{
+  "entries": [
+    {
+      "id": "prince-of-persia",
+      "kind": "games",
+      "kindLabel": "Games",
+      "title": "Prince of Persia",
+      "year": 1989,
+      "mineYear": null,
+      "platform": "DOS",
+      "by": "Jordan Mechner",
+      "region": "",
+      "what": "A single-screen platformer across the levels of a palace, with a sixty-minute timer running the whole game and rotoscoped animation traced from film of the author's brother.",
+      "great": "The animation had weight. You could not stop instantly, which meant every jump was a commitment made a half-second before it mattered. The timer turned the whole palace into one continuous act instead of a series of rooms.",
+      "mine": "— your memory goes here —",
+      "mentions": [],
+      "where": [
+        {
+          "label": "Internet Archive, MS-DOS collection",
+          "url": "https://archive.org/details/softwarelibrary_msdos_games"
+        }
+      ],
+      "status": "preserved",
+      "statusNote": "",
+      "tags": [
+        "platformer",
+        "dos"
+      ]
+    },
+    {
+      "id": "nevermind",
+      "kind": "music",
+      "kindLabel": "Music",
+      "title": "Nevermind",
+      "year": 1991,
+      "mineYear": null,
+      "platform": "album",
+      "by": "Nirvana",
+      "region": "",
+      "what": "The second Nirvana album, produced by Butch Vig, and the record that moved the whole commercial centre of rock for about four years.",
+      "great": "The loud-quiet-loud structure was not new, but the production made the quiet parts genuinely quiet, so the choruses arrived as an event rather than a volume increase.",
+      "mine": "— your memory goes here. what you were doing when you first heard it —",
+      "mentions": [],
+      "where": [],
+      "status": "preserved",
+      "statusNote": "",
+      "tags": [
+        "rock",
+        "90s"
+      ]
+    },
+    {
+      "id": "sonic-2",
+      "kind": "games",
+      "kindLabel": "Games",
+      "title": "Sonic the Hedgehog 2",
+      "year": 1992,
+      "mineYear": null,
+      "platform": "Mega Drive",
+      "by": "Sega Technical Institute",
+      "region": "",
+      "what": "The second Sonic. Added Tails, the spin dash, and a split-screen two-player mode that ran the same levels at half the frame rate and nobody minded.",
+      "great": "The spin dash fixed the one real flaw in the first game — you could recover speed after a mistake instead of trudging. Casino Night Zone understood something most platformers still do not: that a level can be a toy rather than an obstacle.",
+      "mine": "— your memory goes here. where were you, how old, who else was in the room, what you remember that nobody else would —",
+      "mentions": [
+        "aladdin"
+      ],
+      "where": [
+        {
+          "label": "No-Intro cartridge dumps",
+          "url": "https://datomatic.no-intro.org"
+        }
+      ],
+      "status": "preserved",
+      "statusNote": "Dumped, verified, emulated everywhere. Nothing for me to do.",
+      "tags": [
+        "platformer",
+        "formative"
+      ]
+    },
+    {
+      "id": "aladdin",
+      "kind": "games",
+      "kindLabel": "Games",
+      "title": "Aladdin",
+      "year": 1993,
+      "mineYear": null,
+      "platform": "Mega Drive",
+      "by": "Virgin Games",
+      "region": "",
+      "what": "A licensed platformer whose sprites were drawn by Disney's own feature animators rather than by the game studio.",
+      "great": "Licensed games were mostly contractual obligations. This one moved like the film because the people who made the film drew the frames, and it is still the argument for why that collaboration is worth the cost.",
+      "mine": "— your memory goes here —",
+      "mentions": [
+        "sonic-2"
+      ],
+      "where": [],
+      "status": "preserved",
+      "statusNote": "",
+      "tags": [
+        "platformer",
+        "licensed"
+      ]
+    },
+    {
+      "id": "dexters-laboratory",
+      "kind": "television",
+      "kindLabel": "Television",
+      "title": "Dexter's Laboratory",
+      "year": 1996,
+      "mineYear": null,
+      "platform": "Cartoon Network",
+      "by": "Genndy Tartakovsky",
+      "region": "",
+      "what": "A boy genius with a secret lab and a sister determined to get into it. Came out of Cartoon Network's What A Cartoon! shorts programme.",
+      "great": "The design language was doing something none of its contemporaries tried — thick lines, flat colour, extreme silhouettes — and it read clearly on a small CRT from across a room, which is exactly the constraint it was drawn for.",
+      "mine": "— your memory goes here —",
+      "mentions": [],
+      "where": [],
+      "status": "at-risk",
+      "statusNote": "Broadcast masters exist but streaming availability keeps lapsing by region. Worth checking what is actually obtainable.",
+      "tags": [
+        "animation",
+        "cartoon-network"
+      ]
+    },
+    {
+      "id": "template-gone-channel",
+      "kind": "youtube",
+      "kindLabel": "YouTube",
+      "title": "— a channel you remember that no longer exists —",
+      "year": 2011,
+      "mineYear": null,
+      "platform": "YouTube",
+      "by": "",
+      "region": "",
+      "what": "Describe what it actually was, for someone who will never be able to watch it.",
+      "great": "Why it was worth watching. Be specific; this is the only review of it that will survive.",
+      "mine": "— your memory goes here —",
+      "mentions": [],
+      "where": [],
+      "status": "gone",
+      "statusNote": "No known copy. Check archive.org/web for the channel page and filmot.com for recovered titles before giving up on it.",
+      "tags": [
+        "youtube"
+      ]
+    }
+  ],
+  "counts": {
+    "total": 6,
+    "preserved": 4,
+    "atRisk": 1,
+    "gone": 1,
+    "byKind": {
+      "games": 3,
+      "music": 1,
+      "television": 1,
+      "youtube": 1
+    }
+  },
+  "kinds": {
+    "games": "Games",
+    "music": "Music",
+    "television": "Television",
+    "youtube": "YouTube"
+  },
+  "built": "2026-09-20"
+}

@@ -1,0 +1,18 @@
+# EXAMPLES — replace with your own.
+
+- id: nevermind
+  title: Nevermind
+  year: 1991
+  platform: album
+  by: Nirvana
+  what: >
+    The second Nirvana album, produced by Butch Vig, and the record that
+    moved the whole commercial centre of rock for about four years.
+  great: >
+    The loud-quiet-loud structure was not new, but the production made the
+    quiet parts genuinely quiet, so the choruses arrived as an event rather
+    than a volume increase.
+  mine: >
+    — your memory goes here. what you were doing when you first heard it —
+  status: preserved
+  tags: [rock, 90s]

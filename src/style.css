@@ -1,0 +1,621 @@
+/* =========================================================================
+   The Shelf
+   The machine frames it; the writing is warm. Terminal type carries the
+   chrome — boot screen, spines, labels — and a serif carries anything a
+   person actually wrote. The palette is warm-black rather than blue-black,
+   because a CRT in a dark room is dusty, not cold.
+   ========================================================================= */
+
+:root {
+  --ground: #14110d;
+  --ground-2: #1c1813;
+  --ground-3: #241f18;
+  --ink: #e8dfcf;
+  --ink-dim: #9c9183;
+  --ink-faint: #6e6458;
+  --amber: #f0a93b;
+  --amber-dim: #a8742a;
+  --jade: #6fae8f;
+  --rust: #c9563c;
+  --rule: #2e2720;
+
+  --crt: "VT323", ui-monospace, monospace;
+  --mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --prose: "Newsreader", Georgia, "Iowan Old Style", serif;
+
+  --measure: 36rem;
+  --page: 64rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font-family: var(--prose);
+  font-size: 18px;
+  line-height: 1.7;
+  font-optical-sizing: auto;
+  overflow-x: hidden;
+}
+
+/* The room: a warm vignette and the faintest raster. Both decorative, both
+   kept below the threshold where they'd fight the text. */
+.glow {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background:
+    radial-gradient(
+      120% 90% at 50% 0%,
+      rgba(240, 169, 59, 0.07) 0%,
+      rgba(240, 169, 59, 0) 55%
+    ),
+    radial-gradient(100% 100% at 50% 100%, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0) 60%);
+}
+
+.scan {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 40;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0px,
+    rgba(0, 0, 0, 0) 2px,
+    rgba(0, 0, 0, 0.035) 3px,
+    rgba(0, 0, 0, 0.035) 4px
+  );
+}
+
+@media (prefers-contrast: more) {
+  .scan,
+  .glow {
+    display: none;
+  }
+}
+
+.app {
+  position: relative;
+  z-index: 1;
+  max-width: var(--page);
+  margin: 0 auto;
+  padding: 3rem 1.5rem 6rem;
+}
+
+a {
+  color: var(--amber);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+a:hover {
+  color: var(--ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--amber);
+  outline-offset: 3px;
+}
+
+/* The router moves focus to the heading on navigation so screen readers land
+   in the right place. That should not paint a ring for sighted users. */
+[tabindex="-1"]:focus,
+[tabindex="-1"]:focus-visible {
+  outline: none;
+}
+
+/* =========================================================================
+   Boot — the way in
+   ========================================================================= */
+
+.boot__mark {
+  font-family: var(--crt);
+  font-size: clamp(3rem, 2rem + 7vw, 6rem);
+  line-height: 0.95;
+  color: var(--amber);
+  letter-spacing: 0.02em;
+  margin: 2rem 0 0;
+  text-shadow: 0 0 22px rgba(240, 169, 59, 0.35);
+}
+
+.boot__sub {
+  font-family: var(--prose);
+  font-style: italic;
+  font-size: 1.1rem;
+  color: var(--ink-dim);
+  margin: 0.4rem 0 2.75rem;
+  max-width: 28rem;
+}
+
+/* The one orchestrated moment on the site: the machine coming up. */
+.boot__lines {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  color: var(--ink-faint);
+  margin: 0 0 2.5rem;
+  min-height: 5.2rem;
+}
+
+.boot__line {
+  margin: 0 0 0.25rem;
+  opacity: 0;
+  animation: bootline 0.01s linear forwards;
+  animation-delay: calc(var(--i) * 260ms);
+}
+
+.boot__line b {
+  color: var(--jade);
+  font-weight: 500;
+}
+
+.boot__line i {
+  color: var(--rust);
+  font-style: normal;
+}
+
+@keyframes bootline {
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .boot__line {
+    animation: none;
+    opacity: 1;
+  }
+}
+
+/* The menu. A console menu, so the counts are the point. */
+.menu {
+  border-top: 1px solid var(--rule);
+  margin: 0 0 2.5rem;
+}
+
+.menu__item {
+  display: grid;
+  grid-template-columns: 1.6rem 1fr auto auto;
+  align-items: baseline;
+  gap: 0 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--rule);
+  font-family: var(--crt);
+  font-size: 1.55rem;
+  color: var(--ink);
+  text-decoration: none;
+  letter-spacing: 0.04em;
+}
+
+.menu__item:hover,
+.menu__item:focus-visible {
+  color: var(--amber);
+  background: linear-gradient(90deg, rgba(240, 169, 59, 0.07), rgba(240, 169, 59, 0));
+}
+
+.menu__caret {
+  color: var(--amber);
+  opacity: 0;
+}
+
+.menu__item:hover .menu__caret,
+.menu__item:focus-visible .menu__caret {
+  opacity: 1;
+}
+
+.menu__count {
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  color: var(--ink-dim);
+  font-variant-numeric: tabular-nums;
+}
+
+.menu__warn {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--rust);
+  min-width: 5.5rem;
+  text-align: right;
+}
+
+/* =========================================================================
+   The years strip — "over the years", as a readable range
+   ========================================================================= */
+
+.years {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  height: 3.5rem;
+  margin: 0 0 0.6rem;
+}
+
+.years__bar {
+  flex: 1 1 0;
+  min-width: 2px;
+  background: var(--amber-dim);
+  opacity: 0.55;
+  border-radius: 1px 1px 0 0;
+  position: relative;
+}
+
+.years__bar[data-n="0"] {
+  background: var(--rule);
+  opacity: 1;
+  height: 2px !important;
+}
+
+.years__bar:hover {
+  opacity: 1;
+  background: var(--amber);
+}
+
+.years__axis {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  color: var(--ink-faint);
+  border-top: 1px solid var(--rule);
+  padding-top: 0.4rem;
+  margin-bottom: 2.75rem;
+}
+
+/* =========================================================================
+   Shelf — spines you read sideways
+   ========================================================================= */
+
+.bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35rem 1.25rem;
+  font-family: var(--mono);
+  font-size: 0.76rem;
+  color: var(--ink-faint);
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 0.9rem;
+  margin-bottom: 2.25rem;
+}
+
+.bar a {
+  color: var(--ink-dim);
+  text-decoration: none;
+}
+
+.bar a:hover,
+.bar a[aria-current="page"] {
+  color: var(--amber);
+}
+
+.shelf__title {
+  font-family: var(--crt);
+  font-size: 2.4rem;
+  color: var(--amber);
+  letter-spacing: 0.05em;
+  margin: 0 0 1.75rem;
+}
+
+/*
+ * A year is one shelf: its label sits at the left of the board rather than
+ * above it. With a sparse ledger a heading per year cost a screen of empty
+ * space per entry; this keeps the whole span readable at once and reads more
+ * like a run of shelves anyway.
+ */
+.shelf__year {
+  display: grid;
+  grid-template-columns: 4.5rem minmax(0, 1fr);
+  gap: 0 1.25rem;
+  align-items: end;
+  padding-bottom: 0.6rem;
+  margin-bottom: 1.1rem;
+  border-bottom: 3px solid var(--ground-3);
+  box-shadow: 0 1px 0 var(--rule);
+}
+
+.shelf__label {
+  font-family: var(--crt);
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--ink-faint);
+  letter-spacing: 0.06em;
+  padding-bottom: 0.15rem;
+  text-align: right;
+}
+
+.shelf__row {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.spine {
+  --spine-bg: #2a2521;
+  --spine-fg: #e8dfcf;
+  --spine-band: var(--amber-dim);
+  position: relative;
+  display: block;
+  width: 2.4rem;
+  height: 9rem;
+  flex: none;
+  background: var(--spine-bg);
+  color: var(--spine-fg);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 2px 2px 0 0;
+  text-decoration: none;
+  overflow: hidden;
+  transition: transform 140ms ease, box-shadow 140ms ease;
+}
+
+.spine:hover,
+.spine:focus-visible {
+  transform: translateY(-0.7rem);
+  box-shadow: 0 0.6rem 1rem rgba(0, 0, 0, 0.45);
+  z-index: 2;
+}
+
+/* The coloured band at the head of the spine, as the platform's own livery. */
+.spine::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 0.45rem;
+  background: var(--spine-band);
+}
+
+.spine__text {
+  position: absolute;
+  inset: 0.9rem 0 1.5rem;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-family: var(--crt);
+  font-size: 1.05rem;
+  line-height: 2.4rem;
+  letter-spacing: 0.03em;
+  text-align: right;
+  /* Vertical writing mode, so this clips from the bottom and keeps clear of
+     the year stamp below. */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.spine__year {
+  position: absolute;
+  bottom: 0.3rem;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-family: var(--mono);
+  font-size: 0.56rem;
+  opacity: 0.6;
+}
+
+/* A thing with no surviving copy is a gap on the shelf, not a book on it. */
+.spine--gone {
+  background: transparent;
+  border: 1px dashed var(--rust);
+  color: var(--rust);
+  box-shadow: inset 0 0 1.5rem rgba(201, 86, 60, 0.08);
+}
+
+.spine--gone::before {
+  background: transparent;
+}
+
+.spine--gone:hover {
+  background: rgba(201, 86, 60, 0.06);
+}
+
+.shelf__empty {
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  color: var(--ink-faint);
+  padding: 2rem 0;
+}
+
+/* =========================================================================
+   Entry — the thing pulled off the shelf
+   ========================================================================= */
+
+.entry {
+  max-width: var(--page);
+}
+
+.back {
+  font-family: var(--mono);
+  font-size: 0.76rem;
+  color: var(--ink-faint);
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.back:hover {
+  color: var(--amber);
+}
+
+.entry__head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1.5rem;
+  align-items: start;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 1.5rem;
+}
+
+.entry__title {
+  font-family: var(--crt);
+  font-size: clamp(2.4rem, 1.6rem + 3.5vw, 4rem);
+  line-height: 1;
+  color: var(--amber);
+  margin: 0;
+  letter-spacing: 0.01em;
+}
+
+.entry__record {
+  display: grid;
+  grid-template-columns: 5.5rem 1fr;
+  gap: 0.15rem 1rem;
+  margin: 0;
+  font-family: var(--mono);
+  font-size: 0.76rem;
+  line-height: 1.5;
+}
+
+.entry__record dt {
+  color: var(--ink-faint);
+}
+
+.entry__record dd {
+  margin: 0;
+  color: var(--ink-dim);
+}
+
+.entry__body {
+  max-width: var(--measure);
+  margin-top: 2.5rem;
+}
+
+.block {
+  margin-bottom: 2.5rem;
+}
+
+.block__label {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--ink-faint);
+  margin: 0 0 0.5rem;
+}
+
+.block p {
+  margin: 0;
+  font-size: 1.04rem;
+}
+
+/* The memory is the reason the ledger exists, so it is set apart and set
+   larger. Everything above it is recoverable from a database; this is not. */
+.block--mine {
+  border-left: 2px solid var(--amber);
+  padding: 0.2rem 0 0.2rem 1.4rem;
+}
+
+.block--mine p {
+  font-size: 1.22rem;
+  line-height: 1.6;
+  color: var(--ink);
+}
+
+.block--mine .block__label {
+  color: var(--amber-dim);
+}
+
+.block--empty p {
+  color: var(--ink-faint);
+  font-style: italic;
+}
+
+.status {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.45rem;
+  font-family: var(--mono);
+  font-size: 0.76rem;
+}
+
+.status::before {
+  content: "";
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  transform: translateY(-0.1rem);
+  flex: none;
+}
+
+.status--preserved {
+  color: var(--jade);
+}
+.status--preserved::before {
+  background: var(--jade);
+}
+
+.status--at-risk {
+  color: var(--amber);
+}
+.status--at-risk::before {
+  background: var(--amber);
+}
+
+.status--gone {
+  color: var(--rust);
+}
+.status--gone::before {
+  background: transparent;
+  box-shadow: inset 0 0 0 1px var(--rust);
+}
+
+.where {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: var(--mono);
+  font-size: 0.8rem;
+}
+
+.where li {
+  margin-bottom: 0.3rem;
+}
+
+.mentions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.chip {
+  font-family: var(--mono);
+  font-size: 0.74rem;
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  padding: 0.15rem 0.5rem;
+  color: var(--ink-dim);
+  text-decoration: none;
+}
+
+.chip:hover {
+  border-color: var(--amber);
+  color: var(--amber);
+}
+
+.foot {
+  margin-top: 5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--rule);
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--ink-faint);
+}
+
+@media (max-width: 640px) {
+  body {
+    font-size: 17px;
+  }
+
+  .entry__head {
+    grid-template-columns: 1fr;
+  }
+
+  .spine {
+    width: 2.1rem;
+    height: 8rem;
+  }
+}

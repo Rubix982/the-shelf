@@ -1,0 +1,127 @@
+# The human half of the playlist, keyed by YouTube video id.
+#
+# scripts/capture-playlist.mjs never touches this file — it only rewrites
+# ledger/tracks/. So a re-capture can lose a track without losing what you
+# wrote about it.
+#
+# `artist` and `song` are here because YouTube's own data is unreliable: the
+# uploader is frequently a lyric-video reposter rather than the band, and the
+# real artist is usually buried in the video title. These were corrected by
+# hand. `genre` is a rough bucket, meant for grouping rather than precision.
+#
+# `lyric` is for one or two lines — the bit that actually gets you — not the
+# whole song. Full lyrics are not ours to redistribute, and `lyrics_url` on the
+# entry links out for the rest. `note` is your expansion: what the line means,
+# what it is attached to. Both start empty because they are yours to write.
+#
+# Add them like this:
+#
+#   ghb6eDopW8I:
+#     artist: Of Monsters and Men
+#     song: Little Talks
+#     genre: indie folk
+#     lyric: |
+#       Though the truth may vary
+#       this ship will carry our bodies safe to shore
+#     note: >
+#       Why this one stuck.
+
+biVv7fzhWO8: { artist: "Fly By Midnight", song: "TFTOOL: Live From The World Circuit", genre: "indie pop" }
+a2RA0vsZXf8: { artist: "Sam Tsui & Christina Grimmie", song: "Just A Dream", genre: "pop cover" }
+9lVPAWLWtWc: { artist: "Yorushika", song: "Hana ni Bourei (Ghost In A Flower)", genre: "J-rock" }
+P719W6GX5OY: { artist: "the near tide", song: "Torn Out", genre: "indie" }
+fWpbsFA_Ouk: { artist: "Hikaru Station", song: "Kokoronashi (acoustic)", genre: "J-pop cover" }
+z49CI2T4zt4: { artist: "Shamoon Ismail ft. Annural Khalid", song: "Promises", genre: "Pakistani indie" }
+ghb6eDopW8I: { artist: "Of Monsters and Men", song: "Little Talks", genre: "indie folk" }
+7YbfDiCC-qk: { artist: "Jasleen Royal", song: "Nit Nit", genre: "Punjabi pop" }
+Qwm6BSGrOq0: { artist: "Abdul Hannan & Rovalio", song: "Iraaday", genre: "Pakistani indie" }
+Iac2yXnh94M: { artist: "Etham", song: "Opposite Of Loving Me", genre: "pop" }
+wK6Hrqu7LMo: { artist: "Arijit Singh", song: "Saware (slowed + reverb)", genre: "Bollywood" }
+FsLlqoK6h30: { artist: "James TW", song: "Hopeless Romantics", genre: "pop" }
+VR11Hs9a36Y: { artist: "The Paper Kites ft. Ainslie Wills", song: "Steal My Heart Away", genre: "indie folk" }
+gkQFP1rG7wg: { artist: "The Paper Kites", song: "On The Train Ride Home", genre: "indie folk" }
+ulsLI029rH0: { artist: "Hamilton cast (Leslie Odom Jr.)", song: "Wait for It", genre: "musical theatre" }
+cSQ9DJnG0K8: { artist: "The Paper Kites ft. Aoife O'Donovan", song: "Climb On Your Tears", genre: "indie folk" }
+beiPP_MGz6I: { artist: "Of Monsters and Men", song: "Love Love Love", genre: "indie folk" }
+bMAoOGnw9qQ: { artist: "Hamilton cast (Renée Elise Goldsberry)", song: "It's Quiet Uptown", genre: "musical theatre" }
+DPgE7PNzXag: { artist: "Hamilton cast (Leslie Odom Jr.)", song: "Non-Stop", genre: "musical theatre" }
+rc9UZocWIFo: { artist: "Goo Goo Dolls", song: "Iris", genre: "alt rock" }
+g8ENtHe2hMU: { artist: "『ユイカ』 (Yuika)", song: "好きだから。 (Suki Dakara)", genre: "J-pop" }
+EwvHL4eoVPM: { artist: "Taylor Swift", song: "Anti-Hero", genre: "pop" }
+5HzpPl5a9EA: { artist: "Noah Kahan", song: "Anyway", genre: "folk rock" }
+w1oM3kQpXRo: { artist: "Taylor Swift ft. Ed Sheeran", song: "Everything Has Changed", genre: "pop" }
+Mko3ZYhVU1I: { artist: "Abigail Osborn", song: "Ruin Your Night", genre: "indie pop" }
+aROa_qE2FLM: { artist: "The Paper Kites", song: "Don't Keep Driving", genre: "indie folk" }
+_gnypiKNaJE: { artist: "Hamilton cast", song: "Who Lives, Who Dies, Who Tells Your Story", genre: "musical theatre" }
+0gEVaniPOmU: { artist: "Of Monsters and Men", song: "Mountain Sound", genre: "indie folk" }
+JISlh7et1w4: { artist: "Akon", song: "Lonely", genre: "R&B / pop" }
+34wjuPipFzI: { artist: "Rosie Darling", song: "Witness", genre: "indie pop" }
+IHENIg8Se7M: { song: "Hokkaido 《北海道之小樽日记》", genre: "ambient" }
+A76a_LNIYwE: { artist: "Of Monsters and Men", song: "King And Lionheart", genre: "indie folk" }
+GemKqzILV4w: { artist: "Snow Patrol", song: "Chasing Cars", genre: "alt rock" }
+NSTAf0eXSD0: { artist: "Hamilton cast (fan animatic)", song: "The Room Where It Happens", genre: "musical theatre" }
+YdYwICNPDwI: { song: "Killing My Love (Initial D)", genre: "eurobeat" }
+6Ivo1MT5deI: { artist: "Novo Amor & Lowswimmer", song: "Amateur Blood", genre: "ambient folk" }
+OgO2U4quFDk: { artist: "Of Monsters and Men", song: "Dirty Paws", genre: "indie folk" }
+GSb4aS9TAek: { artist: "BRDGS", song: "Dancing Without Music", genre: "electronic pop" }
+0Bf3CJZ4hvg: { artist: "James TW", song: "When You Love Someone", genre: "pop" }
+-TXtyYZIiWc: { artist: "sapientdream", song: "Pastlives", genre: "bedroom pop" }
+OmKAn8rNbKg: { artist: "Novo Amor", song: "Anchor", genre: "ambient folk" }
+mCHUw7ACS8o: { artist: "Of Monsters and Men", song: "Dirty Paws", genre: "indie folk" }
+nACEYoFgp_Q: { artist: "Hamilton cast (fan edit)", song: "Right Hand Man", genre: "musical theatre" }
+QJie7dTvbjQ: { artist: "majiko", song: "心做し (Kokoronashi) — live", genre: "J-pop" }
+dzNvk80XY9s: { artist: "Sleeping At Last", song: "Saturn", genre: "indie folk" }
+7Fi4T-yR8tM: { artist: "The Paper Kites", song: "Revelator Eyes", genre: "indie folk" }
+3QtS2RjSIdk: { artist: "Anuraag Vashisht ft. Riya Tickoo", song: "Tum 2.0", genre: "Indian indie" }
+Otv5AljKKhc: { artist: "James TW", song: "You & Me (acoustic)", genre: "pop" }
+WOb8-C6jw0M: { artist: "Hamilton cast", song: "Guns and Ships", genre: "musical theatre" }
+KghsrSY10fo: { artist: "Hamilton cast (live, 2016)", song: "That Would Be Enough", genre: "musical theatre" }
+dvgZkm1xWPE: { artist: "Coldplay", song: "Viva La Vida", genre: "alt rock" }
+_NGQfFCFUn4: { artist: "Ed Sheeran", song: "Afterglow", genre: "pop" }
+3mMVcCMO_Ng: { artist: "FINNEAS", song: "I Lost A Friend", genre: "indie pop" }
+Fb5Z7X9Bzog: { artist: "Novo Amor & Lowswimmer", song: "Silvery", genre: "ambient folk" }
+_XBVWlI8TsQ: { artist: "Kaifi Khalil", song: "Kahani Suno 2.0", genre: "Pakistani pop" }
+Cwkej79U3ek: { artist: "Vanessa Carlton", song: "A Thousand Miles", genre: "pop" }
+VhinPd5RRJw: { artist: "Hamilton cast", song: "Alexander Hamilton", genre: "musical theatre" }
+kK9c41WgNpc: { artist: "Hamilton cast (Phillipa Soo)", song: "That Would Be Enough", genre: "musical theatre" }
+hEEjMhurmcM: { artist: "Toshitaka Niki", song: "Sleepwalker" }
+itKtosLoGk4: { artist: "Hamilton cast (Phillipa Soo)", song: "Take a Break", genre: "musical theatre" }
+m-e6lZuf5wc: { artist: "Arijit Singh", song: "Saware (slowed + reverb)", genre: "Bollywood" }
+-nmqQlW-sMo: { artist: "Hamilton cast (Christopher Jackson)", song: "History Has Its Eyes on You", genre: "musical theatre" }
+tkEEFoMRo98: { artist: "Rosie Darling & Boy In Space", song: "Nail In The Coffin", genre: "indie pop" }
+6zNHZkT3DXk: { artist: "Alec Benjamin", song: "Devil Doesn't Bargain", genre: "pop" }
+ulfoU2MziOc: { artist: "LEMMiNO", song: "Firecracker", genre: "electronic" }
+RPBSmZTIa7w: { artist: "Rosie Darling", song: "Always Almost", genre: "indie pop" }
+h18s7zlYOyg: { artist: "Bilal Saeed & Momina Mustehsan", song: "Baari", genre: "Pakistani pop" }
+92izkAK5OA0: { artist: "Gustixa & Rhianne", song: "Somewhere Only We Know", genre: "lo-fi cover" }
+vH_klAs4Rhw: { artist: "Farhan Saeed", song: "Yeh Jo Halka Halka Suroor Hai", genre: "Pakistani pop" }
+XSDxaNmMRnc: { artist: "Sasha Alex Sloan", song: "Hypochondriac", genre: "pop" }
+DTFbGcnl0po: { artist: "James Blunt", song: "Monsters", genre: "pop" }
+KiBQ0B6LNdE: { artist: "Justin Hurwitz (La La Land)", song: "Mia & Sebastian's Theme / What Breaks My Heart", genre: "soundtrack" }
+0D3zz6byFT4: { artist: "Hamilton cast (live, 2016)", song: "Guns and Ships", genre: "musical theatre" }
+09gFlVD84u0: { artist: "Novo Amor", song: "Anniversary", genre: "ambient folk" }
+WySzEXKUSZw: { artist: "Hamilton cast (Leslie Odom Jr.)", song: "The Room Where It Happens", genre: "musical theatre" }
+jiue6baSGMo: { artist: "Novo Amor & Lowswimmer", song: "Anatome", genre: "ambient folk" }
+kf9IKj_Ztu4: { artist: "yama", song: "春を告げる (Haru wo Tsugeru)", genre: "J-pop" }
+1W3Sfoi5oFY: { artist: "Henry Moodie", song: "if Viva La Vida was sad", genre: "pop cover" }
+-6II3p7fxo8: { artist: "Of Monsters and Men", song: "Sinking Man", genre: "indie folk" }
+H2lzxGcbz-g: { artist: "Of Monsters and Men", song: "Empire", genre: "indie folk" }
+fXLL5rveD4U: { artist: "Riria", song: "He cheated on me, but i still like you", genre: "J-pop" }
+5EV9IdeU3D0: { artist: "José González", song: "Step Out", genre: "indie folk" }
+UeqKF_NF1Qs: { artist: "Hamilton cast (Renée Elise Goldsberry)", song: "The Schuyler Sisters", genre: "musical theatre" }
+ZwWPZrVj_qQ: { artist: "Bloc Party (M83 remix)", song: "The Pioneers", genre: "indie rock" }
+MzCLLHscMOw: { artist: "The Script", song: "Breakeven", genre: "pop rock" }
+FCT6Mu-pOeE: { artist: "The Script", song: "Six Degrees of Separation", genre: "pop rock" }
+r1xi5HkqDH4: { artist: "Gert Taberner", song: "Fallen", genre: "indie folk" }
+OTOmQmOFeVo: { artist: "James TW", song: "You & Me", genre: "pop" }
+mx1V0f9YLrE: { artist: "Ali Sethi", song: "Chan Kithan", genre: "Hindustani / Pakistani" }
+ybparFEZf2I: { artist: "The Paper Kites", song: "Give Me Your Fire, Give Me Your Rain", genre: "indie folk" }
+Ejr1NUNGl4U: { artist: "Hoang & Exede", song: "Thinking About You", genre: "electronic" }
+KVzA5Ie4J5g: { artist: "Alec Benjamin", song: "My Mother's Eyes", genre: "pop" }
+BbhqbSNmiWc: { artist: "MVSE ft. Luma", song: "Unbroken", genre: "electronic" }
+AK75VFQQA40: { artist: "Novo Amor & Lowswimmer", song: "Terraform", genre: "ambient folk" }
+3IhI87arSAE: { artist: "Of Monsters and Men", song: "Love Love Love — live on KEXP", genre: "indie folk" }
+DA4hKTtn0hA: { artist: "Novo Amor", song: "State Lines — Antarctic performance", genre: "ambient folk" }
+rLm_aSP369M: { artist: "Coldplay", song: "The Scientist — live in Madrid", genre: "alt rock" }
+2Vv-BfVoq4g: { artist: "Ed Sheeran", song: "Perfect", genre: "pop" }
+yKNxeF4KMsY: { artist: "Coldplay", song: "Yellow", genre: "alt rock" }

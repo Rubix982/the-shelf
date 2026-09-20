@@ -42,6 +42,85 @@ async function loadTracks(rel) {
   }
 }
 
+/* The human half: artist, song, genre, lyric and note, keyed by video id.
+   Kept apart from the captured list so a re-capture cannot overwrite it. */
+async function loadNotes(rel) {
+  try {
+    return parseYaml(await fs.readFile(path.join(ledgerDir, rel), "utf8")) ?? {};
+  } catch (err) {
+    problems.push(`notes_file "${rel}" could not be read: ${err.message}`);
+    return {};
+  }
+}
+
+/*
+ * Joins captured tracks to hand-written notes. YouTube's uploader is often a
+ * lyric-video reposter rather than the band, so the note's artist wins and the
+ * uploader is kept only as provenance.
+ */
+function joinTracks(tracks, notes) {
+  if (!tracks) return null;
+  const list = tracks.list.map((t) => {
+    const n = notes[t.id] ?? {};
+    const artist = n.artist ?? null;
+    const song = n.song ?? t.title;
+    return {
+      id: t.id,
+      song,
+      artist,
+      uploader: t.by || "",
+      genre: n.genre ?? null,
+      lyric: (n.lyric ?? "").trim(),
+      note: (n.note ?? "").trim(),
+      // Link out rather than reproduce: full lyrics are not ours to ship.
+      lyricsUrl:
+        "https://genius.com/search?q=" +
+        encodeURIComponent([artist, song].filter(Boolean).join(" ")),
+      raw: t.title,
+    };
+  });
+
+  /* "Who is on it" should count the act, not each credit variant: a featured
+     guest, a remixer or a named cast member would otherwise split one artist
+     across several rows. The full credit still shows on the track itself. */
+  const primary = (a) =>
+    a
+      .replace(/\s*\([^)]*\)\s*$/, "")
+      .replace(/\s+(ft\.|feat\.)\s+.*$/i, "")
+      .replace(/\s+&\s+.*$/, "")
+      .trim();
+
+  const tally = (key) => {
+    const m = new Map();
+    for (const t of list) {
+      let v = t[key];
+      if (!v) continue;
+      if (key === "artist") v = primary(v);
+      m.set(v, (m.get(v) ?? 0) + 1);
+    }
+    return [...m.entries()]
+      .map(([name, n]) => ({ name, n }))
+      .sort((a, b) => b.n - a.n || a.name.localeCompare(b.name));
+  };
+
+  const artists = tally("artist");
+  const genreOf = new Map();
+  for (const t of list) {
+    if (!t.artist || !t.genre) continue;
+    const k = primary(t.artist);
+    if (!genreOf.has(k)) genreOf.set(k, t.genre);
+  }
+
+  return {
+    ...tracks,
+    list,
+    artists: artists.map((a) => ({ ...a, genre: genreOf.get(a.name) ?? null })),
+    genres: tally("genre"),
+    unattributed: list.filter((t) => !t.artist).length,
+    withLyric: list.filter((t) => t.lyric).length,
+  };
+}
+
 const files = (await fs.readdir(ledgerDir)).filter((f) => /\.ya?ml$/.test(f));
 const entries = [];
 const problems = [];
@@ -79,7 +158,12 @@ for (const file of files) {
       tags: e.tags ?? [],
       // A living collection has no single year; it sorts after everything dated.
       ongoing: Boolean(e.ongoing),
-      tracks: e.tracks_file ? await loadTracks(e.tracks_file) : null,
+      tracks: e.tracks_file
+        ? joinTracks(
+            await loadTracks(e.tracks_file),
+            e.notes_file ? await loadNotes(e.notes_file) : {},
+          )
+        : null,
     });
   }
 }

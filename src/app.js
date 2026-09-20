@@ -252,23 +252,70 @@
     var t = e.tracks;
     if (!t || !t.list.length) return "";
     var missing = t.stated && t.stated > t.visible ? t.stated - t.visible : 0;
-    var rows = t.list
-      .map(function (x, i) {
+
+    /* Who is on it, before what is on it. A hundred rows of titles tells you
+       nothing about the shape of a playlist; a dozen acts and their genres
+       tells you most of it at a glance. */
+    var acts = t.artists
+      .map(function (a) {
         return (
-          '<li class="track"><span class="track__n">' + (i + 1) + "</span>" +
-          '<span class="track__t">' +
-          (x.id
-            ? '<a href="https://www.youtube.com/watch?v=' + esc(x.id) + '" target="_blank" rel="noreferrer">' + esc(x.title) + "</a>"
-            : esc(x.title)) +
-          "</span>" +
-          '<span class="track__by">' + esc(x.by || "") + "</span></li>"
+          '<li class="act"><span class="act__n">' + a.n + "</span>" +
+          '<span class="act__name">' + esc(a.name) + "</span>" +
+          '<span class="act__genre">' + esc(a.genre || "") + "</span></li>"
         );
       })
       .join("");
+
+    var genres = t.genres
+      .map(function (g) {
+        return '<li class="gen"><span class="gen__n">' + g.n + "</span>" + esc(g.name) + "</li>";
+      })
+      .join("");
+
+    var rows = t.list
+      .map(function (x, i) {
+        var head =
+          '<span class="track__t">' +
+          '<a href="https://www.youtube.com/watch?v=' + esc(x.id) + '" target="_blank" rel="noreferrer">' +
+          esc(x.song) + "</a></span>";
+        var meta =
+          '<span class="track__by">' +
+          (x.artist ? esc(x.artist) : '<i class="track__unknown">artist not identified</i>') +
+          (x.genre ? ' <span class="track__genre">' + esc(x.genre) + "</span>" : "") +
+          "</span>";
+        var words = "";
+        if (x.lyric) {
+          words += '<blockquote class="track__lyric">' + esc(x.lyric) + "</blockquote>";
+        }
+        if (x.note) {
+          words += '<p class="track__note">' + esc(x.note) + "</p>";
+        }
+        if (!x.lyric && !x.note) {
+          words +=
+            '<p class="track__todo"><a href="' + esc(x.lyricsUrl) +
+            '" target="_blank" rel="noreferrer">lyrics</a></p>';
+        }
+        return (
+          '<li class="track"><span class="track__n">' + (i + 1) + "</span>" +
+          "<span>" + head + meta + words + "</span></li>"
+        );
+      })
+      .join("");
+
     return (
+      '<div class="block"><p class="block__label">Who is on it</p>' +
+      '<ul class="acts">' + acts + "</ul>" +
+      '<p class="block__label" style="margin-top:2rem">Kinds of music</p>' +
+      '<ul class="gens">' + genres + "</ul>" +
+      (t.unattributed
+        ? '<p class="tracks__missing">' + t.unattributed +
+          " track(s) whose artist I could not identify &mdash; they are marked in the list.</p>"
+        : "") +
+      "</div>" +
       '<div class="block"><p class="block__label">Track list</p>' +
       '<details class="tracks"><summary class="tracks__sum">' +
-      t.visible + " tracks captured " + esc(t.captured || "") +
+      t.visible + " tracks &middot; " + t.withLyric + " with a line written down &middot; captured " +
+      esc(t.captured || "") +
       (missing
         ? ' <span class="tracks__missing">&middot; ' + missing +
           " counted by YouTube but not shown, so already private or removed</span>"

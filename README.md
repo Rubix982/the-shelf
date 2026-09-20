@@ -56,6 +56,20 @@ changed — a playlist loses entries quietly, and the diff on that file is the
 only way to find out which ones. The first capture of my own music playlist
 already showed YouTube counting 100 videos while serving 99.
 
+## Artists, genres, and lyrics
+
+A captured track list is thin on its own: YouTube gives you a title and an
+uploader, and the uploader is frequently a lyric-video channel rather than the
+band. So each collection has a companion file under `ledger/notes/`, keyed by
+video id, holding the corrected artist, the song, a genre, one or two lines of
+lyric, and your note on them. The entry page rolls that up into who is on it
+and what kinds of music are on it, which is what you actually want to see
+before a hundred rows of titles.
+
+Full lyrics are deliberately not stored — they are not ours to redistribute,
+and each track links out for the rest. One line you chose plus a sentence on
+why is worth more here than the complete text, which is a search away forever.
+
 ## Why the site is one file
 
 `npm run build` renders the whole thing — markup, styles, script and data — into

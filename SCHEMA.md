@@ -74,6 +74,39 @@ they differ, the gap is videos YouTube will not serve anonymously — normally
 private or deleted — and it is written down as `unaccounted` rather than
 smoothed over.
 
+## `notes_file`
+
+The human half of a collection, keyed by video id, under `ledger/notes/`. The
+capture script never touches it, so a re-capture can lose a track without
+losing what you wrote about it.
+
+```yaml
+ghb6eDopW8I:
+  artist: Of Monsters and Men
+  song: Little Talks
+  genre: indie folk
+  lyric: |
+    the line that actually gets you
+  note: >
+    What it is attached to.
+```
+
+`artist` and `song` live here rather than being taken from YouTube because
+YouTube's data is wrong a third of the time: the uploader is often a
+lyric-video reposter, not the band, and the real artist is buried in the video
+title. Everything in this file was corrected by hand.
+
+`genre` is a rough bucket for grouping, not a taxonomy. The entry page rolls
+these up into "who is on it" and "kinds of music", counting the primary act so
+a featured guest or a named cast member does not split one artist across
+several rows.
+
+**On lyrics.** `lyric` is for one or two lines, not the whole song. Full
+lyrics are not ours to redistribute and a repo full of them is a takedown
+waiting to happen, so each track links out instead. The line you choose plus
+your `note` on it is the part worth keeping anyway — the full text is a search
+away forever, and why it stuck to you is not.
+
 ## `status`
 
 The only field that decides what you should actually *do*.

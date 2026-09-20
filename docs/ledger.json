@@ -25,29 +25,9 @@
       "tags": [
         "platformer",
         "dos"
-      ]
-    },
-    {
-      "id": "nevermind",
-      "kind": "music",
-      "kindLabel": "Music",
-      "title": "Nevermind",
-      "year": 1991,
-      "mineYear": null,
-      "platform": "album",
-      "by": "Nirvana",
-      "region": "",
-      "what": "The second Nirvana album, produced by Butch Vig, and the record that moved the whole commercial centre of rock for about four years.",
-      "great": "The loud-quiet-loud structure was not new, but the production made the quiet parts genuinely quiet, so the choruses arrived as an event rather than a volume increase.",
-      "mine": "— your memory goes here. what you were doing when you first heard it —",
-      "mentions": [],
-      "where": [],
-      "status": "preserved",
-      "statusNote": "",
-      "tags": [
-        "rock",
-        "90s"
-      ]
+      ],
+      "ongoing": false,
+      "tracks": null
     },
     {
       "id": "sonic-2",
@@ -76,7 +56,9 @@
       "tags": [
         "platformer",
         "formative"
-      ]
+      ],
+      "ongoing": false,
+      "tracks": null
     },
     {
       "id": "aladdin",
@@ -100,7 +82,9 @@
       "tags": [
         "platformer",
         "licensed"
-      ]
+      ],
+      "ongoing": false,
+      "tracks": null
     },
     {
       "id": "dexters-laboratory",
@@ -122,7 +106,9 @@
       "tags": [
         "animation",
         "cartoon-network"
-      ]
+      ],
+      "ongoing": false,
+      "tracks": null
     },
     {
       "id": "template-gone-channel",
@@ -143,13 +129,547 @@
       "statusNote": "No known copy. Check archive.org/web for the channel page and filmot.com for recovered titles before giving up on it.",
       "tags": [
         "youtube"
-      ]
+      ],
+      "ongoing": false,
+      "tracks": null
+    },
+    {
+      "id": "music-for-good-times",
+      "kind": "music",
+      "kindLabel": "Music",
+      "title": "Music For Good Times ... A Playlist",
+      "year": null,
+      "mineYear": null,
+      "platform": "YouTube playlist",
+      "by": "maintained by me",
+      "region": "",
+      "what": "The running playlist on my own channel — the songs I actually listen to a lot, added to as I find them rather than curated after the fact. Ninety-nine visible tracks as of the first capture. Heavy on Of Monsters and Men, The Paper Kites and Novo Amor; a full seam of the Hamilton cast recording; a Pakistani and Indian thread running through it (Abdul Hannan, Shamoon Ismail, Kaifi Khalil, Ali Sethi, Bilal Saeed, Jasleen Royal, Arijit Singh); and a Japanese one (Yorushika, majiko, yama, 『ユイカ』). Fly By Midnight's \"TFTOOL: Live From The World Circuit\" is the newest addition and sits at the top.",
+      "great": "— why this playlist rather than a service's algorithm. what it is for —",
+      "mine": "— your memory goes here. what you were doing while these were on, what a particular one is tied to —",
+      "mentions": [],
+      "where": [
+        {
+          "label": "The playlist itself",
+          "url": "https://www.youtube.com/playlist?list=PL0homkxE2DUeoSIMYRYE2PXXqss-pltke"
+        }
+      ],
+      "status": "at-risk",
+      "statusNote": "YouTube says 100 videos; only 99 are served to a logged-out viewer, so one is already private or removed. The track list here is the actual artifact: the playlist will keep losing entries quietly, and a re-capture diffed against this file is the only way to find out which ones.",
+      "tags": [
+        "playlist",
+        "mine",
+        "ongoing"
+      ],
+      "ongoing": true,
+      "tracks": {
+        "captured": "2026-09-20",
+        "visible": 99,
+        "stated": 100,
+        "unaccounted": 1,
+        "list": [
+          {
+            "title": "TFTOOL: Live From The World Circuit (Full Album Audio)",
+            "by": "Fly By Midnight",
+            "id": "biVv7fzhWO8"
+          },
+          {
+            "title": "\"Just A Dream\" by Nelly - Sam Tsui & Christina Grimmie",
+            "by": "Kurt Hugo Schneider",
+            "id": "a2RA0vsZXf8"
+          },
+          {
+            "title": "Yorushika - Hana ni Bourei (Ghost In A Flower)  [OFFICIAL VIDEO]",
+            "by": "ヨルシカ / n-buna Official",
+            "id": "9lVPAWLWtWc"
+          },
+          {
+            "title": "the near tide - Torn Out (Lyrics)",
+            "by": "Promo Music",
+            "id": "P719W6GX5OY"
+          },
+          {
+            "title": "Kokoronashi Acoustic Version (by Hikaru Station) | Lyrics Video",
+            "by": "Artificial Vibes",
+            "id": "fWpbsFA_Ouk"
+          },
+          {
+            "title": "Shamoon Ismail - Promises (Audio) ft Annural Khalid",
+            "by": "Shamoon Ismail",
+            "id": "z49CI2T4zt4"
+          },
+          {
+            "title": "Of Monsters and Men - Little Talks",
+            "by": "Of Monsters and Men",
+            "id": "ghb6eDopW8I"
+          },
+          {
+            "title": "Nit Nit (Full Song) | Jasleen Royal | Punjabi Song | Ishtar Punjabi",
+            "by": "Ishtar Punjabi",
+            "id": "7YbfDiCC-qk"
+          },
+          {
+            "title": "Abdul Hannan & Rovalio - Iraaday (Official Music Video)",
+            "by": "Abdul Hannan",
+            "id": "Qwm6BSGrOq0"
+          },
+          {
+            "title": "Etham - Opposite Of Loving Me (Stripped / Lyric Video)",
+            "by": "Etham",
+            "id": "Iac2yXnh94M"
+          },
+          {
+            "title": "Saware - SLOWED + REVERB Bollywood Sad Song | Arjit Singh",
+            "by": "Occult Vibes",
+            "id": "wK6Hrqu7LMo"
+          },
+          {
+            "title": "James TW - Hopeless Romantics",
+            "by": "James TW",
+            "id": "FsLlqoK6h30"
+          },
+          {
+            "title": "The Paper Kites - Steal My Heart Away (feat. Ainslie Wills)",
+            "by": "thepaperkitesband",
+            "id": "VR11Hs9a36Y"
+          },
+          {
+            "title": "The Paper Kites - On The Train Ride Home (Official Music Video)",
+            "by": "thepaperkitesband",
+            "id": "gkQFP1rG7wg"
+          },
+          {
+            "title": "Wait for It",
+            "by": "Leslie Odom Jr.",
+            "id": "ulsLI029rH0"
+          },
+          {
+            "title": "The Paper Kites - Climb On Your Tears (feat. Aoife O'Donovan)",
+            "by": "thepaperkitesband and Aoife O'Donovan",
+            "id": "cSQ9DJnG0K8"
+          },
+          {
+            "title": "Of Monsters and Men - Love Love Love (Official Lyric Video)",
+            "by": "Of Monsters and Men",
+            "id": "beiPP_MGz6I"
+          },
+          {
+            "title": "It's Quiet Uptown",
+            "by": "Renée Elise Goldsberry",
+            "id": "bMAoOGnw9qQ"
+          },
+          {
+            "title": "Non-Stop",
+            "by": "Leslie Odom Jr.",
+            "id": "DPgE7PNzXag"
+          },
+          {
+            "title": "Iris - Goo Goo Dolls (Lyrics) \"I just want you to know who I am\"",
+            "by": "Pillow",
+            "id": "rc9UZocWIFo"
+          },
+          {
+            "title": "好きだから。（feat.れん）/ 『ユイカ』【MV】",
+            "by": "『ユイカ』",
+            "id": "g8ENtHe2hMU"
+          },
+          {
+            "title": "Taylor Swift - Anti Hero (Lyrics) \"It's me, hi, I'm the problem, it's me\"",
+            "by": "Arcade Music",
+            "id": "EwvHL4eoVPM"
+          },
+          {
+            "title": "Noah Kahan - Anyway (Official Audio)",
+            "by": "Noah Kahan",
+            "id": "5HzpPl5a9EA"
+          },
+          {
+            "title": "Taylor Swift - Everything Has Changed ft. Ed Sheeran",
+            "by": "Taylor Swift",
+            "id": "w1oM3kQpXRo"
+          },
+          {
+            "title": "Abigail Osborn - Ruin Your Night (Official Video)",
+            "by": "Abigail Osborn",
+            "id": "Mko3ZYhVU1I"
+          },
+          {
+            "title": "The Paper Kites - Don’t Keep Driving",
+            "by": "daydreaming",
+            "id": "aROa_qE2FLM"
+          },
+          {
+            "title": "Who Lives, Who Dies, Who Tells Your Story",
+            "by": "Hamilton",
+            "id": "_gnypiKNaJE"
+          },
+          {
+            "title": "Of Monsters and Men - Mountain Sound (Official Video)",
+            "by": "Of Monsters and Men",
+            "id": "0gEVaniPOmU"
+          },
+          {
+            "title": "Akon - Lonely",
+            "by": "LatinHype",
+            "id": "JISlh7et1w4"
+          },
+          {
+            "title": "Rosie Darling - Witness (Official Visualizer)",
+            "by": "Rosie Darling",
+            "id": "34wjuPipFzI"
+          },
+          {
+            "title": "Hokkaido 《北海道之小樽日记》",
+            "by": "Colourful Space",
+            "id": "IHENIg8Se7M"
+          },
+          {
+            "title": "Of Monsters and Men - King And Lionheart (Official Video)",
+            "by": "Of Monsters and Men",
+            "id": "A76a_LNIYwE"
+          },
+          {
+            "title": "Snow Patrol - Chasing Cars (Official Video)",
+            "by": "Snow Patrol",
+            "id": "GemKqzILV4w"
+          },
+          {
+            "title": "The Room Where It Happens | Hamilton Animatic",
+            "by": "HuangHYing",
+            "id": "NSTAf0eXSD0"
+          },
+          {
+            "title": "Initial D - Killing My Love",
+            "by": "Pretty ok",
+            "id": "YdYwICNPDwI"
+          },
+          {
+            "title": "Novo Amor & Lowswimmer - Amateur Blood (official audio)",
+            "by": "Lowswimmer",
+            "id": "6Ivo1MT5deI"
+          },
+          {
+            "title": "Of Monsters and Men – Dirty Paws (The Secret Life of Walter Mitty)",
+            "by": "gvozdi7",
+            "id": "OgO2U4quFDk"
+          },
+          {
+            "title": "BRDGS - Dancing Without Music (Lyrics)",
+            "by": "Mellow",
+            "id": "GSb4aS9TAek"
+          },
+          {
+            "title": "James TW - When You Love Someone (Official Video)",
+            "by": "James TW",
+            "id": "0Bf3CJZ4hvg"
+          },
+          {
+            "title": "sapientdream - Pastlives (lyrics)",
+            "by": "TheGoodVibe",
+            "id": "-TXtyYZIiWc"
+          },
+          {
+            "title": "Novo Amor - Anchor (official video)",
+            "by": "Novo Amor",
+            "id": "OmKAn8rNbKg"
+          },
+          {
+            "title": "Of Monsters and Men - Dirty Paws (Official Lyric Video)",
+            "by": "Of Monsters and Men",
+            "id": "mCHUw7ACS8o"
+          },
+          {
+            "title": "Right Hand Man But It's Actually George Washington",
+            "by": "aims",
+            "id": "nACEYoFgp_Q"
+          },
+          {
+            "title": "majiko - 心做し [LIVE]",
+            "by": "majiko / まじ娘 OFFICIAL CHANNEL",
+            "id": "QJie7dTvbjQ"
+          },
+          {
+            "title": "Sleeping At Last - \"Saturn\" (Official Music Video)",
+            "by": "Sleeping At Last",
+            "id": "dzNvk80XY9s"
+          },
+          {
+            "title": "The Paper Kites - Revelator Eyes (Official Music Video)",
+            "by": "thepaperkitesband",
+            "id": "7Fi4T-yR8tM"
+          },
+          {
+            "title": "Tum 2.0 (feat. Riya Tickoo)",
+            "by": "Anuraag Vashisht",
+            "id": "3QtS2RjSIdk"
+          },
+          {
+            "title": "James TW - You & Me (Official Audio - Acoustic)",
+            "by": "James TW",
+            "id": "Otv5AljKKhc"
+          },
+          {
+            "title": "Guns and Ships",
+            "by": "Leslie Odom Jr.",
+            "id": "WOb8-C6jw0M"
+          },
+          {
+            "title": "That Would Be Enough - Hamilton (Original Cast 2016 - Live) [HD]",
+            "by": "Asaki Takaya",
+            "id": "KghsrSY10fo"
+          },
+          {
+            "title": "Coldplay - Viva La Vida (Official Video)",
+            "by": "Coldplay",
+            "id": "dvgZkm1xWPE"
+          },
+          {
+            "title": "Ed Sheeran - Afterglow [Official Performance Video]",
+            "by": "Ed Sheeran",
+            "id": "_NGQfFCFUn4"
+          },
+          {
+            "title": "FINNEAS - I Lost A Friend (Official Video)",
+            "by": "FINNEAS",
+            "id": "3mMVcCMO_Ng"
+          },
+          {
+            "title": "Novo Amor & Lowswimmer - Silvery (official audio)",
+            "by": "Novo Amor",
+            "id": "Fb5Z7X9Bzog"
+          },
+          {
+            "title": "Kaifi Khalil - Kahani Suno 2.0 [Official Music Video]",
+            "by": "Kaifi Khalil",
+            "id": "_XBVWlI8TsQ"
+          },
+          {
+            "title": "Vanessa Carlton - A Thousand Miles",
+            "by": "Vanessa Carlton",
+            "id": "Cwkej79U3ek"
+          },
+          {
+            "title": "Alexander Hamilton",
+            "by": "Leslie Odom Jr.",
+            "id": "VhinPd5RRJw"
+          },
+          {
+            "title": "That Would Be Enough",
+            "by": "Phillipa Soo - Topic",
+            "id": "kK9c41WgNpc"
+          },
+          {
+            "title": "Toshitaka Niki - Sleepwalker",
+            "by": "Voiced Out",
+            "id": "hEEjMhurmcM"
+          },
+          {
+            "title": "Take a Break",
+            "by": "Phillipa Soo - Topic",
+            "id": "itKtosLoGk4"
+          },
+          {
+            "title": "Saware (Slowed+Reverb) - Arijit Singh |",
+            "by": "Dᴇᴇᴘᴀɴsʜᴜ Eᴅɪᴛs ♫︎",
+            "id": "m-e6lZuf5wc"
+          },
+          {
+            "title": "History Has Its Eyes on You",
+            "by": "Christopher Jackson - Topic",
+            "id": "-nmqQlW-sMo"
+          },
+          {
+            "title": "Rosie Darling, Boy In Space - Nail In The Coffin (Official Music Video)",
+            "by": "Rosie Darling",
+            "id": "tkEEFoMRo98"
+          },
+          {
+            "title": "Alec Benjamin - Devil Doesn't Bargain [Official Lyric Video]",
+            "by": "Alec Benjamin",
+            "id": "6zNHZkT3DXk"
+          },
+          {
+            "title": "LEMMiNO - Firecracker (BGM)",
+            "by": "LEMMiNO Music",
+            "id": "ulfoU2MziOc"
+          },
+          {
+            "title": "Rosie Darling - Always Almost",
+            "by": "Rosie Darling",
+            "id": "RPBSmZTIa7w"
+          },
+          {
+            "title": "Baari by Bilal Saeed and Momina Mustehsan | Official Music Video",
+            "by": "One Two Records",
+            "id": "h18s7zlYOyg"
+          },
+          {
+            "title": "somewhere only we know (Gustixa & Rhianne)",
+            "by": "Gustixa",
+            "id": "92izkAK5OA0"
+          },
+          {
+            "title": "Yeh Jo Halka Halka Suroor hai (Official Video) Farhan Saeed | Extended",
+            "by": "Farhan Saed Official",
+            "id": "vH_klAs4Rhw"
+          },
+          {
+            "title": "Sasha Alex Sloan - Hypochondriac (Lyric Video)",
+            "by": "Sasha Alex Sloan",
+            "id": "XSDxaNmMRnc"
+          },
+          {
+            "title": "James Blunt - Monsters (Official Music Video)",
+            "by": "James Blunt",
+            "id": "DTFbGcnl0po"
+          },
+          {
+            "title": "Mia & Sebastian || What Breaks My Heart (HD)",
+            "by": "Michelle Christina",
+            "id": "KiBQ0B6LNdE"
+          },
+          {
+            "title": "Guns and Ships - Hamilton (Original Cast 2016 - Live) [HD]",
+            "by": "Asaki Takaya",
+            "id": "0D3zz6byFT4"
+          },
+          {
+            "title": "Novo Amor - Anniversary (official audio)",
+            "by": "Novo Amor",
+            "id": "09gFlVD84u0"
+          },
+          {
+            "title": "The Room Where It Happens",
+            "by": "Leslie Odom Jr.",
+            "id": "WySzEXKUSZw"
+          },
+          {
+            "title": "Novo Amor & Lowswimmer - Anatome (official audio)",
+            "by": "Lowswimmer",
+            "id": "jiue6baSGMo"
+          },
+          {
+            "title": "yama 『春を告げる/Haru wo tsugeru』 [JPN/ROM/ENG Lyrics]",
+            "by": "Save Me",
+            "id": "kf9IKj_Ztu4"
+          },
+          {
+            "title": "if Viva La Vida was sad...",
+            "by": "Henry Moodie",
+            "id": "1W3Sfoi5oFY"
+          },
+          {
+            "title": "Of Monsters and Men - Sinking Man (Official Lyric Video)",
+            "by": "Of Monsters and Men",
+            "id": "-6II3p7fxo8"
+          },
+          {
+            "title": "Of Monsters and Men - Empire (Official Lyric Video)",
+            "by": "Of Monsters and Men",
+            "id": "H2lzxGcbz-g"
+          },
+          {
+            "title": "He cheated on me, but i still like you - Riria りりあ | Lyrics Romanji",
+            "by": "Artificial Vibes",
+            "id": "fXLL5rveD4U"
+          },
+          {
+            "title": "Jose Gonzalez 'Step Out' The Secret Life Of Walter Mitty Soundtrack",
+            "by": "Republic Records",
+            "id": "5EV9IdeU3D0"
+          },
+          {
+            "title": "The Schuyler Sisters",
+            "by": "Renée Elise Goldsberry",
+            "id": "UeqKF_NF1Qs"
+          },
+          {
+            "title": "Bloc Party - The Pioneers (M83 Remix)",
+            "by": "Yuri R",
+            "id": "ZwWPZrVj_qQ"
+          },
+          {
+            "title": "The Script - Breakeven (Official Video)",
+            "by": "The Script",
+            "id": "MzCLLHscMOw"
+          },
+          {
+            "title": "The Script - Six Degrees of Separation (Official Video)",
+            "by": "The Script",
+            "id": "FCT6Mu-pOeE"
+          },
+          {
+            "title": "Gert Taberner \"Fallen\" (Official Music Video)",
+            "by": "Gert Taberner",
+            "id": "r1xi5HkqDH4"
+          },
+          {
+            "title": "James TW - You & Me (Official Video)",
+            "by": "James TW",
+            "id": "OTOmQmOFeVo"
+          },
+          {
+            "title": "Chan Kithan | Ali Sethi (Official Music Video)",
+            "by": "Ali Sethi",
+            "id": "mx1V0f9YLrE"
+          },
+          {
+            "title": "The Paper Kites - Give Me Your Fire, Give Me Your Rain (Official Music Video)",
+            "by": "thepaperkitesband",
+            "id": "ybparFEZf2I"
+          },
+          {
+            "title": "Hoang & Exede - Thinking About You (Official Lyric Video)",
+            "by": "WaveMusic",
+            "id": "Ejr1NUNGl4U"
+          },
+          {
+            "title": "Alec Benjamin - My Mothers Eyes (Unreleased)",
+            "by": "Alec Benjamin",
+            "id": "KVzA5Ie4J5g"
+          },
+          {
+            "title": "MVSE - Unbroken (Lyrics) feat. Luma",
+            "by": "WaveMusic",
+            "id": "BbhqbSNmiWc"
+          },
+          {
+            "title": "Novo Amor & Lowswimmer - Terraform (official video)",
+            "by": "Novo Amor",
+            "id": "AK75VFQQA40"
+          },
+          {
+            "title": "Of Monsters and Men - Love Love Love (Live on KEXP)",
+            "by": "KEXP",
+            "id": "3IhI87arSAE"
+          },
+          {
+            "title": "Novo Amor - State Lines (Greenpeace Antarctic performance)",
+            "by": "Novo Amor",
+            "id": "DA4hKTtn0hA"
+          },
+          {
+            "title": "Coldplay - The Scientist (Live in Madrid 2011)",
+            "by": "Coldplay",
+            "id": "rLm_aSP369M"
+          },
+          {
+            "title": "Ed Sheeran - Perfect (Official Music Video)",
+            "by": "Ed Sheeran",
+            "id": "2Vv-BfVoq4g"
+          },
+          {
+            "title": "Coldplay - Yellow (Official Video)",
+            "by": "Coldplay",
+            "id": "yKNxeF4KMsY"
+          }
+        ]
+      }
     }
   ],
   "counts": {
     "total": 6,
-    "preserved": 4,
-    "atRisk": 1,
+    "preserved": 3,
+    "atRisk": 2,
     "gone": 1,
     "byKind": {
       "games": 3,

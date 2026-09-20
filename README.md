@@ -43,6 +43,19 @@ An entry with nothing but a title and a `mine` is worth more than a complete
 record with no memory in it. Write the memory first; the release year can be
 looked up forever, and your memory cannot.
 
+## Capturing a playlist
+
+```bash
+npm run capture -- "https://www.youtube.com/playlist?list=..." a-short-name
+npm run build
+```
+
+That writes `ledger/tracks/a-short-name.yml`, which an entry points at with
+`tracks_file:`. Re-run it now and then and commit the result even when nothing
+changed — a playlist loses entries quietly, and the diff on that file is the
+only way to find out which ones. The first capture of my own music playlist
+already showed YouTube counting 100 videos while serving 99.
+
 ## Why the site is one file
 
 `npm run build` renders the whole thing — markup, styles, script and data — into

@@ -43,6 +43,37 @@ memory is worth more than a complete record with no memory in it.
   tags: [adventure, open-world, formative]
 ```
 
+## Living collections
+
+A playlist or a channel you still add to has no single year. Mark it `ongoing`
+and it sorts onto its own shelf after everything dated.
+
+```yaml
+- title: Music For Good Times ... A Playlist
+  platform: YouTube playlist
+  ongoing: true
+  tracks_file: tracks/music-for-good-times.yml
+```
+
+## `tracks_file`
+
+Points at a file under `ledger/tracks/` holding a captured track list. Keep it
+separate from the entry for one reason: a re-capture overwrites the whole file,
+so `git diff` on it is the record of what the collection lost.
+
+```bash
+npm run capture -- "<playlist url>" music-for-good-times
+```
+
+Re-run it every so often and **commit the result even when nothing changed** —
+the unchanged commits are what make a later loss legible. If YouTube starts
+refusing requests, save the page from a browser and pass `--from saved.html`.
+
+The generated file records `visible` against YouTube's own `stated` count. When
+they differ, the gap is videos YouTube will not serve anonymously — normally
+private or deleted — and it is written down as `unaccounted` rather than
+smoothed over.
+
 ## `status`
 
 The only field that decides what you should actually *do*.

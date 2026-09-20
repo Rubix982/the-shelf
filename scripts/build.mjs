@@ -22,6 +22,26 @@ const slug = (s) =>
 
 const KINDS = { games: "Games", music: "Music", television: "Television", youtube: "YouTube" };
 
+/* Track lists live in their own files so a re-capture can overwrite one
+   wholesale and `git diff` shows exactly what the playlist lost. */
+async function loadTracks(rel) {
+  try {
+    const doc = parseYaml(await fs.readFile(path.join(ledgerDir, rel), "utf8"));
+    return {
+      captured: doc.captured
+        ? new Date(doc.captured).toISOString().slice(0, 10)
+        : null,
+      visible: doc.visible ?? (doc.tracks || []).length,
+      stated: doc.stated ?? null,
+      unaccounted: doc.unaccounted ?? 0,
+      list: doc.tracks ?? [],
+    };
+  } catch (err) {
+    problems.push(`tracks_file "${rel}" could not be read: ${err.message}`);
+    return null;
+  }
+}
+
 const files = (await fs.readdir(ledgerDir)).filter((f) => /\.ya?ml$/.test(f));
 const entries = [];
 const problems = [];
@@ -57,6 +77,9 @@ for (const file of files) {
       status: e.status ?? "at-risk",
       statusNote: (e.status_note ?? "").trim(),
       tags: e.tags ?? [],
+      // A living collection has no single year; it sorts after everything dated.
+      ongoing: Boolean(e.ongoing),
+      tracks: e.tracks_file ? await loadTracks(e.tracks_file) : null,
     });
   }
 }
@@ -72,7 +95,12 @@ for (const e of entries) {
   }
 }
 
-entries.sort((a, b) => (a.year ?? 9999) - (b.year ?? 9999) || a.title.localeCompare(b.title));
+entries.sort(
+  (a, b) =>
+    Number(a.ongoing) - Number(b.ongoing) ||
+    (a.year ?? 9999) - (b.year ?? 9999) ||
+    a.title.localeCompare(b.title),
+);
 
 const counts = {
   total: entries.length,

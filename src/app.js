@@ -127,10 +127,14 @@
 
     var years = {};
     all.forEach(function (e) {
-      var y = e.year || "undated";
+      var y = e.ongoing ? "ongoing" : e.year || "undated";
       (years[y] = years[y] || []).push(e);
     });
-    var keys = Object.keys(years).sort();
+    /* Dated shelves in order, then the things still being added to. */
+    var keys = Object.keys(years).sort(function (a, b) {
+      var rank = function (k) { return k === "ongoing" ? 2 : k === "undated" ? 1 : 0; };
+      return rank(a) - rank(b) || String(a).localeCompare(String(b));
+    });
 
     var nav =
       '<div class="bar"><a href="#/">&#8592; shelf</a>' +
@@ -193,6 +197,7 @@
     if (e.platform) rec.push(["On", e.platform]);
     if (e.by) rec.push(["By", e.by]);
     if (e.year) rec.push(["Released", e.year]);
+    if (e.ongoing) rec.push(["Status", "still adding to it"]);
     if (e.mineYear) rec.push(["Mine in", e.mineYear]);
     if (e.region) rec.push(["Region", e.region]);
 
@@ -200,6 +205,7 @@
     blocks += block("What it is", e.what);
     blocks += block("What is great about it", e.great);
     blocks += block("Mine", e.mine, "mine");
+    blocks += tracksBlock(e);
 
     if (e.mentions.length) {
       blocks +=
@@ -236,6 +242,40 @@
       "</dl></div>" +
       '<div class="entry__body">' + blocks + "</div>" +
       footer() + "</article>"
+    );
+  }
+
+  /* The captured track list. Long on purpose — it is the preservation
+     artifact, not a nicety — so it is folded behind a summary that carries the
+     numbers that matter. */
+  function tracksBlock(e) {
+    var t = e.tracks;
+    if (!t || !t.list.length) return "";
+    var missing = t.stated && t.stated > t.visible ? t.stated - t.visible : 0;
+    var rows = t.list
+      .map(function (x, i) {
+        return (
+          '<li class="track"><span class="track__n">' + (i + 1) + "</span>" +
+          '<span class="track__t">' +
+          (x.id
+            ? '<a href="https://www.youtube.com/watch?v=' + esc(x.id) + '" target="_blank" rel="noreferrer">' + esc(x.title) + "</a>"
+            : esc(x.title)) +
+          "</span>" +
+          '<span class="track__by">' + esc(x.by || "") + "</span></li>"
+        );
+      })
+      .join("");
+    return (
+      '<div class="block"><p class="block__label">Track list</p>' +
+      '<details class="tracks"><summary class="tracks__sum">' +
+      t.visible + " tracks captured " + esc(t.captured || "") +
+      (missing
+        ? ' <span class="tracks__missing">&middot; ' + missing +
+          " counted by YouTube but not shown, so already private or removed</span>"
+        : "") +
+      "</summary>" +
+      '<ol class="tracks__list">' + rows + "</ol>" +
+      "</details></div>"
     );
   }
 

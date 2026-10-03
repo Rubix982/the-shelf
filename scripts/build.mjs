@@ -20,7 +20,7 @@ const outDir = path.join(root, "docs");
 const slug = (s) =>
   s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 
-const KINDS = { games: "Games", music: "Music", television: "Television", youtube: "YouTube" };
+const KINDS = { books: "Books", games: "Games", internet: "Internet", movies: "Movies", music: "Music", television: "Television", youtube: "YouTube" };
 
 /* Track lists live in their own files so a re-capture can overwrite one
    wholesale and `git diff` shows exactly what the playlist lost. */

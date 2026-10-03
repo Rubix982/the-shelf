@@ -69,3 +69,703 @@
   mentions: [sonic-2]
   status: preserved
   tags: [platformer, licensed]
+
+- id: phoenix-wright-ace-attorney
+  title: "Phoenix Wright: Ace Attorney"
+  year: 2005
+  platform: Nintendo DS
+  by: Capcom (Shu Takumi)
+  what: >
+    A courtroom adventure. You investigate a crime scene, collect evidence,
+    then defend your client in court by cross-examining witnesses and
+    presenting the one piece of evidence that contradicts their testimony.
+    A Game Boy Advance game in Japan first; the DS release added a fifth
+    case built around the touch screen.
+  great: >
+    The puzzle is the testimony itself. You are not hunting for objects,
+    you are hunting for the sentence that cannot be true, and shouting
+    "Objection!" into the microphone when you find it is still one of the
+    best payoffs a game has offered for simply paying attention.
+  mine: >
+    — your memory goes here —
+  mentions: [phoenix-wright-justice-for-all]
+  where:
+    - label: No-Intro cartridge dumps
+      url: https://datomatic.no-intro.org
+  status: preserved
+  status_note: >
+    Dumped and emulated; also re-released in the Phoenix Wright: Ace
+    Attorney Trilogy collection.
+  tags: [adventure, courtroom, ds, formative]
+
+- id: phoenix-wright-justice-for-all
+  title: "Phoenix Wright: Ace Attorney − Justice for All"
+  year: 2007
+  platform: Nintendo DS
+  by: Capcom
+  what: >
+    The second Ace Attorney. Adds Psyche-Locks — chains over a character's
+    secrets that you break by presenting the right evidence outside of
+    court — and Franziska von Karma as the prosecutor.
+  great: >
+    Its last case asks what Phoenix does when the client he is defending
+    may actually be guilty, which is the question the first game never
+    had the nerve to pose.
+  mine: >
+    — your memory goes here —
+  mentions: [phoenix-wright-ace-attorney, phoenix-wright-trials-and-tribulations]
+  where:
+    - label: No-Intro cartridge dumps
+      url: https://datomatic.no-intro.org
+  status: preserved
+  tags: [adventure, courtroom, ds]
+
+- id: phoenix-wright-trials-and-tribulations
+  title: "Phoenix Wright: Ace Attorney − Trials and Tribulations"
+  year: 2007
+  platform: Nintendo DS
+  by: Capcom
+  what: >
+    The third Ace Attorney and the end of Phoenix's original arc. Several
+    cases reach back into Mia Fey's past, and the prosecutor is Godot, a
+    coffee-drinking man in a visor with a grudge against Phoenix.
+  great: >
+    It reveals that the trilogy was planned as one story, tying threads
+    from the first case of the first game into its finale. Few series
+    land their ending this cleanly.
+  mine: >
+    — your memory goes here —
+  mentions: [phoenix-wright-justice-for-all, apollo-justice-ace-attorney]
+  where:
+    - label: No-Intro cartridge dumps
+      url: https://datomatic.no-intro.org
+  status: preserved
+  tags: [adventure, courtroom, ds]
+
+- id: apollo-justice-ace-attorney
+  title: "Apollo Justice: Ace Attorney"
+  year: 2008
+  platform: Nintendo DS
+  by: Capcom
+  what: >
+    Seven years after the trilogy, with a new rookie lawyer, Apollo Justice,
+    and Phoenix disbarred and playing piano. Apollo can perceive a witness's
+    nervous tics to find where they are lying.
+  great: >
+    It took the risk of handing the series to a new lead and showing its
+    old hero diminished. Not everyone forgave it, which is a reason to
+    write it down too.
+  mine: >
+    — your memory goes here —
+  mentions: [phoenix-wright-trials-and-tribulations]
+  where:
+    - label: No-Intro cartridge dumps
+      url: https://datomatic.no-intro.org
+  status: preserved
+  tags: [adventure, courtroom, ds]
+
+- id: nfs-underground
+  title: "Need for Speed: Underground"
+  year: 2003
+  platform: PC
+  by: EA Black Box
+  what: >
+    The series' turn from exotic cars on sunny roads to night-time street
+    racing in tuned imports — drift, drag and circuit races through the
+    always-dark Olympic City, with visual customisation of every car.
+  great: >
+    It made car culture the game instead of the car. Body kits, vinyls and
+    neon underglow mattered because the game treated how your car looked
+    as seriously as how fast it went.
+  mine: >
+    — your memory goes here —
+  mentions: [nfs-underground-2]
+  where:
+    - label: redump.org (disc images)
+      url: https://redump.org
+  status: preserved
+  status_note: >
+    No longer sold; the retail discs are dumped.
+  tags: [racing, formative]
+
+- id: nfs-underground-2
+  title: "Need for Speed: Underground 2"
+  year: 2004
+  platform: PC
+  by: EA Black Box
+  what: >
+    Underground opened up into a free-roam city, Bayview, that you drove
+    around between races to find shops and events, with even deeper
+    customisation and SUVs added to the garage.
+  great: >
+    Driving between races was the point. The city gave the tuning
+    somewhere to be shown off, and the soundtrack — Snoop Dogg's
+    "Riders on the Storm" over the title screen — set the whole era's mood.
+  mine: >
+    — your memory goes here —
+  mentions: [nfs-underground, nfs-most-wanted]
+  where:
+    - label: redump.org (disc images)
+      url: https://redump.org
+  status: preserved
+  status_note: >
+    No longer sold; the retail discs are dumped.
+  tags: [racing, open-world, formative]
+
+- id: nfs-most-wanted
+  title: "Need for Speed: Most Wanted"
+  year: 2005
+  platform: PC
+  by: EA Black Box
+  what: >
+    Daylight returns, and the police with it. You climb a Blacklist of
+    fifteen rival racers in the city of Rockport to win back your BMW M3
+    GTR from Razor, while escalating police pursuits chase you down.
+  great: >
+    The chases. Heat levels rose until the city sent helicopters and
+    roadblocks, and losing them by dropping a water tower on a cruiser was
+    as much the game as the racing.
+  mine: >
+    — your memory goes here —
+  mentions: [nfs-underground-2]
+  where:
+    - label: redump.org (disc images)
+      url: https://redump.org
+  status: preserved
+  status_note: >
+    No longer sold; the retail discs are dumped.
+  tags: [racing, open-world, formative]
+
+- id: civcity-rome
+  title: "CivCity: Rome"
+  year: 2006
+  platform: PC
+  by: Firefly Studios with Firaxis
+  what: >
+    A city builder set in the Roman Empire, from the makers of Stronghold
+    under the Civilization banner. You lay out roads, housing and supply
+    chains and keep your citizens fed, entertained and housed well enough
+    to grow from village to city.
+  great: >
+    You could zoom into any house and see exactly what its family lacked,
+    so the economy was never abstract — a missing bakery was a specific
+    unhappy household.
+  mine: >
+    — your memory goes here —
+  mentions: [simcity-societies]
+  where:
+    - label: GOG (still sold)
+      url: https://www.gog.com
+  status: preserved
+  tags: [city-builder, strategy, pc]
+
+- id: simcity-societies
+  title: SimCity Societies
+  year: 2007
+  platform: PC
+  by: Tilted Mill Entertainment
+  what: >
+    A SimCity built around values rather than zoning. Buildings produce
+    and consume social energies — productivity, prosperity, creativity,
+    spirituality, authority, knowledge — and the balance decides whether
+    you end up with a utopia, a police state, or something stranger.
+  great: >
+    Longtime SimCity players disliked it for dropping the planning, and
+    they had a point. But it asked what kind of society you were building,
+    not just how efficiently, and no other city builder of the time did.
+  mine: >
+    — your memory goes here —
+  mentions: [civcity-rome, simcity-4]
+  where:
+    - label: redump.org (disc images)
+      url: https://redump.org
+  status: preserved
+  tags: [city-builder, simulation, pc]
+
+- id: simcity-4
+  title: SimCity 4
+  year: 2003
+  platform: PC
+  by: Maxis
+  what: >
+    The deepest of the classic SimCities. Cities sit side by side in a
+    region and trade commuters, power and water with each other; the
+    Rush Hour expansion let you drive the cars yourself.
+  great: >
+    The region map meant no city was finished on its own. A dirty
+    industrial town could exist to keep its neighbour clean, which is a
+    truer picture of how places actually work than most games manage.
+  mine: >
+    — your memory goes here —
+  mentions: [simcity-societies, the-sims]
+  where:
+    - label: Steam / EA (still sold)
+      url: https://store.steampowered.com
+  status: preserved
+  tags: [city-builder, simulation, pc]
+
+- id: the-sims
+  title: The Sims
+  year: 2000
+  platform: PC
+  by: Maxis (Will Wright)
+  what: >
+    A dollhouse simulation of ordinary households. You build their home
+    and guide their days — work, friendships, bills, hunger — while they
+    talk in invented Simlish under a green plumbob.
+  great: >
+    It made a game out of daily life with no win condition, and trusted
+    players to invent their own stories. That everyone also remembers
+    removing the pool ladder says how much freedom it handed over.
+  mine: >
+    — your memory goes here —
+  mentions: [simcity-4]
+  status: preserved
+  tags: [simulation, life-sim, pc, formative]
+
+- id: age-of-empires-2
+  title: "Age of Empires II: The Age of Kings"
+  year: 1999
+  platform: PC
+  by: Ensemble Studios
+  what: >
+    A real-time strategy game across the Middle Ages. Gather resources,
+    advance through four ages, and fight with historical civilisations,
+    with campaigns following William Wallace, Joan of Arc, Saladin,
+    Genghis Khan and Barbarossa.
+  great: >
+    Thirteen civilisations with one shared rulebook, each with just enough
+    difference to matter. It is balanced well enough that people still
+    play it competitively more than twenty-five years later.
+  mine: >
+    — your memory goes here —
+  where:
+    - label: Definitive Edition (still sold)
+      url: https://www.ageofempires.com
+  status: preserved
+  tags: [strategy, rts, pc, formative]
+
+- id: gta-san-andreas
+  title: "Grand Theft Auto: San Andreas"
+  year: 2004
+  platform: PC
+  by: Rockstar North
+  what: >
+    CJ returns home to Grove Street after his mother's death and is pulled
+    back into gang life, in a state-sized open world spanning three cities,
+    countryside and desert.
+  great: >
+    The world reacted to you — eat too much and CJ got fat, go to the gym
+    and he got strong, and the radio stations made a long drive feel like
+    an evening. It set the scale everything after it was measured against.
+  mine: >
+    — your memory goes here —
+  mentions: [nfs-underground-2]
+  where:
+    - label: redump.org (disc images)
+      url: https://redump.org
+  status: preserved
+  tags: [open-world, action, pc, formative]
+
+- id: counter-strike
+  title: Counter-Strike 1.6
+  year: 2003
+  platform: PC
+  by: Valve (from Minh Le & Jess Cliffe's mod)
+  what: >
+    Terrorists against counter-terrorists in short rounds: plant or defuse
+    the bomb, rescue or guard the hostages. Started as a Half-Life mod in
+    1999; version 1.6 is the one LAN parties and internet cafés ran for
+    years.
+  great: >
+    One life per round and money carried between rounds made every death
+    cost something. de_dust2 is probably the most-played map in the history
+    of the medium, and it is still learnable in an afternoon.
+  mine: >
+    — your memory goes here —
+  mentions: [half-life-2]
+  status: preserved
+  status_note: >
+    Still sold on Steam.
+  tags: [shooter, multiplayer, pc, formative]
+
+- id: warcraft-3
+  title: "Warcraft III: Reign of Chaos (and DotA)"
+  year: 2002
+  platform: PC
+  by: Blizzard Entertainment
+  what: >
+    A real-time strategy game with hero units, across humans, orcs, undead
+    and night elves. Its map editor produced Defense of the Ancients — five
+    heroes a side pushing down three lanes — which became a genre of its
+    own.
+  great: >
+    Blizzard shipped the tools it built the game with, and players used
+    them to invent something bigger than the game. DotA, and everything
+    descended from it, exists because of that editor.
+  mine: >
+    — your memory goes here —
+  mentions: [age-of-empires-2, age-of-mythology]
+  status: preserved
+  status_note: >
+    The 2002 original was replaced on Battle.net by Warcraft III: Reforged
+    in 2020, which overwrote existing installs. The original release is
+    kept by disc dumps; custom maps from the era survive on fan archives.
+  tags: [strategy, rts, pc, formative]
+
+- id: rollercoaster-tycoon
+  title: RollerCoaster Tycoon
+  year: 1999
+  platform: PC
+  by: Chris Sawyer
+  what: >
+    Build and run an amusement park: lay track for coasters, set prices,
+    hire staff, and keep guests from throwing up on the paths. Written
+    almost entirely in assembly language by one programmer.
+  great: >
+    You could ride your own coaster from a guest's point of view, and the
+    guests' thoughts told you exactly what was wrong — "I want to go on
+    something more thrilling," "This path is disgusting."
+  mine: >
+    — your memory goes here —
+  mentions: [simcity-4, the-sims]
+  status: preserved
+  status_note: >
+    Still sold on GOG and Steam; OpenRCT2 keeps it running on modern systems.
+  tags: [simulation, management, pc]
+
+- id: minecraft
+  title: Minecraft
+  year: 2011
+  platform: PC
+  by: Mojang (Markus Persson)
+  what: >
+    An open world made of blocks you can break and place. Survive the
+    night against monsters, or build anything in creative mode. Playable
+    in alpha from 2009; full release in 2011.
+  great: >
+    It gave you no goal and the world turned out to be enough. Every
+    player's world is different, which makes it the closest thing games
+    have to a personal journal.
+  mine: >
+    — your memory goes here —
+  status: preserved
+  status_note: >
+    The game is safe. Your own worlds are not — if any old save survives on
+    an old drive, it is the most personal file on this shelf.
+  tags: [sandbox, pc, formative]
+
+- id: age-of-mythology
+  title: Age of Mythology
+  year: 2002
+  platform: PC
+  by: Ensemble Studios
+  what: >
+    Age of Empires with gods. Greek, Egyptian and Norse civilisations pick
+    a patron god each age, gaining myth units — minotaurs, cyclopes —
+    and one-use god powers like lightning storms and meteors.
+  great: >
+    Choosing a god every age meant two players of the same civilisation
+    could play completely differently. And dropping a meteor on someone's
+    town centre never stopped being satisfying.
+  mine: >
+    — your memory goes here —
+  mentions: [age-of-empires-2]
+  status: preserved
+  status_note: >
+    Remastered as Age of Mythology: Retold (2024); still sold.
+  tags: [strategy, rts, pc]
+
+- id: half-life-2
+  title: Half-Life 2
+  year: 2004
+  platform: PC
+  by: Valve
+  what: >
+    Gordon Freeman returns to a City 17 occupied by the alien Combine. A
+    first-person shooter built on a physics engine, best remembered for the
+    Gravity Gun.
+  great: >
+    Physics became the puzzle. Picking up a saw blade with the Gravity Gun
+    and firing it was a new verb, and the game never once stopped to tell
+    you the story — you were always in it.
+  mine: >
+    — your memory goes here —
+  mentions: [counter-strike]
+  status: preserved
+  status_note: >
+    Still sold on Steam.
+  tags: [shooter, pc, formative]
+
+- id: plants-vs-zombies
+  title: Plants vs. Zombies
+  year: 2009
+  platform: PC
+  by: PopCap Games
+  what: >
+    Tower defence on a lawn. Plant peashooters, sunflowers and walnuts in
+    rows to stop zombies shambling toward your house.
+  great: >
+    It taught tower defence to people who had never heard the phrase, and
+    every new plant and zombie arrived exactly when you understood the last
+    one. The zombie's letters and the end song are still charming.
+  mine: >
+    — your memory goes here —
+  status: preserved
+  tags: [strategy, tower-defence, pc]
+
+- id: gta-liberty-city-stories
+  title: "Grand Theft Auto: Liberty City Stories"
+  year: 2005
+  platform: PSP
+  by: Rockstar Leeds
+  what: >
+    A prequel to GTA III, set in Liberty City in 1998, following mob
+    enforcer Toni Cipriani. Built for the PSP.
+  great: >
+    A full open-world GTA in your pocket, which in 2005 seemed impossible.
+  mine: >
+    — your memory goes here —
+  mentions: [gta-vice-city-stories, gta-san-andreas]
+  where:
+    - label: redump.org (UMD images)
+      url: https://redump.org
+  status: preserved
+  tags: [open-world, action, psp]
+
+- id: gta-vice-city-stories
+  title: "Grand Theft Auto: Vice City Stories"
+  year: 2006
+  platform: PSP
+  by: Rockstar Leeds
+  what: >
+    A prequel to Vice City, set in 1984, following soldier Victor Vance as
+    he builds a criminal empire. Built for the PSP.
+  great: >
+    The empire-building — taking over businesses across the city — gave it
+    something the bigger console games did not have, and the 80s radio was
+    as good as the original's.
+  mine: >
+    — your memory goes here —
+  mentions: [gta-liberty-city-stories]
+  where:
+    - label: redump.org (UMD images)
+      url: https://redump.org
+  status: preserved
+  tags: [open-world, action, psp]
+
+- id: flash-games
+  title: Miniclip and flash games
+  year: 2001
+  platform: Web browser (Flash)
+  by: Miniclip, Newgrounds, Armor Games and many others
+  what: >
+    Thousands of free browser games — on Miniclip, Newgrounds, Addicting
+    Games — made in Adobe Flash, often by one person, played on school and
+    family computers.
+  great: >
+    Anyone could make one and anyone could play one, with no install. It
+    was the most open games scene there has ever been.
+  mine: >
+    — which ones. name them — that is what makes them findable later —
+  where:
+    - label: Flashpoint Archive
+      url: https://flashpointarchive.org
+  status: preserved
+  status_note: >
+    Flash died at the end of 2020, and the games went with it from the web.
+    Flashpoint has archived well over 100,000 of them. If a specific game you
+    remember is not in Flashpoint, that one is at risk.
+  tags: [browser, flash, formative]
+
+- id: club-penguin
+  title: Club Penguin
+  year: 2005
+  platform: Web browser
+  by: New Horizon Interactive, later Disney
+  what: >
+    A virtual world for kids where you were a penguin: decorate your igloo,
+    play minigames for coins, adopt puffles, go to parties.
+  great: >
+    A safe, cheerful online space for children, with moderated chat and an
+    events calendar that made it feel alive.
+  mine: >
+    — your memory goes here —
+  status: gone
+  status_note: >
+    Disney shut it down in 2017. Fan-run private servers came and went —
+    Club Penguin Rewritten was shut down in 2022 — so there is no official
+    way to visit it.
+  tags: [browser, mmo, kids, formative]
+
+- id: yoville
+  title: YoVille
+  year: 2008
+  platform: Facebook
+  by: Zynga
+  what: >
+    A Facebook virtual world: dress your avatar, decorate your apartment,
+    visit friends, work jobs for coins. Later rebranded YoWorld.
+  great: >
+    — why it was worth playing —
+  mine: >
+    — your memory goes here —
+  mentions: [farmville]
+  status_note: >
+    Check whether YoWorld still runs; the original Facebook version is long
+    gone.
+  tags: [facebook, social]
+
+- id: farmville
+  title: FarmVille
+  year: 2009
+  platform: Facebook
+  by: Zynga
+  what: >
+    Plant crops, wait real hours for them to grow, and come back to harvest
+    them before they withered — and send your friends requests for help.
+  great: >
+    Arguable, and worth writing down because of that. It made games of
+    waiting and asking friends, and tens of millions played it.
+  mine: >
+    — your memory goes here —
+  mentions: [yoville]
+  status: gone
+  status_note: >
+    The original Flash FarmVille shut down at the end of 2020 with Flash.
+  tags: [facebook, social]
+
+- id: galaxy-legion
+  title: Galaxy Legion
+  year: 2010
+  platform: Facebook / web browser
+  what: >
+    A browser sci-fi MMO, first played through Facebook: command starships,
+    gather resources, build colonies and fight across a galaxy shared with
+    every other player, with galactic politics between legions.
+  great: >
+    — why it was worth playing —
+  mine: >
+    — your memory goes here —
+  where:
+    - label: Galaxy Legion (still online)
+      url: https://galaxylegion.com/start/
+  status: at-risk
+  status_note: >
+    Still running as of 2026, one of very few games of its Facebook
+    generation that is. One operator; if it shuts down, nothing else holds it.
+  tags: [browser, mmo, space, strategy]
+
+- id: call-of-duty-4
+  title: "Call of Duty 4: Modern Warfare"
+  year: 2007
+  platform: PC
+  by: Infinity Ward
+  what: >
+    Call of Duty moved from World War II to the present day: a campaign
+    split between an SAS sergeant and a US Marine, and an online mode with
+    levels, unlocks and perks.
+  great: >
+    "All Ghillied Up" is one of the best levels ever made, and the
+    multiplayer's levelling system was copied by nearly every shooter for
+    the next decade.
+  mine: >
+    — your memory goes here —
+  mentions: [call-of-duty-mw2, counter-strike]
+  status: preserved
+  status_note: >
+    Still sold on Steam.
+  tags: [shooter, pc, multiplayer]
+
+- id: call-of-duty-mw2
+  title: "Call of Duty: Modern Warfare 2"
+  year: 2009
+  platform: PC
+  by: Infinity Ward
+  what: >
+    The sequel: Task Force 141, Soap and Ghost, and Spec Ops co-op.
+    Multiplayer added killstreaks up to a tactical nuke.
+  great: >
+    The most spectacular campaign of its time, and the multiplayer most
+    people of that generation remember playing until morning.
+  mine: >
+    — your memory goes here —
+  mentions: [call-of-duty-4]
+  status: preserved
+  status_note: >
+    Still sold on Steam.
+  tags: [shooter, pc, multiplayer]
+
+- id: snake-nokia
+  title: Snake (Nokia)
+  year: 1997
+  platform: Nokia phones
+  by: Taneli Armanto (Nokia)
+  what: >
+    A line that grows every time it eats a dot, until it runs into itself.
+    First shipped on the Nokia 6110 and preloaded on hundreds of millions
+    of phones.
+  great: >
+    The first game a huge number of people ever played, on a device they
+    did not think of as a games machine.
+  mine: >
+    — your memory goes here. whose phone, what your high score was —
+  mentions: [angry-birds]
+  status: preserved
+  status_note: >
+    The original phones still work and the game is widely recreated; the
+    exact feel of the keypad is the part that is hard to keep.
+  tags: [mobile, nokia, formative]
+
+- id: angry-birds
+  title: Angry Birds
+  year: 2009
+  platform: iPhone / Android
+  by: Rovio Entertainment
+  what: >
+    Fling birds from a slingshot to knock down structures and pop the
+    green pigs who stole their eggs.
+  great: >
+    The physics made every throw slightly different, and the one-more-try
+    loop made smartphones a games platform for everyone.
+  mine: >
+    — your memory goes here —
+  mentions: [snake-nokia, temple-run]
+  status: at-risk
+  status_note: >
+    Rovio pulled the original from app stores in 2023. If it is not on an
+    old phone of yours, there is no official way to get it.
+  tags: [mobile, puzzle]
+
+- id: temple-run
+  title: Temple Run
+  year: 2011
+  platform: iPhone / Android
+  by: Imangi Studios
+  what: >
+    An explorer steals an idol and runs forever from demon monkeys —
+    swipe to turn, jump and slide.
+  great: >
+    It invented the endless runner as a phone genre with three gestures.
+  mine: >
+    — your memory goes here —
+  mentions: [subway-surfers]
+  status: preserved
+  tags: [mobile, runner]
+
+- id: subway-surfers
+  title: Subway Surfers
+  year: 2012
+  platform: iPhone / Android
+  by: Kiloo & SYBO Games
+  what: >
+    A graffiti kid runs along subway tracks from an inspector and his dog,
+    dodging trains and collecting coins.
+  great: >
+    Bright, fast, and still updated, it became the most-downloaded mobile
+    game of the 2010s.
+  mine: >
+    — your memory goes here —
+  mentions: [temple-run]
+  status: preserved
+  tags: [mobile, runner]

@@ -20,3 +20,1001 @@
     Broadcast masters exist but streaming availability keeps lapsing by
     region. Worth checking what is actually obtainable.
   tags: [animation, cartoon-network]
+
+- id: dark
+  title: Dark
+  year: 2017
+  platform: Netflix
+  by: Baran bo Odar & Jantje Friese
+  what: >
+    A German series about four families in the small town of Winden whose
+    lives loop across 1953, 1986 and 2019 after a child disappears near
+    the caves under the nuclear plant. Three seasons, 2017–2020.
+  great: >
+    It knew its ending before it began and kept every promise its puzzle
+    made. Time-travel stories usually cheat on their own rules; Dark used
+    them as the plot, and the family-tree diagram became something viewers
+    actually needed.
+  mine: >
+    — your memory goes here —
+  status: at-risk
+  status_note: >
+    A streaming original — it exists where Netflix keeps it. Worth checking
+    whether a physical release exists in any region.
+  tags: [drama, sci-fi, german, time-travel]
+
+- id: the-pitt
+  title: The Pitt
+  year: 2025
+  platform: HBO Max
+  by: R. Scott Gemmill, with Noah Wyle
+  what: >
+    A medical drama set in a Pittsburgh emergency room. Each season is one
+    fifteen-hour shift and each episode is one hour of it, following Dr.
+    Robby (Noah Wyle) and his residents in close to real time.
+  great: >
+    The real-time structure removes the usual escape hatches — no skipping
+    to the next day, no resetting after a bad case. Exhaustion accumulates
+    on screen the way it would in the room.
+  mine: >
+    — your memory goes here —
+  status: at-risk
+  status_note: >
+    Still airing, and streaming-first. Check for a physical release.
+  tags: [drama, medical]
+
+- id: avatar-the-last-airbender
+  title: "Avatar: The Last Airbender"
+  year: 2005
+  platform: Nickelodeon
+  by: Michael Dante DiMartino & Bryan Konietzko
+  what: >
+    In a world where people can bend water, earth, fire or air, a
+    twelve-year-old airbender, Aang, wakes from a hundred years frozen in
+    ice to end the Fire Nation's war. Three seasons, called Books.
+  great: >
+    A children's cartoon with a complete, planned arc, real stakes, and
+    Zuko — maybe the best redemption story in television, told over three
+    years at exactly the pace it needed.
+  mine: >
+    — your memory goes here —
+  status: preserved
+  tags: [animation, nickelodeon, formative]
+
+- id: ben-10
+  title: Ben 10
+  year: 2005
+  platform: Cartoon Network
+  by: Man of Action
+  what: >
+    Ten-year-old Ben Tennyson finds the Omnitrix, a watch that turns him
+    into ten different aliens, on a summer road trip with his cousin Gwen
+    and Grandpa Max.
+  great: >
+    The Omnitrix was the perfect playground idea — which alien would you
+    pick — and the watch timing out at the worst moment kept every fight
+    from being easy.
+  mine: >
+    — your memory goes here —
+  mentions: [dexters-laboratory]
+  status: preserved
+  tags: [animation, cartoon-network, formative]
+
+- id: spongebob-squarepants
+  title: SpongeBob SquarePants
+  year: 1999
+  platform: Nickelodeon
+  by: Stephen Hillenburg
+  what: >
+    An endlessly optimistic sea sponge who flips Krabby Patties in Bikini
+    Bottom, with his starfish best friend Patrick and his miserable
+    neighbour Squidward. Created by a former marine biologist.
+  great: >
+    The early seasons are joke-dense in a way that works for children and
+    adults at the same time, and half the internet still speaks in its
+    screenshots.
+  mine: >
+    — your memory goes here —
+  status: preserved
+  tags: [animation, nickelodeon, formative]
+
+- id: pokemon-anime
+  title: Pokémon (anime)
+  year: 1997
+  platform: TV Tokyo
+  by: OLM
+  what: >
+    Ash Ketchum and Pikachu travel from region to region to become a
+    Pokémon Master, chased by Team Rocket every episode.
+  great: >
+    It made the games' world feel alive and enormous, and the English
+    theme song is a generation's shared memory.
+  mine: >
+    — your memory goes here —
+  status: preserved
+  tags: [anime, formative]
+
+- id: naruto
+  title: Naruto
+  year: 2002
+  platform: TV Tokyo
+  by: Studio Pierrot
+  what: >
+    An outcast ninja, Naruto Uzumaki, who carries a sealed fox demon,
+    trains to become the leader of his village.
+  great: >
+    The Chūnin Exams arc — and Naruto against Neji especially — made an
+    underdog story feel earned instead of promised.
+  mine: >
+    — your memory goes here —
+  mentions: [dragon-ball-z]
+  status: preserved
+  tags: [anime]
+
+- id: dragon-ball-z
+  title: Dragon Ball Z
+  year: 1989
+  platform: Fuji TV
+  by: Toei Animation
+  what: >
+    Goku, now an adult, defends Earth from ever-stronger enemies —
+    Saiyans, Frieza, the androids, Cell, Buu — with powering-up that could
+    take whole episodes.
+  great: >
+    Goku turning Super Saiyan for the first time against Frieza is one of
+    the great payoffs in animation, and almost every shōnen series since
+    has borrowed its shape.
+  mine: >
+    — your memory goes here —
+  mentions: [naruto]
+  status: preserved
+  tags: [anime]
+
+- id: death-note
+  title: Death Note
+  year: 2006
+  platform: Nippon TV
+  by: Madhouse
+  what: >
+    A student, Light Yagami, finds a notebook that kills anyone whose name
+    is written in it, and the detective L sets out to catch him.
+  great: >
+    A cat-and-mouse story fought entirely with reasoning. The potato-chip
+    scene is a thriller made out of a teenager eating crisps.
+  mine: >
+    — your memory goes here —
+  status: preserved
+  tags: [anime, thriller]
+
+- id: yu-gi-oh
+  title: Yu-Gi-Oh! Duel Monsters
+  year: 2000
+  platform: TV Tokyo
+  by: Studio Gallop
+  what: >
+    Yugi Mutou solves an ancient puzzle and shares his body with the
+    spirit of a pharaoh, who duels for him in a card game played with
+    holograms.
+  great: >
+    It sold a card game to a generation, and the duels — heart of the
+    cards, the ridiculous rules invented mid-fight — were watched for the
+    drama, not the rules.
+  mine: >
+    — your memory goes here —
+  status: preserved
+  tags: [anime]
+
+- id: the-office-us
+  title: The Office (US)
+  year: 2005
+  platform: NBC
+  by: Greg Daniels
+  what: >
+    A mockumentary about the Dunder Mifflin paper company's Scranton
+    branch and its boss, Michael Scott (Steve Carell). Adapted from Ricky
+    Gervais and Stephen Merchant's British series.
+  great: >
+    It found warmth under the cringe. Jim and Pam's slow story worked
+    because the show was otherwise about how dull the job was.
+  mine: >
+    — your memory goes here —
+  status: preserved
+  tags: [comedy, sitcom]
+
+- id: game-of-thrones
+  title: Game of Thrones
+  year: 2011
+  platform: HBO
+  by: David Benioff & D. B. Weiss
+  what: >
+    Noble houses fight over the Iron Throne of Westeros while an older
+    threat gathers in the north. From George R. R. Martin's novels; eight
+    seasons, 2011–2019.
+  great: >
+    For its first seasons it was willing to kill whoever the story needed,
+    which made watching it a weekly, shared event in a way television had
+    almost stopped being. How it ended is part of the record too.
+  mine: >
+    — your memory goes here —
+  status: preserved
+  tags: [drama, fantasy]
+
+- id: ankahi
+  title: Ankahi
+  year: 1982
+  platform: PTV
+  by: Haseena Moin (writer), Shoaib Mansoor (director)
+  what: >
+    A PTV comedy-drama about Sana, a lively young woman supporting her
+    family by working in an office, starring Shehnaz Sheikh.
+  great: >
+    Haseena Moin wrote women who were funny, independent and sharp, in a
+    way that still feels modern decades later.
+  mine: >
+    — your memory goes here —
+  mentions: [alpha-bravo-charlie]
+  status: at-risk
+  status_note: >
+    Old PTV dramas survive mostly as uploads by individuals on YouTube.
+    Worth checking the quality of what exists.
+  tags: [pakistani, drama, ptv]
+
+- id: alpha-bravo-charlie
+  title: Alpha Bravo Charlie
+  year: 1998
+  platform: PTV
+  by: Shoaib Mansoor
+  what: >
+    Three friends — Kashif, Faraz and Gulsher — go through army training
+    and are posted to Siachen and Bosnia. A drama-comedy made with the
+    Pakistan Army.
+  great: >
+    It was funny about friendship and serious about duty in the same
+    episode. Gulsher is the character everyone quotes.
+  mine: >
+    — your memory goes here —
+  mentions: [ankahi]
+  status: at-risk
+  status_note: >
+    Survives on YouTube uploads; check for a better-quality source.
+  tags: [pakistani, drama, ptv]
+
+- id: dastaan
+  title: Dastaan
+  year: 2010
+  platform: Hum TV
+  by: Haissam Hussain (director), from Razia Butt's novel Bano
+  what: >
+    A love story set against the Partition of 1947, starring Fawad Khan
+    and Sanam Baloch.
+  great: >
+    It showed Partition's violence plainly, through the lives of one
+    family, which most television avoided.
+  mine: >
+    — your memory goes here —
+  mentions: [humsafar, zindagi-gulzar-hai]
+  status: at-risk
+  status_note: >
+    On Hum TV's YouTube channel; one uploader.
+  tags: [pakistani, drama]
+
+- id: humsafar
+  title: Humsafar
+  year: 2011
+  platform: Hum TV
+  by: Sarmad Khoosat (director), Farhat Ishtiaq (writer)
+  what: >
+    Khirad and Ashar marry at a dying mother's wish and are pulled apart by
+    his mother's scheming. Starring Mahira Khan and Fawad Khan.
+  great: >
+    It was the drama the whole country — and much of India — watched at
+    the same time, and it made its leads stars across the border.
+  mine: >
+    — your memory goes here —
+  mentions: [zindagi-gulzar-hai, dastaan]
+  status: at-risk
+  status_note: >
+    On Hum TV's YouTube channel; one uploader.
+  tags: [pakistani, drama, formative]
+
+- id: zindagi-gulzar-hai
+  title: Zindagi Gulzar Hai
+  year: 2012
+  platform: Hum TV
+  by: Sultana Siddiqui (director), Umera Ahmed (writer)
+  what: >
+    Kashaf, from a struggling family, and Zaroon, from a wealthy one, meet
+    at university and later marry. Starring Sanam Saeed and Fawad Khan.
+  great: >
+    Kashaf is allowed to be bitter and difficult, and the drama takes her
+    reasons seriously. It treats class honestly.
+  mine: >
+    — your memory goes here —
+  mentions: [humsafar]
+  status: at-risk
+  status_note: >
+    On Hum TV's YouTube channel; one uploader.
+  tags: [pakistani, drama]
+
+- id: pyarey-afzal
+  title: Pyarey Afzal
+  year: 2013
+  platform: ARY Digital
+  by: Khalil-ur-Rehman Qamar (writer)
+  what: >
+    Afzal, a carefree young man, falls in love with Farah, and the drama
+    follows what that love costs him. Starring Hamza Ali Abbasi and Ayeza
+    Khan.
+  great: >
+    Khalil-ur-Rehman Qamar's dialogue made it quotable, and its ending was
+    talked about for weeks.
+  mine: >
+    — your memory goes here —
+  status: at-risk
+  status_note: >
+    On ARY Digital's YouTube channel; one uploader.
+  tags: [pakistani, drama]
+
+- id: world-cup-1992
+  title: 1992 Cricket World Cup
+  year: 1992
+  platform: PTV
+  by: Pakistan, captained by Imran Khan
+  what: >
+    Pakistan won the World Cup in Australia, beating England in the final
+    at the MCG after nearly going out early — Imran's "cornered tigers."
+    Wasim Akram's two deliveries to Allan Lamb and Chris Lewis turned the
+    final.
+  great: >
+    The comeback is the story: a team that was close to elimination
+    winning everything.
+  mine: >
+    — family lore. who told you about it, what they remembered, where they
+    watched it —
+  mentions: [t20-world-cup-2009]
+  status: preserved
+  status_note: >
+    Broadcast footage survives. What does not survive anywhere is your
+    family's version of the night.
+  tags: [cricket, pakistan, sports]
+
+- id: afridi-shoaib-era
+  title: Shahid Afridi and Shoaib Akhtar
+  year: 1996
+  platform: PTV / Ten Sports
+  what: >
+    Afridi hit a 37-ball one-day century against Sri Lanka in 1996, at
+    sixteen, and spent the next twenty years either winning matches in a
+    few overs or getting out first ball. Shoaib Akhtar, the "Rawalpindi
+    Express," bowled the first officially recorded 100 mph delivery, at
+    the 2003 World Cup.
+  great: >
+    Watching either of them, anything could happen in the next ball. That
+    is what kept a whole country in front of the television.
+  mine: >
+    — your memory goes here —
+  mentions: [t20-world-cup-2009]
+  status: preserved
+  tags: [cricket, pakistan, sports, formative]
+
+- id: t20-world-cup-2009
+  title: 2009 ICC World Twenty20
+  year: 2009
+  platform: PTV / Geo Super
+  by: Pakistan, captained by Younis Khan
+  what: >
+    Pakistan won the second World Twenty20 in England, beating Sri Lanka by
+    eight wickets in the final at Lord's, with Shahid Afridi unbeaten on
+    54.
+  great: >
+    It came in a hard year for cricket in Pakistan, when no international
+    team would tour the country, and it felt like more than a trophy.
+  mine: >
+    — your memory goes here —
+  mentions: [world-cup-1992, afridi-shoaib-era]
+  status: preserved
+  tags: [cricket, pakistan, sports, formative]
+
+- id: wwe
+  title: WWE (John Cena to Roman Reigns)
+  year: 2002
+  platform: TV
+  what: >
+    Professional wrestling. John Cena's "You can't see me" and the
+    "AND HIS NAME IS JOHN CENA" entrance, the Undertaker, Batista, Rey
+    Mysterio — and later Roman Reigns, from The Shield to the Tribal Chief.
+  great: >
+    Everyone knew it was scripted and it did not matter. It was a soap
+    opera with entrances, and every playground re-enacted it.
+  mine: >
+    — your memory goes here —
+  status: preserved
+  tags: [wrestling, sports]
+
+- id: fifty-fifty
+  title: Fifty Fifty
+  year: 1978
+  platform: PTV
+  by: Shoaib Mansoor, Anwar Maqsood
+  what: >
+    A PTV sketch comedy show of the late 1970s and early 80s, with Ismail
+    Tara, Majid Jahangir, Zeba Shehnaz and Bushra Ansari, satirising
+    everyday Pakistani life.
+  great: >
+    Satire on state television, sharp enough to still be passed around.
+  mine: >
+    — your memory goes here —
+  mentions: [ankahi, alpha-bravo-charlie]
+  status: at-risk
+  status_note: >
+    Survives in fragments uploaded by individuals.
+  tags: [pakistani, comedy, ptv]
+
+- id: bulbulay
+  title: Bulbulay
+  year: 2009
+  platform: ARY Digital
+  by: Nabeel
+  what: >
+    A long-running family sitcom: Nabeel, Mehmood Sahab, Khoobsurat and
+    Momo in one chaotic household.
+  great: >
+    Low-budget, loud and endless, and somehow always on in someone's house.
+  mine: >
+    — your memory goes here —
+  status: at-risk
+  status_note: >
+    On ARY's YouTube channel; one uploader.
+  tags: [pakistani, comedy, sitcom]
+
+- id: meri-zaat-zarra-e-benishan
+  title: Meri Zaat Zarra-e-Benishan
+  year: 2009
+  platform: Geo TV
+  by: Umera Ahmed (writer)
+  what: >
+    A drama written by Umera Ahmed about a woman whose marriage is
+    destroyed by an accusation, and the long consequences for her family.
+  great: >
+    — why it stayed with you —
+  mine: >
+    — your memory goes here —
+  mentions: [zindagi-gulzar-hai]
+  status: at-risk
+  tags: [pakistani, drama]
+
+- id: sadqay-tumhare
+  title: Sadqay Tumhare
+  year: 2014
+  platform: Hum TV
+  by: Khalil-ur-Rehman Qamar (writer)
+  what: >
+    A village love story, drawn from the writer's own life, starring Mahira
+    Khan and Adnan Malik.
+  great: >
+    — why it stayed with you —
+  mine: >
+    — your memory goes here —
+  mentions: [pyarey-afzal, humsafar]
+  status: at-risk
+  status_note: >
+    On Hum TV's YouTube channel; one uploader.
+  tags: [pakistani, drama]
+
+- id: world-cup-2010
+  title: 2010 FIFA World Cup
+  year: 2010
+  platform: TV
+  what: >
+    The first World Cup in Africa, in South Africa. Vuvuzelas droning
+    through every match, Shakira's "Waka Waka," Paul the Octopus picking
+    winners, and Spain beating the Netherlands with Iniesta's extra-time
+    goal.
+  great: >
+    The world watched the same thing at the same time, and the sound of it
+    — the vuvuzelas — is unmistakable to anyone who heard it.
+  mine: >
+    — your memory goes here —
+  status: preserved
+  tags: [football, sports]
+
+- id: ainak-wala-jin
+  title: Ainak Wala Jin
+  year: 1993
+  platform: PTV
+  by: A. Hameed (writer)
+  what: >
+    A children's fantasy on PTV: Nastoor, a jinn who needs glasses, lives
+    among humans, with the witch Bil Batori and her servant Zakoota.
+  great: >
+    Homemade effects and total commitment. Every Pakistani child of the
+    90s knows "Zakoota jin."
+  mine: >
+    — your memory goes here —
+  mentions: [alpha-bravo-charlie]
+  status: at-risk
+  status_note: >
+    Survives as uploads by individuals; quality varies.
+  tags: [pakistani, kids, ptv, formative]
+
+- id: tom-and-jerry
+  title: Tom and Jerry
+  year: 1940
+  platform: Reruns
+  by: William Hanna & Joseph Barbera (MGM)
+  what: >
+    A cat chasing a mouse, almost without dialogue, in short cartoons made
+    at MGM from 1940.
+  great: >
+    Slapstick needs no language, which is why it played in every country
+    and every decade.
+  mine: >
+    — your memory goes here —
+  mentions: [looney-tunes, oggy-and-the-cockroaches]
+  status: preserved
+  tags: [animation, kids, classic]
+
+- id: looney-tunes
+  title: Looney Tunes
+  year: 1930
+  platform: Reruns
+  by: Warner Bros. (Chuck Jones, Tex Avery, Friz Freleng)
+  what: >
+    Bugs Bunny, Daffy Duck, Road Runner and Wile E. Coyote, Tweety and
+    Sylvester.
+  great: >
+    Chuck Jones's Road Runner cartoons are a masterclass in timing, and
+    Bugs is the coolest character animation ever made.
+  mine: >
+    — your memory goes here —
+  mentions: [tom-and-jerry]
+  status: preserved
+  tags: [animation, kids, classic]
+
+- id: oggy-and-the-cockroaches
+  title: Oggy and the Cockroaches
+  year: 1998
+  platform: Reruns
+  by: Xilam
+  what: >
+    A lazy blue cat at war with three cockroaches — Joey, Dee Dee and
+    Marky — who live in his house. French, and nearly wordless.
+  great: >
+    Like Tom and Jerry, it needed no translation, which made it a fixture
+    of children's TV across South Asia.
+  mine: >
+    — your memory goes here —
+  mentions: [tom-and-jerry, mr-bean]
+  status: preserved
+  tags: [animation, kids]
+
+- id: mr-bean
+  title: Mr. Bean
+  year: 1990
+  platform: ITV
+  by: Rowan Atkinson & Richard Curtis
+  what: >
+    A man who barely speaks causes small disasters in ordinary places —
+    the dentist, the swimming pool, the exam hall. Later an animated
+    series.
+  great: >
+    Rowan Atkinson's physical comedy works with no words, which is why it
+    was understood everywhere.
+  mine: >
+    — your memory goes here —
+  mentions: [oggy-and-the-cockroaches]
+  status: preserved
+  tags: [comedy, kids]
+
+- id: kim-possible
+  title: Kim Possible
+  year: 2002
+  platform: Disney Channel
+  by: Bob Schooley & Mark McCorkle
+  what: >
+    A high-school cheerleader saves the world between classes, with her
+    best friend Ron Stoppable and his naked mole-rat Rufus, against Dr.
+    Drakken and Shego. "Call me, beep me..."
+  great: >
+    A capable girl hero played straight, and genuinely funny. Shego was
+    cooler than most heroes.
+  mine: >
+    — your memory goes here —
+  status: preserved
+  tags: [animation, disney, formative]
+
+- id: fillmore
+  title: Fillmore!
+  year: 2002
+  platform: Disney Channel / ABC
+  by: Scott M. Gimple
+  what: >
+    Cornelius Fillmore, a reformed troublemaker, and his partner Ingrid
+    Third solve crimes as members of X Middle School's safety patrol —
+    stolen test answers and vandalised trophies, played exactly like a 70s
+    cop show.
+  great: >
+    It took school seriously the way children do, and wrapped it in
+    genuine mystery plots with real clues. A parody that was also a good
+    detective show.
+  mine: >
+    — your memory goes here —
+  mentions: [kim-possible, recess]
+  status: at-risk
+  status_note: >
+    Two seasons, little home-video release, and in and out of Disney+.
+    Worth checking what is actually obtainable.
+  tags: [animation, disney, detective, formative]
+
+- id: recess
+  title: Recess
+  year: 1997
+  platform: Disney Channel / ABC
+  by: Paul Germain & Joe Ansolabehere
+  what: >
+    T.J. Detweiler and his friends at Third Street School treat the
+    playground as a society with its own king, laws and factions.
+  great: >
+    It understood that recess was the real school day, and treated
+    children's politics with respect.
+  mine: >
+    — your memory goes here —
+  mentions: [fillmore, the-proud-family]
+  status: preserved
+  tags: [animation, disney]
+
+- id: the-proud-family
+  title: The Proud Family
+  year: 2001
+  platform: Disney Channel
+  by: Bruce W. Smith
+  what: >
+    Penny Proud, a fourteen-year-old, and her loud, loving family — her
+    overprotective father Oscar, and Suga Mama.
+  great: >
+    One of the first animated shows centred on a Black family on a kids'
+    channel, and funny about family in a way anyone recognised.
+  mine: >
+    — your memory goes here —
+  mentions: [recess]
+  status: preserved
+  tags: [animation, disney]
+
+- id: american-dragon-jake-long
+  title: "American Dragon: Jake Long"
+  year: 2005
+  platform: Disney Channel
+  by: Jeff Goode
+  what: >
+    A thirteen-year-old in New York City who can turn into a dragon —
+    "Dragon up!" — protects the city's hidden magical world while getting
+    through middle school.
+  great: >
+    A superhero setup built on Chinese mythology and New York skate
+    culture, with a look you could tell from across the room.
+  mine: >
+    — your memory goes here —
+  mentions: [kim-possible]
+  status: preserved
+  tags: [animation, disney]
+
+- id: phineas-and-ferb
+  title: Phineas and Ferb
+  year: 2007
+  platform: Disney Channel
+  by: Dan Povenmire & Jeff "Swampy" Marsh
+  what: >
+    Two stepbrothers fill each of the 104 days of summer vacation with an
+    impossible project, while their pet platypus Perry is secretly an agent
+    foiling Dr. Doofenshmirtz.
+  great: >
+    The same formula every episode, varied endlessly — and a new original
+    song in nearly every one.
+  mine: >
+    — your memory goes here —
+  mentions: [gravity-falls]
+  status: preserved
+  tags: [animation, disney, formative]
+
+- id: gravity-falls
+  title: Gravity Falls
+  year: 2012
+  platform: Disney Channel
+  by: Alex Hirsch
+  what: >
+    Twins Dipper and Mabel spend the summer with their great-uncle in an
+    Oregon town full of supernatural mysteries, leading to Bill Cipher.
+  great: >
+    A mystery with a planned ending, and ciphers hidden in the end credits
+    that fans decoded each week.
+  mine: >
+    — your memory goes here —
+  mentions: [phineas-and-ferb]
+  status: preserved
+  tags: [animation, disney, mystery]
+
+- id: thats-so-raven
+  title: That's So Raven
+  year: 2003
+  platform: Disney Channel
+  by: Michael Poryes & Susan Sherman
+  what: >
+    Raven Baxter (Raven-Symoné) has psychic visions of the future that she
+    always misreads, and has to fix the mess.
+  great: >
+    Raven-Symoné's physical comedy and disguises carried a show built on
+    one good joke.
+  mine: >
+    — your memory goes here —
+  mentions: [suite-life-of-zack-and-cody]
+  status: preserved
+  tags: [sitcom, disney]
+
+- id: suite-life-of-zack-and-cody
+  title: The Suite Life of Zack & Cody
+  year: 2005
+  platform: Disney Channel
+  by: Danny Kallis & Jim Geoghan
+  what: >
+    Twins Zack and Cody live in the Tipton Hotel in Boston, where their
+    mother sings in the lounge, making trouble for the manager Mr. Moseby
+    and the heiress London Tipton.
+  great: >
+    A hotel as a playground was every child's fantasy, and Mr. Moseby's
+    "No running in my lobby!" is permanent.
+  mine: >
+    — your memory goes here —
+  mentions: [hannah-montana, thats-so-raven]
+  status: preserved
+  tags: [sitcom, disney, formative]
+
+- id: hannah-montana
+  title: Hannah Montana
+  year: 2006
+  platform: Disney Channel
+  by: Michael Poryes, Rich Correll & Barry O'Brien
+  what: >
+    Miley Stewart (Miley Cyrus) lives a double life as a normal teenager
+    and secret pop star Hannah Montana, with a blonde wig.
+  great: >
+    "The Best of Both Worlds" was the fantasy, and the show was a real
+    music career launched on television.
+  mine: >
+    — your memory goes here —
+  mentions: [suite-life-of-zack-and-cody, wizards-of-waverly-place]
+  status: preserved
+  tags: [sitcom, disney]
+
+- id: wizards-of-waverly-place
+  title: Wizards of Waverly Place
+  year: 2007
+  platform: Disney Channel
+  by: Todd J. Greenwald
+  what: >
+    The Russo siblings — Alex (Selena Gomez), Justin and Max — are wizards
+    in training above their family's sandwich shop, and only one of them
+    can keep their powers.
+  great: >
+    Alex was a lazy, sarcastic lead who still won you over, which kids'
+    TV rarely allowed.
+  mine: >
+    — your memory goes here —
+  mentions: [hannah-montana]
+  status: preserved
+  tags: [sitcom, disney]
+
+- id: fairly-oddparents
+  title: The Fairly OddParents
+  year: 2001
+  platform: Nickelodeon
+  by: Butch Hartman
+  what: >
+    Timmy Turner, neglected by his parents and tormented by his babysitter
+    Vicky, has two fairy godparents, Cosmo and Wanda, who grant his wishes
+    — which always go wrong.
+  great: >
+    Every wish was a cautionary tale, delivered at manic speed.
+  mine: >
+    — your memory goes here —
+  mentions: [danny-phantom, jimmy-neutron]
+  status: preserved
+  tags: [animation, nickelodeon]
+
+- id: danny-phantom
+  title: Danny Phantom
+  year: 2004
+  platform: Nickelodeon
+  by: Butch Hartman
+  what: >
+    An accident in his parents' ghost portal makes fourteen-year-old Danny
+    Fenton half ghost, and he fights ghosts while hiding it from his
+    ghost-hunting family.
+  great: >
+    A real superhero show with a secret identity done well and a villain,
+    Vlad Plasmius, who was genuinely menacing.
+  mine: >
+    — your memory goes here —
+  mentions: [fairly-oddparents]
+  status: preserved
+  tags: [animation, nickelodeon]
+
+- id: jimmy-neutron
+  title: "The Adventures of Jimmy Neutron: Boy Genius"
+  year: 2002
+  platform: Nickelodeon
+  by: John A. Davis
+  what: >
+    A boy genius in the town of Retroville, with his robot dog Goddard,
+    whose inventions cause most of the town's problems. Computer-animated,
+    following a 2001 film.
+  great: >
+    "Brain blast!" — and one of the first computer-animated TV series most
+    children ever saw.
+  mine: >
+    — your memory goes here —
+  mentions: [dexters-laboratory, fairly-oddparents]
+  status: preserved
+  tags: [animation, nickelodeon]
+
+- id: drake-and-josh
+  title: Drake & Josh
+  year: 2004
+  platform: Nickelodeon
+  by: Dan Schneider
+  what: >
+    Two stepbrothers — cool, lazy Drake and anxious, earnest Josh — share a
+    room, and their little sister Megan torments them both.
+  great: >
+    Josh Peck's physical comedy, and Megan always winning.
+  mine: >
+    — your memory goes here —
+  mentions: [icarly]
+  status: preserved
+  tags: [sitcom, nickelodeon]
+
+- id: icarly
+  title: iCarly
+  year: 2007
+  platform: Nickelodeon
+  by: Dan Schneider
+  what: >
+    Carly and her friends Sam and Freddie make a web show from her
+    brother's loft apartment in Seattle.
+  great: >
+    A sitcom about kids making internet video, just as kids were starting
+    to — it arrived at the same moment as the YouTube shelf.
+  mine: >
+    — your memory goes here —
+  mentions: [drake-and-josh, smosh]
+  status: preserved
+  status_note: >
+    The show is preserved. The later documentary Quiet on Set (2024)
+    examined how these Nickelodeon shows were made, which is part of
+    their record now.
+  tags: [sitcom, nickelodeon]
+
+- id: courage-the-cowardly-dog
+  title: Courage the Cowardly Dog
+  year: 1999
+  platform: Cartoon Network
+  by: John R. Dilworth
+  what: >
+    A timid pink dog protects his elderly owners, Muriel and Eustace, from
+    monsters and curses in their farmhouse in the Middle of Nowhere.
+  great: >
+    Genuinely frightening for a children's cartoon — the King Ramses
+    episode stayed with a generation — and about bravery as being scared
+    and doing it anyway.
+  mine: >
+    — your memory goes here —
+  mentions: [dexters-laboratory]
+  status: preserved
+  tags: [animation, cartoon-network, horror]
+
+- id: ed-edd-n-eddy
+  title: Ed, Edd n Eddy
+  year: 1999
+  platform: Cartoon Network
+  by: Danny Antonucci
+  what: >
+    Three boys in a cul-de-sac scheme to con the other kids out of
+    quarters to buy jawbreakers. No adults are ever seen.
+  great: >
+    Hand-drawn with constantly wobbling lines, it looked like nothing else,
+    and its world of only children felt complete.
+  mine: >
+    — your memory goes here —
+  mentions: [courage-the-cowardly-dog]
+  status: preserved
+  tags: [animation, cartoon-network]
+
+- id: powerpuff-girls
+  title: The Powerpuff Girls
+  year: 1998
+  platform: Cartoon Network
+  by: Craig McCracken
+  what: >
+    Blossom, Bubbles and Buttercup — made from sugar, spice, everything
+    nice and Chemical X — save Townsville from Mojo Jojo and HIM.
+  great: >
+    A superhero show and a parody of one, with a design that made three
+    near-identical characters instantly distinct.
+  mine: >
+    — your memory goes here —
+  mentions: [dexters-laboratory]
+  status: preserved
+  tags: [animation, cartoon-network]
+
+- id: teen-titans
+  title: Teen Titans
+  year: 2003
+  platform: Cartoon Network
+  by: Glen Murakami
+  what: >
+    Robin, Starfire, Cyborg, Raven and Beast Boy live in Titans Tower and
+    fight villains, with an anime-influenced style and season-long arcs.
+  great: >
+    It could go from goofy to dark in one episode — the Trigon and Slade
+    arcs especially — and its theme song is unforgettable.
+  mine: >
+    — your memory goes here —
+  mentions: [codename-kids-next-door]
+  status: preserved
+  tags: [animation, cartoon-network]
+
+- id: codename-kids-next-door
+  title: "Codename: Kids Next Door"
+  year: 2002
+  platform: Cartoon Network
+  by: Tom Warburton
+  what: >
+    A global organisation of children fights adult tyranny — broccoli,
+    bedtimes, the dentist — with treehouse weapons built from junk.
+  great: >
+    It built a whole mythology out of a child's grievances, and every
+    gadget was an acronym.
+  mine: >
+    — your memory goes here —
+  mentions: [teen-titans]
+  status: preserved
+  tags: [animation, cartoon-network]
+
+- id: channel-idents
+  title: Cartoon Network and Disney Channel idents
+  year: 2002
+  platform: Cartoon Network / Disney Channel
+  what: >
+    The bits between shows: Disney Channel's wand IDs, where the network's
+    stars drew the logo with a sparkle, and Cartoon Network's CN City,
+    where its characters lived in one cartoon town.
+  great: >
+    They made the channel feel like a place rather than a schedule.
+  mine: >
+    — which ones you remember —
+  mentions: [kim-possible, powerpuff-girls]
+  status: at-risk
+  status_note: >
+    Never released by the networks. They survive only because people taped
+    them and uploaded the tapes.
+  tags: [idents, cartoon-network, disney]
+
+- id: ufone-ads
+  title: Ufone ads
+  year: 2003
+  platform: PTV / Pakistani TV
+  by: Ufone
+  what: >
+    The mobile network's comedy adverts, signed off with the tagline "Tum
+    hi to ho" — short sketches that played between dramas and cricket and
+    were better than a lot of what they interrupted.
+  great: >
+    Ads people actually waited for, and quoted at each other the next day.
+  mine: >
+    — which ones. describe them; the descriptions are what will be
+    searchable later —
+  mentions: [bulbulay, fifty-fifty]
+  status: at-risk
+  status_note: >
+    Ads are never archived by anyone on purpose. What exists is whatever
+    the brand or a viewer uploaded.
+  tags: [pakistani, ads]

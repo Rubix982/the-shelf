@@ -30,3 +30,304 @@
     the playlist will keep losing entries quietly, and a re-capture diffed
     against this file is the only way to find out which ones.
   tags: [playlist, mine, ongoing]
+
+- id: linkin-park
+  title: Linkin Park
+  year: 2000
+  platform: Warner Bros. Records
+  by: Linkin Park
+  what: >
+    Nu-metal and rap-rock from Los Angeles: Chester Bennington's screaming
+    and Mike Shinoda's rapping over electronic production. Hybrid Theory
+    (2000) and Meteora (2003), with "In the End," "Numb," and "Crawling."
+  great: >
+    It gave a generation of teenagers words for feeling overwhelmed, without
+    irony. "In the End" is still one of the most-played rock songs of the
+    century.
+  mine: >
+    — your memory goes here —
+  status: preserved
+  tags: [rock, nu-metal, formative]
+
+- id: eminem
+  title: Eminem
+  year: 1999
+  platform: Aftermath / Interscope
+  by: Eminem
+  what: >
+    The Slim Shady LP (1999), The Marshall Mathers LP (2000), The Eminem
+    Show (2002), and "Lose Yourself" from 8 Mile.
+  great: >
+    Technical rapping — rhymes inside rhymes — at a pace few could match,
+    and "Lose Yourself" became the song people played before anything that
+    mattered.
+  mine: >
+    — your memory goes here —
+  status: preserved
+  tags: [hip-hop, formative]
+
+- id: coldplay
+  title: Coldplay
+  year: 2000
+  platform: Parlophone
+  by: Coldplay
+  what: >
+    Parachutes (2000), A Rush of Blood to the Head (2002), X&Y (2005) and
+    Viva la Vida (2008): "Yellow," "The Scientist," "Fix You," "Viva la
+    Vida."
+  great: >
+    Earnest, melodic songs that never pretended to be cool. "Fix You" is
+    one of those songs people remember the exact moment they needed.
+  mine: >
+    — your memory goes here —
+  status: preserved
+  tags: [rock, pop]
+
+- id: coke-studio-pakistan
+  title: Coke Studio Pakistan
+  year: 2008
+  platform: TV / YouTube
+  by: Rohail Hyatt (founding producer)
+  what: >
+    A studio music show pairing folk, qawwali and classical singers with
+    pop and rock musicians, recorded live. "Alif Allah (Jugni)," "Tajdar-e-Haram,"
+    and, later, "Pasoori."
+  great: >
+    It made traditional music sound new to a young audience, and gave
+    singers from different regions and generations one stage.
+  mine: >
+    — your memory goes here —
+  mentions: [atif-aslam, strings]
+  status: preserved
+  status_note: >
+    Its official YouTube channel holds most seasons.
+  tags: [pakistani, folk, fusion, formative]
+
+- id: strings
+  title: Strings
+  year: 1990
+  platform: EMI Pakistan
+  by: Bilal Maqsood & Faisal Kapadia
+  what: >
+    A Karachi pop-rock band. "Duur" (2000), "Najane Kyun" (used in the
+    Hindi Spider-Man 2), "Zinda."
+  great: >
+    Clean, melodic pop-rock that sounded like Pakistan to a generation.
+  mine: >
+    — your memory goes here —
+  mentions: [junoon, coke-studio-pakistan]
+  status: preserved
+  tags: [pakistani, rock, pop]
+
+- id: junoon
+  title: Junoon
+  year: 1990
+  platform: EMI Pakistan
+  by: Salman Ahmad, Ali Azmat, Brian O'Connell
+  what: >
+    "Sufi rock": electric guitar and Sufi poetry. "Sayonee" (1997),
+    "Jazba-e-Junoon," "Khudi."
+  great: >
+    It joined rock with Pakistan's own mystical poetry instead of copying
+    Western bands, and "Sayonee" was a hit across South Asia.
+  mine: >
+    — your memory goes here —
+  mentions: [strings]
+  status: preserved
+  tags: [pakistani, rock, sufi]
+
+- id: atif-aslam
+  title: Atif Aslam
+  year: 2004
+  by: Atif Aslam
+  what: >
+    Started with "Aadat" (2004, with Jal), then Jal Pari and many Bollywood
+    songs — "Woh Lamhe," "Tere Sang Yaara" — and Coke Studio's "Tajdar-e-Haram."
+  great: >
+    The voice of a decade of love songs on both sides of the border.
+  mine: >
+    — your memory goes here —
+  mentions: [coke-studio-pakistan]
+  status: preserved
+  tags: [pakistani, pop, formative]
+
+- id: green-day
+  title: Green Day
+  year: 2004
+  platform: Reprise
+  by: Green Day
+  what: >
+    American Idiot (2004): "Boulevard of Broken Dreams," "Wake Me Up When
+    September Ends," the title track.
+  great: >
+    A punk rock opera that worked on the radio.
+  mine: >
+    — your memory goes here —
+  mentions: [fall-out-boy, my-chemical-romance]
+  status: preserved
+  tags: [rock, punk]
+
+- id: fall-out-boy
+  title: Fall Out Boy
+  year: 2005
+  platform: Island
+  by: Fall Out Boy
+  what: >
+    From Under the Cork Tree (2005): "Sugar, We're Goin Down," "Dance,
+    Dance." Infinity on High (2007): "Thnks fr th Mmrs."
+  great: >
+    Long, sardonic song titles and choruses built to be shouted.
+  mine: >
+    — your memory goes here —
+  mentions: [green-day, my-chemical-romance]
+  status: preserved
+  tags: [rock, pop-punk]
+
+- id: my-chemical-romance
+  title: My Chemical Romance
+  year: 2006
+  platform: Reprise
+  by: My Chemical Romance
+  what: >
+    The Black Parade (2006): "Welcome to the Black Parade," "Famous Last
+    Words." Before it, "Helena" and "I'm Not Okay (I Promise)."
+  great: >
+    The single G note on the piano at the start of "Welcome to the Black
+    Parade" is an era.
+  mine: >
+    — your memory goes here —
+  mentions: [green-day, fall-out-boy]
+  status: preserved
+  tags: [rock, emo]
+
+- id: akon
+  title: Akon
+  year: 2004
+  platform: Konvict / Universal
+  by: Akon
+  what: >
+    "Lonely," "Smack That," "Don't Matter," "Right Now (Na Na Na)," and
+    a long run of features.
+  great: >
+    He was on half the radio of the late 2000s, one way or another.
+  mine: >
+    — your memory goes here —
+  mentions: [t-pain, black-eyed-peas]
+  status: preserved
+  tags: [pop, r-and-b]
+
+- id: t-pain
+  title: T-Pain
+  year: 2005
+  platform: Konvict / Jive
+  by: T-Pain
+  what: >
+    "Buy U a Drank," "Bartender," "Low" with Flo Rida, and Auto-Tune as a
+    deliberate instrument.
+  great: >
+    He made Auto-Tune a style rather than a correction — and later proved,
+    on NPR's Tiny Desk, he never needed it.
+  mine: >
+    — your memory goes here —
+  mentions: [akon]
+  status: preserved
+  tags: [hip-hop, r-and-b]
+
+- id: black-eyed-peas
+  title: The Black Eyed Peas
+  year: 2003
+  platform: Interscope
+  by: The Black Eyed Peas
+  what: >
+    "Where Is the Love?" (2003), "My Humps," then The E.N.D. (2009): "I
+    Gotta Feeling," "Boom Boom Pow."
+  great: >
+    "I Gotta Feeling" was played at every school event for about three
+    years.
+  mine: >
+    — your memory goes here —
+  mentions: [akon]
+  status: preserved
+  tags: [pop, hip-hop]
+
+- id: daft-punk
+  title: Daft Punk
+  year: 2001
+  platform: Virgin
+  by: Thomas Bangalter & Guy-Manuel de Homem-Christo
+  what: >
+    Discovery (2001): "One More Time," "Digital Love," "Harder, Better,
+    Faster, Stronger," and the anime film Interstella 5555 made from it.
+  great: >
+    Robots making the warmest dance music of the decade. Kanye's "Stronger"
+    sampled it and brought it to everyone else.
+  mine: >
+    — your memory goes here —
+  status: preserved
+  tags: [electronic, dance]
+
+- id: game-soundtracks
+  title: Video game soundtracks
+  year: 2003
+  platform: Games
+  what: >
+    The licensed soundtracks of the games on this shelf: NFS Underground
+    ("Get Low," "Riders on the Storm" in U2), Most Wanted, GTA San
+    Andreas's radio stations — and the scores of Age of Empires II,
+    Half-Life 2 and Minecraft.
+  great: >
+    For a lot of people these were how they first heard whole genres.
+  mine: >
+    — which songs you only know because of a game —
+  mentions: [nfs-underground, nfs-underground-2, nfs-most-wanted, gta-san-andreas, minecraft]
+  status: preserved
+  tags: [soundtrack, games]
+
+- id: nusrat-fateh-ali-khan
+  title: Nusrat Fateh Ali Khan
+  year: 1971
+  platform: Qawwali
+  by: Nusrat Fateh Ali Khan
+  what: >
+    The greatest qawwali singer of the twentieth century: "Mast Qalandar,"
+    "Afreen Afreen," "Tumhe Dillagi," "Mera Piya Ghar Aaya." Brought
+    qawwali to the world through Peter Gabriel's Real World label. Died
+    in 1997.
+  great: >
+    Performances that build for twenty minutes until the whole room is
+    carried. Nothing in recorded music sounds like it.
+  mine: >
+    — your memory goes here —
+  mentions: [coke-studio-pakistan]
+  status: preserved
+  tags: [pakistani, qawwali, sufi]
+
+- id: ali-zafar
+  title: Ali Zafar
+  year: 2003
+  by: Ali Zafar
+  what: >
+    "Channo" from his debut album Huqa Pani (2003), "Rangeen," and later
+    Bollywood roles.
+  great: >
+    Bright, catchy pop that defined Pakistani music video in the early
+    2000s.
+  mine: >
+    — your memory goes here —
+  mentions: [atif-aslam]
+  status: preserved
+  tags: [pakistani, pop]
+
+- id: ali-azmat
+  title: Ali Azmat
+  year: 2005
+  by: Ali Azmat
+  what: >
+    Junoon's singer, then solo: Social Circus (2005), with "Garaj Baras."
+  great: >
+    The voice that made Junoon, carrying on alone.
+  mine: >
+    — your memory goes here —
+  mentions: [junoon]
+  status: preserved
+  tags: [pakistani, rock]

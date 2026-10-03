@@ -1,0 +1,501 @@
+# Films we watched. The `mine` fields are placeholders — that part is yours.
+
+- id: the-godfather
+  title: The Godfather
+  year: 1972
+  platform: Film
+  by: Francis Ford Coppola
+  what: >
+    Mario Puzo's novel about the Corleone crime family, following the
+    youngest son, Michael, from outsider to head of the family.
+  great: >
+    It is a story about a man becoming the thing he meant to stay apart
+    from, told so patiently that you don't notice the change until the
+    door closes on Kay in the last shot.
+  mine: >
+    — your memory goes here —
+  status: preserved
+  tags: [crime, drama]
+
+- id: star-wars
+  title: Star Wars (original trilogy)
+  year: 1977
+  platform: Film
+  by: George Lucas
+  what: >
+    Star Wars (1977), The Empire Strikes Back (1980) and Return of the
+    Jedi (1983). A farm boy, a smuggler and a princess against the Empire
+    and Darth Vader.
+  great: >
+    It made a used, dirty, lived-in future when science fiction was all
+    clean surfaces, and Empire's twist turned a space adventure into a
+    family story.
+  mine: >
+    — your memory goes here —
+  mentions: [raiders-of-the-lost-ark]
+  status: at-risk
+  status_note: >
+    The films are safe; the original theatrical cuts are not. Lucas
+    replaced them with the Special Editions, and the 1977 versions have no
+    proper official release — fan restorations are what keep them. Worth
+    noting which version you actually saw.
+  tags: [sci-fi, adventure, formative]
+
+- id: jaws
+  title: Jaws
+  year: 1975
+  platform: Film
+  by: Steven Spielberg
+  what: >
+    A great white shark terrorises a beach town over a summer, and the
+    police chief, a marine biologist and a shark hunter go out to kill it.
+  great: >
+    The mechanical shark kept breaking, so Spielberg mostly kept it off
+    screen — and the film is scarier for it. Two notes of music did the
+    work the shark could not.
+  mine: >
+    — your memory goes here —
+  mentions: [raiders-of-the-lost-ark, jurassic-park]
+  status: preserved
+  tags: [thriller]
+
+- id: raiders-of-the-lost-ark
+  title: Raiders of the Lost Ark
+  year: 1981
+  platform: Film
+  by: Steven Spielberg
+  what: >
+    Archaeologist Indiana Jones races Nazi agents to find the Ark of the
+    Covenant in 1936. Written from a George Lucas story, starring Harrison
+    Ford.
+  great: >
+    A deliberate revival of old adventure serials made with total
+    conviction. The opening ten minutes — idol, boulder, plane — are still
+    the template for how to introduce a hero.
+  mine: >
+    — your memory goes here —
+  mentions: [star-wars, jaws]
+  status: preserved
+  tags: [adventure]
+
+- id: back-to-the-future
+  title: Back to the Future
+  year: 1985
+  platform: Film
+  by: Robert Zemeckis
+  what: >
+    Marty McFly is sent back to 1955 in Doc Brown's DeLorean and has to
+    make sure his teenage parents still fall in love before he can get
+    home.
+  great: >
+    The script is nearly perfect machinery. Every setup in the first act —
+    the clock tower flyer, the skateboard, "Johnny B. Goode" — pays off
+    later, and none of it feels planted.
+  mine: >
+    — your memory goes here —
+  status: preserved
+  tags: [sci-fi, comedy, time-travel]
+
+- id: jurassic-park
+  title: Jurassic Park
+  year: 1993
+  platform: Film
+  by: Steven Spielberg
+  what: >
+    Cloned dinosaurs escape on an island theme park during a preview tour.
+    Adapted from Michael Crichton's novel.
+  great: >
+    The dinosaurs blend Stan Winston's full-size animatronics with ILM's
+    computer animation, and still hold up because each was used where it
+    was strongest. It is the moment CGI became believable.
+  mine: >
+    — your memory goes here —
+  mentions: [jaws]
+  status: preserved
+  tags: [adventure, sci-fi, formative]
+
+- id: the-lion-king
+  title: The Lion King
+  year: 1994
+  platform: Film
+  by: Roger Allers & Rob Minkoff (Disney)
+  what: >
+    A lion cub, Simba, flees his kingdom after his father's death and has
+    to return to take it back from his uncle Scar.
+  great: >
+    Hand-drawn animation at its peak — the wildebeest stampede and the
+    opening "Circle of Life" sunrise — and a children's film willing to
+    let a death actually land.
+  mine: >
+    — your memory goes here —
+  mentions: [finding-nemo]
+  status: preserved
+  tags: [animation, disney, formative]
+
+- id: the-shawshank-redemption
+  title: The Shawshank Redemption
+  year: 1994
+  platform: Film
+  by: Frank Darabont
+  what: >
+    A banker, Andy Dufresne, serves decades in Shawshank prison for a
+    murder he says he did not commit, and forms a lifelong friendship with
+    fellow inmate Red. From a Stephen King novella.
+  great: >
+    It flopped in cinemas and became beloved on video and television —
+    people found it themselves. Its patience is the point: twenty years
+    pass, and the ending earns every one.
+  mine: >
+    — your memory goes here —
+  status: preserved
+  tags: [drama]
+
+- id: the-matrix
+  title: The Matrix
+  year: 1999
+  platform: Film
+  by: The Wachowskis
+  what: >
+    A hacker, Neo, learns the world is a simulation built by machines to
+    keep humanity asleep, and joins the rebels fighting it.
+  great: >
+    It fused Hong Kong wire-work, anime and cyberpunk into one look, and
+    bullet time was imitated everywhere for a decade. It also made a
+    philosophy question into an action film's plot.
+  mine: >
+    — your memory goes here —
+  status: preserved
+  tags: [sci-fi, action]
+
+- id: lord-of-the-rings
+  title: The Lord of the Rings (trilogy)
+  year: 2001
+  platform: Film
+  by: Peter Jackson
+  what: >
+    The Fellowship of the Ring (2001), The Two Towers (2002) and The Return
+    of the King (2003). Tolkien's novel, filmed back to back in New
+    Zealand.
+  great: >
+    Shot as one production over years, so the three films hold together
+    as one long work. Real miniatures, real locations and Weta's armour
+    give it a physical weight most fantasy since has not matched.
+  mine: >
+    — your memory goes here —
+  status: preserved
+  tags: [fantasy, adventure, formative]
+
+- id: spirited-away
+  title: Spirited Away
+  year: 2001
+  platform: Film
+  by: Hayao Miyazaki (Studio Ghibli)
+  what: >
+    Ten-year-old Chihiro wanders into a spirit world, her parents are
+    turned into pigs, and she takes a job at a bathhouse for gods to save
+    them.
+  great: >
+    It has no villain in the usual sense and no lesson stated out loud.
+    Quiet scenes — the train ride across the flooded plain — are allowed
+    to simply be, which almost no animated film trusts its audience with.
+  mine: >
+    — your memory goes here —
+  status: preserved
+  tags: [animation, fantasy, japanese]
+
+- id: finding-nemo
+  title: Finding Nemo
+  year: 2003
+  platform: Film
+  by: Andrew Stanton (Pixar)
+  what: >
+    A cautious clownfish, Marlin, crosses the ocean with the forgetful Dory
+    to find his son, taken by a diver to a dentist's aquarium in Sydney.
+  great: >
+    A film about a parent's fear, disguised as a children's adventure.
+    It looks different to you once you are the parent.
+  mine: >
+    — your memory goes here —
+  mentions: [the-lion-king]
+  status: preserved
+  tags: [animation, pixar]
+
+- id: the-dark-knight
+  title: The Dark Knight
+  year: 2008
+  platform: Film
+  by: Christopher Nolan
+  what: >
+    Batman, Commissioner Gordon and district attorney Harvey Dent try to
+    take apart Gotham's mob, until the Joker arrives.
+  great: >
+    Heath Ledger's Joker, and a superhero film treated as a crime epic
+    about what a city will give up to feel safe. Its IMAX sequences
+    changed how blockbusters were shot.
+  mine: >
+    — your memory goes here —
+  status: preserved
+  tags: [action, crime]
+
+- id: toy-story
+  title: Toy Story
+  year: 1995
+  platform: Film
+  by: John Lasseter (Pixar)
+  what: >
+    A cowboy doll, Woody, feels replaced when his owner gets a space-ranger
+    toy, Buzz Lightyear. The first feature film made entirely with
+    computer animation.
+  great: >
+    The technology was the headline, but it lasted because the story is
+    about jealousy and being outgrown — things everyone watching already
+    knew.
+  mine: >
+    — your memory goes here —
+  mentions: [finding-nemo]
+  status: preserved
+  tags: [animation, pixar, formative]
+
+- id: harry-potter
+  title: Harry Potter (film series)
+  year: 2001
+  platform: Film
+  by: Chris Columbus, Alfonso Cuarón, Mike Newell, David Yates
+  what: >
+    Eight films, 2001–2011, from J. K. Rowling's seven novels: an orphan
+    learns he is a wizard and grows up at Hogwarts, facing Voldemort.
+  great: >
+    The same cast grew up on screen over ten years, alongside the people
+    watching. Prisoner of Azkaban showed the films could be more than
+    faithful.
+  mine: >
+    — your memory goes here —
+  mentions: [lord-of-the-rings]
+  status: preserved
+  tags: [fantasy, formative]
+
+- id: pirates-of-the-caribbean
+  title: "Pirates of the Caribbean: The Curse of the Black Pearl"
+  year: 2003
+  platform: Film
+  by: Gore Verbinski
+  what: >
+    The pirate Jack Sparrow helps a blacksmith rescue the governor's
+    daughter from a crew of cursed, undead pirates. Based on a Disney
+    theme-park ride.
+  great: >
+    Nobody expected a ride adaptation to work. Johnny Depp's Jack Sparrow,
+    played as a drunk rock star, made it — and the moonlight skeleton
+    reveal was genuinely new.
+  mine: >
+    — your memory goes here —
+  status: preserved
+  tags: [adventure]
+
+- id: inception
+  title: Inception
+  year: 2010
+  platform: Film
+  by: Christopher Nolan
+  what: >
+    A thief who steals ideas from dreams is hired to plant one instead,
+    descending through dreams within dreams.
+  great: >
+    A heist film whose layers run at different speeds, cut together so
+    you always know where you are. The spinning top at the end started a
+    thousand arguments.
+  mine: >
+    — your memory goes here —
+  mentions: [the-dark-knight, interstellar]
+  status: preserved
+  tags: [sci-fi, thriller]
+
+- id: interstellar
+  title: Interstellar
+  year: 2014
+  platform: Film
+  by: Christopher Nolan
+  what: >
+    On a dying Earth, a former pilot leaves his children to travel through
+    a wormhole in search of a new home for humanity.
+  great: >
+    The black hole was rendered from real physics, but the film is about a
+    father and a daughter separated by time dilation. The docking scene
+    and the message-video scene are its two best.
+  mine: >
+    — your memory goes here —
+  mentions: [inception]
+  status: preserved
+  tags: [sci-fi, drama]
+
+- id: shrek
+  title: Shrek
+  year: 2001
+  platform: Film
+  by: Andrew Adamson & Vicky Jenson (DreamWorks)
+  what: >
+    An ogre sets out with a talking donkey to rescue a princess so he can
+    get his swamp back. The first winner of the Oscar for animated feature.
+  great: >
+    A fairy tale that made fun of fairy tales, with jokes aimed past the
+    children at their parents — and a soundtrack that put "All Star" in
+    everyone's head forever.
+  mine: >
+    — your memory goes here —
+  mentions: [toy-story]
+  status: preserved
+  tags: [animation, comedy, formative]
+
+- id: taare-zameen-par
+  title: Taare Zameen Par
+  year: 2007
+  platform: Film
+  by: Aamir Khan
+  what: >
+    Ishaan, an eight-year-old who struggles at school, is sent to boarding
+    school, where an art teacher realises he is dyslexic.
+  great: >
+    It made a lot of parents in South Asia see their own children
+    differently, which few films can claim.
+  mine: >
+    — your memory goes here —
+  mentions: [3-idiots]
+  status: preserved
+  tags: [bollywood, drama]
+
+- id: 3-idiots
+  title: 3 Idiots
+  year: 2009
+  platform: Film
+  by: Rajkumar Hirani
+  what: >
+    Two friends search for the third, Rancho, who changed how they saw
+    their engineering college and its pressure to score rather than learn.
+  great: >
+    A comedy that was also an argument against an education system, and
+    "All is well" became something people actually said to themselves.
+  mine: >
+    — your memory goes here —
+  mentions: [taare-zameen-par]
+  status: preserved
+  tags: [bollywood, comedy, formative]
+
+- id: ratatouille
+  title: Ratatouille
+  year: 2007
+  platform: Film
+  by: Brad Bird (Pixar)
+  what: >
+    Remy, a rat who wants to cook, hides under a young kitchen worker's
+    hat to become a chef in Paris.
+  great: >
+    Anton Ego's closing review is one of the best things written about
+    criticism and new talent, delivered in a children's film.
+  mine: >
+    — your memory goes here —
+  mentions: [wall-e, up]
+  status: preserved
+  tags: [animation, pixar]
+
+- id: wall-e
+  title: WALL-E
+  year: 2008
+  platform: Film
+  by: Andrew Stanton (Pixar)
+  what: >
+    A small robot left cleaning an abandoned Earth falls in love with a
+    probe sent to find life, and follows her into space.
+  great: >
+    Its first act is almost wordless and holds a theatre of children by
+    pictures alone.
+  mine: >
+    — your memory goes here —
+  mentions: [finding-nemo, ratatouille]
+  status: preserved
+  tags: [animation, pixar, sci-fi]
+
+- id: up
+  title: Up
+  year: 2009
+  platform: Film
+  by: Pete Docter (Pixar)
+  what: >
+    A widower ties thousands of balloons to his house to fly to South
+    America, with a boy scout accidentally on board.
+  great: >
+    The four-minute "Married Life" montage tells a whole marriage with no
+    dialogue, and made adults cry in a cartoon.
+  mine: >
+    — your memory goes here —
+  mentions: [ratatouille]
+  status: preserved
+  tags: [animation, pixar]
+
+- id: high-school-musical
+  title: High School Musical
+  year: 2006
+  platform: Disney Channel
+  by: Kenny Ortega
+  what: >
+    A basketball star and a shy maths student audition for the school
+    musical together. Starring Zac Efron and Vanessa Hudgens.
+  great: >
+    A TV film that became a phenomenon — everyone knew "We're All in This
+    Together" and "Breaking Free," whether they admitted it or not.
+  mine: >
+    — your memory goes here —
+  mentions: [hannah-montana]
+  status: preserved
+  tags: [musical, disney]
+
+- id: aladdin-film
+  title: Aladdin
+  year: 1992
+  platform: Film
+  by: Ron Clements & John Musker (Disney)
+  what: >
+    A street thief finds a lamp holding a Genie and pretends to be a prince
+    to win Princess Jasmine, against the sorcerer Jafar.
+  great: >
+    Robin Williams improvising as the Genie changed what animated
+    characters could sound like.
+  mine: >
+    — your memory goes here —
+  mentions: [aladdin, the-lion-king, mulan]
+  status: preserved
+  tags: [animation, disney, formative]
+
+- id: mulan
+  title: Mulan
+  year: 1998
+  platform: Film
+  by: Tony Bancroft & Barry Cook (Disney)
+  what: >
+    A young woman disguises herself as a man to take her father's place in
+    the Chinese army against the Huns.
+  great: >
+    "I'll Make a Man Out of You" is one of Disney's best songs, and Mulan
+    saves China herself.
+  mine: >
+    — your memory goes here —
+  mentions: [aladdin-film, tarzan]
+  status: preserved
+  tags: [animation, disney]
+
+- id: tarzan
+  title: Tarzan
+  year: 1999
+  platform: Film
+  by: Kevin Lima & Chris Buck (Disney)
+  what: >
+    A boy raised by gorillas meets humans for the first time. With songs
+    by Phil Collins.
+  great: >
+    Tarzan surfing down tree branches used a new technique, Deep Canvas,
+    that let the camera move through painted jungle — the last great
+    leap of hand-drawn Disney.
+  mine: >
+    — your memory goes here —
+  mentions: [mulan]
+  status: preserved
+  tags: [animation, disney]

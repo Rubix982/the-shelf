@@ -1,0 +1,93 @@
+# Books and comics. The `mine` fields are placeholders — that part is yours.
+
+- id: harry-potter-books
+  title: Harry Potter (the novels)
+  year: 1997
+  platform: Bloomsbury
+  by: J. K. Rowling
+  what: >
+    Seven novels, 1997–2007, following Harry from his first year at
+    Hogwarts to the final fight against Voldemort.
+  great: >
+    The books grew up with their readers — each one longer and darker than
+    the last — and the midnight releases made reading a public event.
+  mine: >
+    — your memory goes here —
+  mentions: [harry-potter]
+  status: preserved
+  tags: [fantasy, formative]
+
+- id: ishtiaq-ahmed
+  title: Ishtiaq Ahmed's novels (Inspector Jamshed)
+  year: 1970
+  platform: Urdu paperbacks
+  by: Ishtiaq Ahmed
+  what: >
+    Hundreds of short Urdu detective and adventure novels for children —
+    Inspector Jamshed and his children Mehmood, Farooq and Farzana chief
+    among them — sold cheaply and passed around.
+  great: >
+    For a generation of Pakistani children these were the first books read
+    for pleasure, in Urdu, about heroes who were their own.
+  mine: >
+    — your memory goes here. which series, where you got them —
+  mentions: [umro-ayyar]
+  status: at-risk
+  status_note: >
+    Many titles are out of print and survive as scans and second-hand
+    copies. Not systematically archived anywhere I know of.
+  tags: [urdu, pakistani, detective, formative]
+
+- id: umro-ayyar
+  title: Umro Ayyar
+  year: 1883
+  platform: Urdu dastan
+  what: >
+    The trickster companion of Amir Hamza in the Urdu dastan tradition —
+    Tilism-e-Hoshruba, first printed in Lucknow from 1883 — with his
+    bottomless bag (zambil) and cloak of invisibility. Retold endlessly in
+    children's books.
+  great: >
+    A hero who wins by cleverness and disguise instead of strength, from a
+    storytelling tradition older than the novel in Urdu.
+  mine: >
+    — which version you read, who told it to you —
+  mentions: [ishtiaq-ahmed]
+  status: preserved
+  status_note: >
+    The classical text is preserved and translated; the children's
+    versions you actually read may not be.
+  tags: [urdu, pakistani, fantasy, folklore]
+
+- id: goosebumps
+  title: Goosebumps
+  year: 1992
+  platform: Scholastic
+  by: R. L. Stine
+  what: >
+    Short horror novels for children: ventriloquist dummies, haunted masks,
+    a camp that was not what it seemed. Each chapter ended on a cliffhanger.
+  great: >
+    Scary enough to feel forbidden, safe enough to finish, and fast enough
+    to read one in an evening.
+  mine: >
+    — your memory goes here —
+  status: preserved
+  tags: [horror, childrens]
+
+- id: enid-blyton
+  title: Enid Blyton (Famous Five, Secret Seven)
+  year: 1942
+  platform: Hodder & Stoughton
+  by: Enid Blyton
+  what: >
+    The Famous Five, the Secret Seven, Malory Towers: children solving
+    mysteries on holidays and at boarding schools, with a dog and plenty of
+    food.
+  great: >
+    They describe a childhood of freedom — out all day, no adults — that
+    readers everywhere borrowed, wherever they actually lived.
+  mine: >
+    — your memory goes here —
+  status: preserved
+  tags: [childrens, mystery]

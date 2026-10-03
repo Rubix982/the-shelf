@@ -22,3 +22,244 @@
     No known copy. Check archive.org/web for the channel page and
     filmot.com for recovered titles before giving up on it.
   tags: [youtube]
+
+- id: annoying-orange
+  title: Annoying Orange
+  year: 2009
+  platform: YouTube
+  by: Dane Boedigheimer
+  what: >
+    A talking orange with a human mouth pasted on, pestering other fruit
+    in a kitchen with terrible puns until they meet a knife. Spun off into
+    a Cartoon Network series in 2012.
+  great: >
+    The joke was the lowest possible effort, and that was the joke. It is
+    the clearest example of early YouTube becoming a franchise.
+  mine: >
+    — your memory goes here —
+  status: at-risk
+  status_note: >
+    Still online, one uploader, no mirror. Early videos are what to check.
+  tags: [youtube, comedy]
+
+- id: nigahiga
+  title: nigahiga
+  year: 2006
+  platform: YouTube
+  by: Ryan Higa
+  what: >
+    Sketch comedy by Ryan Higa, starting with friends in Hawaii — "How to
+    Be Ninja," "How to Be Gangster." For a time the most-subscribed
+    channel on YouTube.
+  great: >
+    Bedroom-made comedy that reached millions before YouTube had money in
+    it, and proof that one teenager with a camera could be a channel.
+  mine: >
+    — your memory goes here —
+  mentions: [smosh]
+  status: at-risk
+  status_note: >
+    Still online but mostly inactive. One uploader, no mirror.
+  tags: [youtube, comedy, sketch]
+
+- id: smosh
+  title: Smosh
+  year: 2005
+  platform: YouTube
+  by: Anthony Padilla & Ian Hecox
+  what: >
+    Two friends lip-syncing to the Pokémon theme, then a decade of sketches
+    — "Food Battle," "Shut Up!" cartoons — that grew into a company.
+  great: >
+    One of the channels that defined what YouTube comedy was in its first
+    years.
+  mine: >
+    — your memory goes here —
+  mentions: [nigahiga]
+  status: at-risk
+  status_note: >
+    The channel survives, but its first famous video — the Pokémon theme
+    lip-sync — was taken down for copyright. The earliest era is already
+    partly gone.
+  tags: [youtube, comedy, sketch]
+
+- id: pewdiepie
+  title: PewDiePie
+  year: 2010
+  platform: YouTube
+  by: Felix Kjellberg
+  what: >
+    Let's plays, mostly horror games like Amnesia, with loud reactions and
+    a "brofist" sign-off. The most-subscribed individual channel for years.
+  great: >
+    He made watching someone else play a game into its own entertainment,
+    which was not obvious at the time.
+  mine: >
+    — your memory goes here —
+  status: at-risk
+  status_note: >
+    Still online; one uploader, no mirror. Old videos can be privated at
+    any time.
+  tags: [youtube, gaming]
+
+- id: vsauce
+  title: Vsauce
+  year: 2010
+  platform: YouTube
+  by: Michael Stevens
+  what: >
+    "Hey, Vsauce, Michael here." Questions like "how much does a shadow
+    weigh?" followed wherever they led, through physics, philosophy and
+    language.
+  great: >
+    It treated curiosity as the content and trusted viewers with real
+    ideas. Its tangents taught more than most lessons did.
+  mine: >
+    — your memory goes here —
+  status: at-risk
+  status_note: >
+    Still online; one uploader, no mirror.
+  tags: [youtube, education]
+
+- id: markiplier
+  title: Markiplier
+  year: 2012
+  platform: YouTube
+  by: Mark Fischbach
+  what: >
+    Let's plays, starting with horror games — Amnesia, Five Nights at
+    Freddy's — with loud reactions and long charity livestreams.
+  great: >
+    He was warmer than the genre required, and his channel became a place
+    people went for company as much as for the games.
+  mine: >
+    — your memory goes here —
+  mentions: [pewdiepie]
+  status: at-risk
+  status_note: >
+    Still online; one uploader, no mirror.
+  tags: [youtube, gaming]
+
+- id: captainsparklez
+  title: CaptainSparklez (and Minecraft YouTube)
+  year: 2010
+  platform: YouTube
+  by: Jordan Maron
+  what: >
+    Minecraft let's plays and music-video parodies — "Revenge," his
+    "DJ Got Us Fallin' in Love" Creeper parody, and "Fallen Kingdom." Part
+    of the wider Minecraft YouTube of the early 2010s.
+  great: >
+    The parodies were made with real effort, in a game made of blocks, and
+    for a lot of kids they were Minecraft as much as the game was.
+  mine: >
+    — your memory goes here —
+  mentions: [minecraft]
+  status: at-risk
+  status_note: >
+    Still online; one uploader, no mirror.
+  tags: [youtube, gaming, minecraft]
+
+- id: machinima
+  title: Machinima
+  year: 2006
+  platform: YouTube
+  what: >
+    A gaming network and channel built on machinima — films made inside
+    video game engines — that grew into one of the biggest channels on
+    YouTube, hosting dozens of shows and creators.
+  great: >
+    It was where gaming video became a medium of its own before let's
+    plays took over.
+  mine: >
+    — your memory goes here —
+  mentions: [rooster-teeth, the-leet-world]
+  status: gone
+  status_note: >
+    Shut down in 2019, and its YouTube library was taken offline with it.
+    Individual shows survive only where their creators kept copies.
+    Check archive.org and filmot.com for anything you remember by name.
+  tags: [youtube, gaming, machinima]
+
+- id: rooster-teeth
+  title: Rooster Teeth (Red vs. Blue)
+  year: 2003
+  platform: Web / YouTube
+  by: Burnie Burns and Rooster Teeth
+  what: >
+    Red vs. Blue: two teams of soldiers in a box canyon in Halo, arguing
+    about nothing, filmed inside the game. It ran for over twenty years
+    and built a company around it.
+  great: >
+    It proved a game could be a film set, and that bored soldiers arguing
+    could carry a long-running comedy.
+  mine: >
+    — your memory goes here —
+  mentions: [machinima]
+  status: at-risk
+  status_note: >
+    Warner Bros. Discovery shut Rooster Teeth down in 2024. Red vs. Blue
+    is still on YouTube for now, but its owner has already changed once.
+  tags: [youtube, machinima, comedy]
+
+- id: the-leet-world
+  title: The Leet World
+  year: 2006
+  platform: YouTube
+  what: >
+    A comedy series filmed inside Counter-Strike: short episodes of players
+    talking over their microphones and playing together, scripted into a
+    sitcom about a group of friends on a server.
+  great: >
+    It took the thing you actually did in Counter-Strike — talk over voice
+    chat with people you knew — and made a show out of it.
+  mine: >
+    — your memory goes here —
+  mentions: [counter-strike, machinima]
+  where:
+    - label: The Leet World, Episode One
+      url: https://www.youtube.com/watch?v=xxIota-k8rA
+  status: at-risk
+  status_note: >
+    Still on its own YouTube channel; one uploader, no mirror.
+  tags: [youtube, machinima, counter-strike]
+
+- id: ray-william-johnson
+  title: Ray William Johnson (=3)
+  year: 2009
+  platform: YouTube
+  by: Ray William Johnson
+  what: >
+    "Equals Three": a few viral videos per episode, with jokes about each.
+    For a while one of the most-subscribed channels on YouTube.
+  great: >
+    It was a weekly guide to what the internet was laughing at, which makes
+    it a record of the viral-video era itself.
+  mine: >
+    — your memory goes here —
+  mentions: [viral-video-era]
+  status: at-risk
+  status_note: >
+    Still online; one uploader, no mirror.
+  tags: [youtube, comedy]
+
+- id: viral-video-era
+  title: The viral video era
+  year: 2007
+  platform: YouTube
+  what: >
+    The videos everyone had seen: Charlie Bit My Finger, Evolution of
+    Dance, Double Rainbow, Keyboard Cat, Leave Britney Alone. Mostly home
+    videos, mostly one-offs.
+  great: >
+    Before algorithms and careers, a video spread because people sent it
+    to each other. These were a shared culture, passed hand to hand.
+  mine: >
+    — which ones you remember, and who showed them to you —
+  mentions: [ray-william-johnson]
+  status: at-risk
+  status_note: >
+    These live on single uploaders' accounts. Charlie Bit My Finger was
+    sold as an NFT in 2021 and the family said it would come off YouTube —
+    proof that even the most-watched home video can disappear.
+  tags: [youtube, viral]

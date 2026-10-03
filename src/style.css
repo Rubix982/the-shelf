@@ -127,6 +127,87 @@ a:hover {
   text-shadow: 0 0 22px rgba(240, 169, 59, 0.35);
 }
 
+/* Title and boot text on the left, three memories on the right: the front
+   page shows what the ledger holds, not only how much. */
+.boot__top {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 25rem);
+  gap: 2.5rem;
+  align-items: start;
+}
+
+.memories {
+  margin: 2.2rem 0 2rem;
+}
+
+.memories__label {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  color: var(--ink-faint);
+  margin: 0 0 0.6rem;
+}
+
+.memories__again {
+  font: inherit;
+  color: var(--ink-dim);
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.memories__again:hover {
+  color: var(--amber);
+}
+
+.memory {
+  display: block;
+  position: relative;
+  padding: 0.75rem 0.9rem 0.7rem 1.1rem;
+  margin-bottom: 0.6rem;
+  background: var(--ground-2);
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  text-decoration: none;
+  transition: border-color 140ms ease, transform 140ms ease;
+}
+
+.memory::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 3px;
+  background: var(--spine-band, var(--amber));
+}
+
+.memory:hover {
+  border-color: var(--amber-dim);
+  transform: translateX(2px);
+}
+
+.memory__text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-family: var(--prose);
+  font-size: 1rem;
+  line-height: 1.45;
+  color: var(--ink);
+}
+
+.memory__src {
+  display: block;
+  margin-top: 0.35rem;
+  font-family: var(--mono);
+  font-size: 0.66rem;
+  color: var(--amber-dim);
+  text-transform: lowercase;
+}
+
 .boot__sub {
   font-family: var(--prose);
   font-style: italic;
@@ -183,16 +264,55 @@ a:hover {
 
 .menu__item {
   display: grid;
-  grid-template-columns: 1.6rem 1fr auto auto;
-  align-items: baseline;
+  grid-template-columns: 1.6rem 11.5rem minmax(0, 1fr) 2.5rem 5rem;
+  align-items: center;
   gap: 0 1rem;
-  padding: 0.75rem 0;
+  padding: 0.6rem 0;
   border-bottom: 1px solid var(--rule);
   font-family: var(--crt);
   font-size: 1.55rem;
   color: var(--ink);
   text-decoration: none;
   letter-spacing: 0.04em;
+}
+
+/* The shelf in miniature: a row of tiny spines in their own colours. */
+.menu__minis {
+  display: flex;
+  align-items: flex-end;
+  gap: 2px;
+  height: 2.3rem;
+  overflow: hidden;
+  border-bottom: 3px solid var(--ground-3);
+  opacity: 0.8;
+  transition: opacity 140ms ease;
+}
+
+.mini {
+  flex: none;
+  width: 0.55rem;
+  background: var(--spine-bg);
+  border-top: 2px solid var(--spine-band);
+  border-radius: 1px 1px 0 0;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.35);
+}
+
+.mini--gone {
+  background: transparent;
+  border: 1px dashed var(--rust);
+}
+
+.menu__more {
+  font-family: var(--mono);
+  font-size: 0.66rem;
+  color: var(--ink-faint);
+  align-self: center;
+  padding-left: 0.4rem;
+  letter-spacing: 0;
+}
+
+.menu__item:hover .menu__minis {
+  opacity: 1;
 }
 
 .menu__item:hover,
@@ -216,13 +336,14 @@ a:hover {
   font-size: 0.85rem;
   color: var(--ink-dim);
   font-variant-numeric: tabular-nums;
+  text-align: right;
 }
 
 .menu__warn {
   font-family: var(--mono);
   font-size: 0.72rem;
   color: var(--rust);
-  min-width: 5.5rem;
+  letter-spacing: 0;
   text-align: right;
 }
 
@@ -259,14 +380,35 @@ a:hover {
 }
 
 .years__axis {
-  display: flex;
-  justify-content: space-between;
+  position: relative;
+  height: 1.3rem;
   font-family: var(--mono);
-  font-size: 0.7rem;
+  font-size: 0.68rem;
   color: var(--ink-faint);
   border-top: 1px solid var(--rule);
-  padding-top: 0.4rem;
-  margin-bottom: 2.75rem;
+}
+
+.years__axis span {
+  position: absolute;
+  top: 0.3rem;
+  transform: translateX(-50%);
+}
+
+.years__axis span::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -0.35rem;
+  height: 0.25rem;
+  border-left: 1px solid var(--rule);
+}
+
+.years__early {
+  font-family: var(--mono);
+  font-size: 0.66rem;
+  color: var(--ink-faint);
+  margin: 0.2rem 0 2.5rem;
+  min-height: 1em;
 }
 
 /* =========================================================================
@@ -304,38 +446,160 @@ a:hover {
   margin: 0 0 1.75rem;
 }
 
-/*
- * A year is one shelf: its label sits at the left of the board rather than
- * above it. With a sparse ledger a heading per year cost a screen of empty
- * space per entry; this keeps the whole span readable at once and reads more
- * like a run of shelves anyway.
- */
-.shelf__year {
-  display: grid;
-  grid-template-columns: 4.5rem minmax(0, 1fr);
-  gap: 0 1.25rem;
-  align-items: end;
-  padding-bottom: 0.6rem;
-  margin-bottom: 1.1rem;
-  border-bottom: 3px solid var(--ground-3);
-  box-shadow: 0 1px 0 var(--rule);
+.shelf__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem 2rem;
+  margin: 0 0 2rem;
 }
 
-.shelf__label {
-  font-family: var(--crt);
-  font-size: 1.5rem;
-  line-height: 1;
+.shelf__head .shelf__title {
+  margin: 0;
+}
+
+.shelf__stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 1.1rem;
+  margin: 0;
+  font-family: var(--mono);
+  font-size: 0.72rem;
   color: var(--ink-faint);
-  letter-spacing: 0.06em;
-  padding-bottom: 0.15rem;
-  text-align: right;
 }
 
-.shelf__row {
+/* Status keys, shared by the shelf header and the readout. */
+.k {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.4rem;
+}
+
+.k::before {
+  content: "";
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 50%;
+  flex: none;
+  transform: translateY(-0.05rem);
+}
+
+.k--preserved { color: var(--jade); }
+.k--preserved::before { background: var(--jade); }
+.k--at-risk { color: var(--amber); }
+.k--at-risk::before { background: var(--amber); }
+.k--gone { color: var(--rust); }
+.k--gone::before { box-shadow: inset 0 0 0 1px var(--rust); }
+
+/*
+ * One continuous run of shelving. Each year is a section of it — its spines
+ * standing on a shared board, its year on a plate underneath — and sections
+ * flow left to right and wrap, so a sparse year takes the room of its spines
+ * rather than a whole row. Sections grow to fill the line, which keeps every
+ * board running wall to wall.
+ */
+.run {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  row-gap: 2.4rem;
+}
+
+/* Takes up the slack on the last line, so its sections keep their natural
+   width instead of stretching apart; it carries the board on to the wall. */
+.run::after {
+  content: "";
+  flex: 1000 0 0;
+  align-self: flex-end;
+  margin-bottom: 1.6rem;
+  border-bottom: 7px solid #3a2f24;
+  box-shadow: 0 3px 0 #0c0a07;
+}
+
+.group {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.group__books {
   display: flex;
   align-items: flex-end;
-  gap: 0.4rem;
-  flex-wrap: wrap;
+  gap: 3px;
+  min-height: 9rem;
+  padding: 0 1.1rem 0 0.6rem;
+  border-bottom: 7px solid #3a2f24;
+  box-shadow: 0 3px 0 #0c0a07, 0 14px 16px -10px rgba(0, 0, 0, 0.7);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0) 60%);
+}
+
+/* The faint upright between two years. */
+.group + .group .group__books {
+  border-left: 1px solid rgba(255, 235, 200, 0.04);
+}
+
+.group__plate {
+  font-family: var(--crt);
+  font-size: 1.15rem;
+  line-height: 1;
+  letter-spacing: 0.06em;
+  color: var(--ink-faint);
+  padding: 0.45rem 0 0 0.6rem;
+}
+
+.group:hover .group__plate {
+  color: var(--amber-dim);
+}
+
+/* The readout: a console line that names whatever spine you point at and
+   reads out the memory, so cut-off titles are never a dead end. Sticky, so it
+   stays in reach down a long shelf. */
+.readout {
+  position: sticky;
+  bottom: 0;
+  z-index: 5;
+  margin: 2.5rem -1.5rem 0;
+  padding: 0.8rem 1.5rem 0.9rem;
+  min-height: 4.6rem;
+  background: rgba(20, 17, 13, 0.94);
+  backdrop-filter: blur(6px);
+  border-top: 1px solid var(--rule);
+  font-family: var(--mono);
+  font-size: 0.76rem;
+  color: var(--ink-dim);
+}
+
+.readout p {
+  margin: 0;
+}
+
+.readout__title b {
+  color: var(--amber);
+  font-weight: 500;
+}
+
+.readout__title .k {
+  margin-left: 0.6rem;
+  font-size: 0.7rem;
+}
+
+.readout__mine {
+  margin-top: 0.3rem !important;
+  font-family: var(--prose);
+  font-size: 1rem;
+  line-height: 1.45;
+  color: var(--ink);
+}
+
+.readout__mine--empty {
+  font-style: italic;
+  color: var(--ink-faint);
+}
+
+.readout__idle {
+  color: var(--ink-faint);
+  padding-top: 0.6rem;
 }
 
 .spine {
@@ -347,7 +611,9 @@ a:hover {
   width: 2.4rem;
   height: 9rem;
   flex: none;
-  background: var(--spine-bg);
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0) 30%, rgba(0, 0, 0, 0.22)),
+    var(--spine-bg);
   color: var(--spine-fg);
   border: 1px solid rgba(0, 0, 0, 0.5);
   border-radius: 2px 2px 0 0;
@@ -379,7 +645,9 @@ a:hover {
   text-orientation: mixed;
   font-family: var(--crt);
   font-size: 1.05rem;
-  line-height: 2.4rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
   letter-spacing: 0.03em;
   text-align: right;
   /* Vertical writing mode, so this clips from the bottom and keeps clear of
@@ -400,9 +668,28 @@ a:hover {
   opacity: 0.6;
 }
 
+/* At risk: a small amber mark at the foot of the spine, with the title
+   shortened to keep clear of it. */
+.spine--risk .spine__text {
+  bottom: 2rem;
+}
+
+.spine--risk::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 1.25rem;
+  width: 0.4rem;
+  height: 0.4rem;
+  margin-left: -0.2rem;
+  border-radius: 50%;
+  background: var(--amber);
+  box-shadow: 0 0 6px rgba(240, 169, 59, 0.7);
+}
+
 /* A thing with no surviving copy is a gap on the shelf, not a book on it. */
 .spine--gone {
-  background: transparent;
+  background: rgba(201, 86, 60, 0.03);
   border: 1px dashed var(--rust);
   color: var(--rust);
   box-shadow: inset 0 0 1.5rem rgba(201, 86, 60, 0.08);
@@ -481,9 +768,50 @@ a:hover {
   color: var(--ink-dim);
 }
 
-.entry__body {
-  max-width: var(--measure);
+.entry__layout {
+  display: grid;
+  grid-template-columns: minmax(0, var(--measure)) minmax(0, 1fr);
+  gap: 4rem;
   margin-top: 2.5rem;
+}
+
+.entry__side {
+  border-left: 1px solid var(--rule);
+  padding-left: 2rem;
+}
+
+.entry__side .block p:not(.block__label) {
+  font-size: 0.95rem;
+}
+
+/* The entry's own spine, standing on a short board at the top of the side
+   column. Not a link here — it is the thing you are already looking at. */
+.entry__spine {
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0 0 0.6rem;
+  margin-bottom: 2.5rem;
+  border-bottom: 7px solid #3a2f24;
+  box-shadow: 0 3px 0 #0c0a07, 0 14px 16px -10px rgba(0, 0, 0, 0.7);
+  width: 6rem;
+}
+
+.entry__spine .spine {
+  pointer-events: none;
+}
+
+@media (max-width: 860px) {
+  .entry__layout {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .entry__side {
+    border-left: 0;
+    padding-left: 0;
+    border-top: 1px solid var(--rule);
+    padding-top: 2rem;
+  }
 }
 
 .block {
@@ -502,6 +830,12 @@ a:hover {
   font-size: 1.04rem;
 }
 
+/* The label is a <p> too; keep it at label size. */
+.block .block__label {
+  font-size: 0.72rem;
+  margin: 0 0 0.5rem;
+}
+
 /* The memory is the reason the ledger exists, so it is set apart and set
    larger. Everything above it is recoverable from a database; this is not. */
 .block--mine {
@@ -509,7 +843,7 @@ a:hover {
   padding: 0.2rem 0 0.2rem 1.4rem;
 }
 
-.block--mine p {
+.block--mine p:not(.block__label) {
   font-size: 1.22rem;
   line-height: 1.6;
   color: var(--ink);
@@ -519,7 +853,7 @@ a:hover {
   color: var(--amber-dim);
 }
 
-.block--empty p {
+.block--empty p:not(.block__label) {
   color: var(--ink-faint);
   font-style: italic;
 }
@@ -614,9 +948,18 @@ a:hover {
     grid-template-columns: 1fr;
   }
 
-  .spine {
-    width: 2.1rem;
-    height: 8rem;
+  .boot__top {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .menu__item {
+    grid-template-columns: 1.2rem minmax(0, 1fr) auto auto;
+    font-size: 1.35rem;
+  }
+
+  .menu__minis {
+    display: none;
   }
 }
 
@@ -807,4 +1150,15 @@ a:hover {
 
 .track {
   padding: 0.7rem 0;
+}
+
+.menu__item:last-child .menu__warn {
+  color: var(--ink-faint);
+}
+
+/* Touch screens have no hover, so the readout would only ever show its hint. */
+@media (hover: none) {
+  .readout {
+    display: none;
+  }
 }

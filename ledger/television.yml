@@ -36,7 +36,7 @@
     them as the plot, and the family-tree diagram became something viewers
     actually needed.
   mine: >
-    — your memory goes here —
+    I needed the family-tree diagram to keep up.
   status: at-risk
   status_note: >
     A streaming original — it exists where Netflix keeps it. Worth checking
@@ -57,7 +57,7 @@
     to the next day, no resetting after a bad case. Exhaustion accumulates
     on screen the way it would in the room.
   mine: >
-    — your memory goes here —
+    The real-time format is what stuck — an hour of the shift per episode.
   status: at-risk
   status_note: >
     Still airing, and streaming-first. Check for a physical release.
@@ -623,7 +623,8 @@
     A capable girl hero played straight, and genuinely funny. Shego was
     cooler than most heroes.
   mine: >
-    — your memory goes here —
+    Watched it every day after school, alone. The theme song — "Call me,
+    beep me."
   status: preserved
   tags: [animation, disney, formative]
 
@@ -642,8 +643,11 @@
     genuine mystery plots with real clues. A parody that was also a good
     detective show.
   mine: >
-    — your memory goes here —
-  mentions: [kim-possible, recess]
+    Of all the Disney Channel shows, this was the one. Fillmore's cool,
+    confident style — the same thing I like in Columbo now — and the
+    mysteries were actually good. Ingrid Third, and the cop-show parody
+    around all of it.
+  mentions: [kim-possible, recess, columbo]
   status: at-risk
   status_note: >
     Two seasons, little home-video release, and in and out of Disney+.
@@ -715,7 +719,8 @@
     The same formula every episode, varied endlessly — and a new original
     song in nearly every one.
   mine: >
-    — your memory goes here —
+    Watched it every day after school, alone. Perry the Platypus and
+    Doofenshmirtz.
   mentions: [gravity-falls]
   status: preserved
   tags: [animation, disney, formative]
@@ -1014,13 +1019,21 @@
   great: >
     Ads people actually waited for, and quoted at each other the next day.
   mine: >
-    — which ones. describe them; the descriptions are what will be
-    searchable later —
+    The ones I still look up: "Saaf Awaz," "The Mummy" (shot at Harappa),
+    "Teri Meherbani" (outside Pizza Choice), and the one where he flies
+    above the clouds.
   mentions: [bulbulay, fifty-fifty]
+  where:
+    - label: '"Ufone Saaf Awaz" — Ufone 5G (official channel), YouTube'
+    - label: '"Ufone - The Mummy" — uploaded by Addict2Adverts, YouTube'
+    - label: '"Ufone Add—Teri meherbani" — uploaded by Rehber Hussain, YouTube'
+    - label: '"Ufone tvc" — uploaded by ForetBleueVfx (the VFX studio), YouTube'
   status: at-risk
   status_note: >
-    Ads are never archived by anyone on purpose. What exists is whatever
-    the brand or a viewer uploaded.
+    Of the four I remember, only one is on Ufone's own channel. The other
+    three survive because individual viewers uploaded them about fifteen
+    years ago — one account deletion each from being gone. Worth saving
+    copies.
   tags: [pakistani, ads]
 
 - id: columbo
@@ -1042,7 +1055,7 @@
     What draws me to detective stories, and to him most of all: the
     confidence — knowing before you can prove it; the reasoning closing in;
     the underdog everyone underestimates until he wins; and the ritual, the
-    same shape every episode.
+    same shape every episode. Watching it now, on YouTube.
   mentions: [phoenix-wright-ace-attorney, death-note, fillmore, ishtiaq-ahmed, sherlock]
   status: preserved
   tags: [detective, drama, classic]

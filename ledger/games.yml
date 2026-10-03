@@ -1,34 +1,5 @@
-# EXAMPLES — replace these with your own.
-#
-# The `what` and `great` fields below are real, and you can keep or rewrite
-# them. The `mine` fields are placeholders: that is the part only you can
-# write, and the part the whole ledger exists for.
-
-- id: sonic-2
-  title: Sonic the Hedgehog 2
-  year: 1992
-  platform: Mega Drive
-  by: Sega Technical Institute
-  what: >
-    The second Sonic. Added Tails, the spin dash, and a split-screen
-    two-player mode that ran the same levels at half the frame rate and
-    nobody minded.
-  great: >
-    The spin dash fixed the one real flaw in the first game — you could
-    recover speed after a mistake instead of trudging. Casino Night Zone
-    understood something most platformers still do not: that a level can be
-    a toy rather than an obstacle.
-  mine: >
-    — your memory goes here. where were you, how old, who else was in the
-    room, what you remember that nobody else would —
-  mentions: [aladdin]
-  where:
-    - label: No-Intro cartridge dumps
-      url: https://datomatic.no-intro.org
-  status: preserved
-  status_note: >
-    Dumped, verified, emulated everywhere. Nothing for me to do.
-  tags: [platformer, formative]
+# Games. `mine` is the part only I can write; placeholders mark what is still
+# to remember.
 
 - id: prince-of-persia
   title: Prince of Persia
@@ -45,30 +16,12 @@
     timer turned the whole palace into one continuous act instead of a
     series of rooms.
   mine: >
-    — your memory goes here —
+    Yes, I played this one — and played The Sands of Time after it.
   where:
     - label: Internet Archive, MS-DOS collection
       url: https://archive.org/details/softwarelibrary_msdos_games
   status: preserved
   tags: [platformer, dos]
-
-- id: aladdin
-  title: Aladdin
-  year: 1993
-  platform: Mega Drive
-  by: Virgin Games
-  what: >
-    A licensed platformer whose sprites were drawn by Disney's own feature
-    animators rather than by the game studio.
-  great: >
-    Licensed games were mostly contractual obligations. This one moved like
-    the film because the people who made the film drew the frames, and it
-    is still the argument for why that collaboration is worth the cost.
-  mine: >
-    — your memory goes here —
-  mentions: [sonic-2]
-  status: preserved
-  tags: [platformer, licensed]
 
 - id: phoenix-wright-ace-attorney
   title: "Phoenix Wright: Ace Attorney"
@@ -417,7 +370,7 @@
     them to invent something bigger than the game. DotA, and everything
     descended from it, exists because of that editor.
   mine: >
-    — your memory goes here —
+    Both: the campaign, and then mostly DotA.
   mentions: [age-of-empires-2, age-of-mythology]
   status: preserved
   status_note: >
@@ -440,7 +393,7 @@
     guests' thoughts told you exactly what was wrong — "I want to go on
     something more thrilling," "This path is disgusting."
   mine: >
-    — your memory goes here —
+    I built coasters that killed the guests.
   mentions: [simcity-4, the-sims]
   status: preserved
   status_note: >
@@ -503,7 +456,7 @@
     and firing it was a new verb, and the game never once stopped to tell
     you the story — you were always in it.
   mine: >
-    — your memory goes here —
+    Gravity Gun everything.
   mentions: [counter-strike]
   status: preserved
   status_note: >
@@ -523,7 +476,7 @@
     every new plant and zombie arrived exactly when you understood the last
     one. The zombie's letters and the end song are still charming.
   mine: >
-    — your memory goes here —
+    Finished it — maybe more than once.
   status: preserved
   tags: [strategy, tower-defence, pc]
 
@@ -580,7 +533,8 @@
     Anyone could make one and anyone could play one, with no install. It
     was the most open games scene there has ever been.
   mine: >
-    — which ones. name them — that is what makes them findable later —
+    Miniclip, at school and on the family computer: 8 Ball Pool, Fireboy
+    and Watergirl, Bloons Tower Defense, Motherload.
   where:
     - label: Flashpoint Archive
       url: https://flashpointarchive.org
@@ -622,7 +576,7 @@
   great: >
     — why it was worth playing —
   mine: >
-    — your memory goes here —
+    I decorated an apartment.
   mentions: [farmville]
   status_note: >
     Check whether YoWorld still runs; the original Facebook version is long
@@ -684,7 +638,7 @@
     multiplayer's levelling system was copied by nearly every shooter for
     the next decade.
   mine: >
-    — your memory goes here —
+    Played the campaign on the family computer.
   mentions: [call-of-duty-mw2, counter-strike]
   status: preserved
   status_note: >
@@ -703,7 +657,7 @@
     The most spectacular campaign of its time, and the multiplayer most
     people of that generation remember playing until morning.
   mine: >
-    — your memory goes here —
+    Played the campaign on the family computer.
   mentions: [call-of-duty-4]
   status: preserved
   status_note: >
@@ -723,7 +677,7 @@
     The first game a huge number of people ever played, on a device they
     did not think of as a games machine.
   mine: >
-    — your memory goes here. whose phone, what your high score was —
+    On a parent's Nokia.
   mentions: [angry-birds]
   status: preserved
   status_note: >
@@ -743,7 +697,7 @@
     The physics made every throw slightly different, and the one-more-try
     loop made smartphones a games platform for everyone.
   mine: >
-    — your memory goes here —
+    On a family phone or tablet.
   mentions: [snake-nokia, temple-run]
   status: at-risk
   status_note: >
@@ -762,7 +716,7 @@
   great: >
     It invented the endless runner as a phone genre with three gestures.
   mine: >
-    — your memory goes here —
+    On my own phone.
   mentions: [subway-surfers]
   status: preserved
   tags: [mobile, runner]
@@ -779,7 +733,7 @@
     Bright, fast, and still updated, it became the most-downloaded mobile
     game of the 2010s.
   mine: >
-    — your memory goes here —
+    On my own phone.
   mentions: [temple-run]
   status: preserved
   tags: [mobile, runner]

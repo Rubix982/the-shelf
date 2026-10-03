@@ -14,7 +14,7 @@
     clearly on a small CRT from across a room, which is exactly the
     constraint it was drawn for.
   mine: >
-    — your memory goes here —
+    Watched alone after school.
   status: at-risk
   status_note: >
     Broadcast masters exist but streaming availability keeps lapsing by
@@ -131,7 +131,7 @@
     It made the games' world feel alive and enormous, and the English
     theme song is a generation's shared memory.
   mine: >
-    Watched it dubbed in Urdu/Hindi.
+    Watched it dubbed in Urdu/Hindi. I had Pokémon cards.
   status: preserved
   tags: [anime, formative]
 
@@ -201,7 +201,7 @@
     cards, the ridiculous rules invented mid-fight — were watched for the
     drama, not the rules.
   mine: >
-    — your memory goes here —
+    I had some Yu-Gi-Oh! cards, alongside Pokémon and Bakugan ones.
   status: preserved
   tags: [anime]
 
@@ -555,7 +555,8 @@
     Slapstick needs no language, which is why it played in every country
     and every decade.
   mine: >
-    — your memory goes here —
+    Mornings before school, and with the whole family — nobody needed to
+    understand the language.
   mentions: [looney-tunes, oggy-and-the-cockroaches]
   status: preserved
   tags: [animation, kids, classic]
@@ -572,7 +573,8 @@
     Chuck Jones's Road Runner cartoons are a masterclass in timing, and
     Bugs is the coolest character animation ever made.
   mine: >
-    — your memory goes here —
+    Mornings before school, and with the whole family — nobody needed to
+    understand the language.
   mentions: [tom-and-jerry]
   status: preserved
   tags: [animation, kids, classic]
@@ -589,7 +591,8 @@
     Like Tom and Jerry, it needed no translation, which made it a fixture
     of children's TV across South Asia.
   mine: >
-    — your memory goes here —
+    Mornings before school, and with the whole family — nobody needed to
+    understand the language.
   mentions: [tom-and-jerry, mr-bean]
   status: preserved
   tags: [animation, kids]
@@ -607,7 +610,8 @@
     Rowan Atkinson's physical comedy works with no words, which is why it
     was understood everywhere.
   mine: >
-    — your memory goes here —
+    The favourite of the wordless comedies. Mornings before school, and
+    with the whole family.
   mentions: [oggy-and-the-cockroaches]
   status: preserved
   tags: [comedy, kids]
@@ -826,7 +830,7 @@
   great: >
     Every wish was a cautionary tale, delivered at manic speed.
   mine: >
-    — your memory goes here —
+    I used to plan the wishes I'd make if I had fairy godparents.
   mentions: [danny-phantom, jimmy-neutron]
   status: preserved
   tags: [animation, nickelodeon]
@@ -844,7 +848,7 @@
     A real superhero show with a secret identity done well and a villain,
     Vlad Plasmius, who was genuinely menacing.
   mine: >
-    — your memory goes here —
+    The best of the Nickelodeon shows, for me.
   mentions: [fairly-oddparents]
   status: preserved
   tags: [animation, nickelodeon]
@@ -917,7 +921,7 @@
     episode stayed with a generation — and about bravery as being scared
     and doing it anyway.
   mine: >
-    — your memory goes here —
+    Watched alone after school. It genuinely scared me.
   mentions: [dexters-laboratory]
   status: preserved
   tags: [animation, cartoon-network, horror]
@@ -934,7 +938,7 @@
     Hand-drawn with constantly wobbling lines, it looked like nothing else,
     and its world of only children felt complete.
   mine: >
-    — your memory goes here —
+    Watched alone after school.
   mentions: [courage-the-cowardly-dog]
   status: preserved
   tags: [animation, cartoon-network]
@@ -951,7 +955,7 @@
     A superhero show and a parody of one, with a design that made three
     near-identical characters instantly distinct.
   mine: >
-    — your memory goes here —
+    Watched alone after school.
   mentions: [dexters-laboratory]
   status: preserved
   tags: [animation, cartoon-network]
@@ -968,7 +972,9 @@
     It could go from goofy to dark in one episode — the Trigon and Slade
     arcs especially — and its theme song is unforgettable.
   mine: >
-    — your memory goes here —
+    Watched alone after school. The theme song — and it had a lot of life
+    lessons that I really liked. Some of them I still find valuable, all
+    these years later.
   mentions: [codename-kids-next-door]
   status: preserved
   tags: [animation, cartoon-network]
@@ -985,7 +991,7 @@
     It built a whole mythology out of a child's grievances, and every
     gadget was an acronym.
   mine: >
-    — your memory goes here —
+    Watched alone after school.
   mentions: [teen-titans]
   status: preserved
   tags: [animation, cartoon-network]
@@ -1080,3 +1086,22 @@
   mentions: [sherlock-holmes-stories, columbo]
   status: preserved
   tags: [detective, drama]
+
+- id: bakugan
+  title: Bakugan Battle Brawlers
+  year: 2007
+  platform: Cartoon Network
+  by: Sega Toys & Spin Master
+  what: >
+    An anime and toy line together: Dan Kuso and his friends battle with
+    Bakugan, monsters that live as small balls and spring open into
+    creatures when rolled onto magnetic metal cards. Dan's partner is the
+    dragon Drago.
+  great: >
+    The toy did exactly what the show did — roll it, and it popped open —
+    which almost no tie-in toy ever managed.
+  mine: >
+    I had Bakugan cards, alongside Pokémon and Yu-Gi-Oh! ones.
+  mentions: [yu-gi-oh, pokemon-anime]
+  status: preserved
+  tags: [anime, toys, cards]

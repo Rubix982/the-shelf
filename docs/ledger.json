@@ -72,7 +72,7 @@
       "region": "",
       "what": "Bugs Bunny, Daffy Duck, Road Runner and Wile E. Coyote, Tweety and Sylvester.",
       "great": "Chuck Jones's Road Runner cartoons are a masterclass in timing, and Bugs is the coolest character animation ever made.",
-      "mine": "— your memory goes here —",
+      "mine": "Mornings before school, and with the whole family — nobody needed to understand the language.",
       "mentions": [
         "tom-and-jerry"
       ],
@@ -99,7 +99,7 @@
       "region": "",
       "what": "A cat chasing a mouse, almost without dialogue, in short cartoons made at MGM from 1940.",
       "great": "Slapstick needs no language, which is why it played in every country and every decade.",
-      "mine": "— your memory goes here —",
+      "mine": "Mornings before school, and with the whole family — nobody needed to understand the language.",
       "mentions": [
         "looney-tunes",
         "oggy-and-the-cockroaches"
@@ -473,7 +473,7 @@
       "region": "",
       "what": "A single-screen platformer across the levels of a palace, with a sixty-minute timer running the whole game and rotoscoped animation traced from film of the author's brother.",
       "great": "The animation had weight. You could not stop instantly, which meant every jump was a commitment made a half-second before it mattered. The timer turned the whole palace into one continuous act instead of a series of rooms.",
-      "mine": "— your memory goes here —",
+      "mine": "Yes, I played this one — and played The Sands of Time after it.",
       "mentions": [],
       "where": [
         {
@@ -529,7 +529,7 @@
       "region": "",
       "what": "A man who barely speaks causes small disasters in ordinary places — the dentist, the swimming pool, the exam hall. Later an animated series.",
       "great": "Rowan Atkinson's physical comedy works with no words, which is why it was understood everywhere.",
-      "mine": "— your memory goes here —",
+      "mine": "The favourite of the wordless comedies. Mornings before school, and with the whole family.",
       "mentions": [
         "oggy-and-the-cockroaches"
       ],
@@ -612,7 +612,6 @@
       "great": "Robin Williams improvising as the Genie changed what animated characters could sound like.",
       "mine": "Watched it on TV.",
       "mentions": [
-        "aladdin",
         "the-lion-king",
         "mulan"
       ],
@@ -652,37 +651,6 @@
       "tracks": null
     },
     {
-      "id": "sonic-2",
-      "kind": "games",
-      "kindLabel": "Games",
-      "title": "Sonic the Hedgehog 2",
-      "year": 1992,
-      "mineYear": null,
-      "platform": "Mega Drive",
-      "by": "Sega Technical Institute",
-      "region": "",
-      "what": "The second Sonic. Added Tails, the spin dash, and a split-screen two-player mode that ran the same levels at half the frame rate and nobody minded.",
-      "great": "The spin dash fixed the one real flaw in the first game — you could recover speed after a mistake instead of trudging. Casino Night Zone understood something most platformers still do not: that a level can be a toy rather than an obstacle.",
-      "mine": "— your memory goes here. where were you, how old, who else was in the room, what you remember that nobody else would —",
-      "mentions": [
-        "aladdin"
-      ],
-      "where": [
-        {
-          "label": "No-Intro cartridge dumps",
-          "url": "https://datomatic.no-intro.org"
-        }
-      ],
-      "status": "preserved",
-      "statusNote": "Dumped, verified, emulated everywhere. Nothing for me to do.",
-      "tags": [
-        "platformer",
-        "formative"
-      ],
-      "ongoing": false,
-      "tracks": null
-    },
-    {
       "id": "ainak-wala-jin",
       "kind": "television",
       "kindLabel": "Television",
@@ -706,32 +674,6 @@
         "kids",
         "ptv",
         "formative"
-      ],
-      "ongoing": false,
-      "tracks": null
-    },
-    {
-      "id": "aladdin",
-      "kind": "games",
-      "kindLabel": "Games",
-      "title": "Aladdin",
-      "year": 1993,
-      "mineYear": null,
-      "platform": "Mega Drive",
-      "by": "Virgin Games",
-      "region": "",
-      "what": "A licensed platformer whose sprites were drawn by Disney's own feature animators rather than by the game studio.",
-      "great": "Licensed games were mostly contractual obligations. This one moved like the film because the people who made the film drew the frames, and it is still the argument for why that collaboration is worth the cost.",
-      "mine": "— your memory goes here —",
-      "mentions": [
-        "sonic-2"
-      ],
-      "where": [],
-      "status": "preserved",
-      "statusNote": "",
-      "tags": [
-        "platformer",
-        "licensed"
       ],
       "ongoing": false,
       "tracks": null
@@ -852,7 +794,7 @@
       "region": "",
       "what": "A boy genius with a secret lab and a sister determined to get into it. Came out of Cartoon Network's What A Cartoon! shorts programme.",
       "great": "The design language was doing something none of its contemporaries tried — thick lines, flat colour, extreme silhouettes — and it read clearly on a small CRT from across a room, which is exactly the constraint it was drawn for.",
-      "mine": "— your memory goes here —",
+      "mine": "Watched alone after school.",
       "mentions": [],
       "where": [],
       "status": "at-risk",
@@ -930,7 +872,7 @@
       "region": "",
       "what": "Ash Ketchum and Pikachu travel from region to region to become a Pokémon Master, chased by Team Rocket every episode.",
       "great": "It made the games' world feel alive and enormous, and the English theme song is a generation's shared memory.",
-      "mine": "Watched it dubbed in Urdu/Hindi.",
+      "mine": "Watched it dubbed in Urdu/Hindi. I had Pokémon cards.",
       "mentions": [],
       "where": [],
       "status": "preserved",
@@ -981,7 +923,7 @@
       "region": "",
       "what": "A line that grows every time it eats a dot, until it runs into itself. First shipped on the Nokia 6110 and preloaded on hundreds of millions of phones.",
       "great": "The first game a huge number of people ever played, on a device they did not think of as a games machine.",
-      "mine": "— your memory goes here. whose phone, what your high score was —",
+      "mine": "On a parent's Nokia.",
       "mentions": [
         "angry-birds"
       ],
@@ -1062,7 +1004,7 @@
       "region": "",
       "what": "A lazy blue cat at war with three cockroaches — Joey, Dee Dee and Marky — who live in his house. French, and nearly wordless.",
       "great": "Like Tom and Jerry, it needed no translation, which made it a fixture of children's TV across South Asia.",
-      "mine": "— your memory goes here —",
+      "mine": "Mornings before school, and with the whole family — nobody needed to understand the language.",
       "mentions": [
         "tom-and-jerry",
         "mr-bean"
@@ -1089,7 +1031,7 @@
       "region": "",
       "what": "Blossom, Bubbles and Buttercup — made from sugar, spice, everything nice and Chemical X — save Townsville from Mojo Jojo and HIM.",
       "great": "A superhero show and a parody of one, with a design that made three near-identical characters instantly distinct.",
-      "mine": "— your memory goes here —",
+      "mine": "Watched alone after school.",
       "mentions": [
         "dexters-laboratory"
       ],
@@ -1146,7 +1088,7 @@
       "region": "",
       "what": "A timid pink dog protects his elderly owners, Muriel and Eustace, from monsters and curses in their farmhouse in the Middle of Nowhere.",
       "great": "Genuinely frightening for a children's cartoon — the King Ramses episode stayed with a generation — and about bravery as being scared and doing it anyway.",
-      "mine": "— your memory goes here —",
+      "mine": "Watched alone after school. It genuinely scared me.",
       "mentions": [
         "dexters-laboratory"
       ],
@@ -1173,7 +1115,7 @@
       "region": "",
       "what": "Three boys in a cul-de-sac scheme to con the other kids out of quarters to buy jawbreakers. No adults are ever seen.",
       "great": "Hand-drawn with constantly wobbling lines, it looked like nothing else, and its world of only children felt complete.",
-      "mine": "— your memory goes here —",
+      "mine": "Watched alone after school.",
       "mentions": [
         "courage-the-cowardly-dog"
       ],
@@ -1250,7 +1192,7 @@
       "region": "",
       "what": "Build and run an amusement park: lay track for coasters, set prices, hire staff, and keep guests from throwing up on the paths. Written almost entirely in assembly language by one programmer.",
       "great": "You could ride your own coaster from a guest's point of view, and the guests' thoughts told you exactly what was wrong — \"I want to go on something more thrilling,\" \"This path is disgusting.\"",
-      "mine": "— your memory goes here —",
+      "mine": "I built coasters that killed the guests.",
       "mentions": [
         "simcity-4",
         "the-sims"
@@ -1430,7 +1372,7 @@
       "region": "",
       "what": "Yugi Mutou solves an ancient puzzle and shares his body with the spirit of a pharaoh, who duels for him in a card game played with holograms.",
       "great": "It sold a card game to a generation, and the duels — heart of the cards, the ridiculous rules invented mid-fight — were watched for the drama, not the rules.",
-      "mine": "— your memory goes here —",
+      "mine": "I had some Yu-Gi-Oh! cards, alongside Pokémon and Bakugan ones.",
       "mentions": [],
       "where": [],
       "status": "preserved",
@@ -1531,7 +1473,7 @@
       "region": "",
       "what": "Thousands of free browser games — on Miniclip, Newgrounds, Addicting Games — made in Adobe Flash, often by one person, played on school and family computers.",
       "great": "Anyone could make one and anyone could play one, with no install. It was the most open games scene there has ever been.",
-      "mine": "— which ones. name them — that is what makes them findable later —",
+      "mine": "Miniclip, at school and on the family computer: 8 Ball Pool, Fireboy and Watergirl, Bloons Tower Defense, Motherload.",
       "mentions": [],
       "where": [
         {
@@ -1613,7 +1555,7 @@
       "region": "",
       "what": "Timmy Turner, neglected by his parents and tormented by his babysitter Vicky, has two fairy godparents, Cosmo and Wanda, who grant his wishes — which always go wrong.",
       "great": "Every wish was a cautionary tale, delivered at manic speed.",
-      "mine": "— your memory goes here —",
+      "mine": "I used to plan the wishes I'd make if I had fairy godparents.",
       "mentions": [
         "danny-phantom",
         "jimmy-neutron"
@@ -1746,7 +1688,7 @@
       "region": "",
       "what": "A global organisation of children fights adult tyranny — broccoli, bedtimes, the dentist — with treehouse weapons built from junk.",
       "great": "It built a whole mythology out of a child's grievances, and every gadget was an acronym.",
-      "mine": "— your memory goes here —",
+      "mine": "Watched alone after school.",
       "mentions": [
         "teen-titans"
       ],
@@ -1909,7 +1851,7 @@
       "region": "",
       "what": "A real-time strategy game with hero units, across humans, orcs, undead and night elves. Its map editor produced Defense of the Ancients — five heroes a side pushing down three lanes — which became a genre of its own.",
       "great": "Blizzard shipped the tools it built the game with, and players used them to invent something bigger than the game. DotA, and everything descended from it, exists because of that editor.",
-      "mine": "— your memory goes here —",
+      "mine": "Both: the campaign, and then mostly DotA.",
       "mentions": [
         "age-of-empires-2",
         "age-of-mythology"
@@ -2124,7 +2066,7 @@
       "region": "",
       "what": "Red vs. Blue: two teams of soldiers in a box canyon in Halo, arguing about nothing, filmed inside the game. It ran for over twenty years and built a company around it.",
       "great": "It proved a game could be a film set, and that bored soldiers arguing could carry a long-running comedy.",
-      "mine": "— your memory goes here —",
+      "mine": "Watched Red vs. Blue.",
       "mentions": [
         "machinima"
       ],
@@ -2184,7 +2126,7 @@
       "region": "",
       "what": "Robin, Starfire, Cyborg, Raven and Beast Boy live in Titans Tower and fight villains, with an anime-influenced style and season-long arcs.",
       "great": "It could go from goofy to dark in one episode — the Trigon and Slade arcs especially — and its theme song is unforgettable.",
-      "mine": "— your memory goes here —",
+      "mine": "Watched alone after school. The theme song — and it had a lot of life lessons that I really liked. Some of them I still find valuable, all these years later.",
       "mentions": [
         "codename-kids-next-door"
       ],
@@ -2386,7 +2328,7 @@
       "region": "",
       "what": "An accident in his parents' ghost portal makes fourteen-year-old Danny Fenton half ghost, and he fights ghosts while hiding it from his ghost-hunting family.",
       "great": "A real superhero show with a secret identity done well and a villain, Vlad Plasmius, who was genuinely menacing.",
-      "mine": "— your memory goes here —",
+      "mine": "The best of the Nickelodeon shows, for me.",
       "mentions": [
         "fairly-oddparents"
       ],
@@ -2526,7 +2468,7 @@
       "region": "",
       "what": "Gordon Freeman returns to a City 17 occupied by the alien Combine. A first-person shooter built on a physics engine, best remembered for the Gravity Gun.",
       "great": "Physics became the puzzle. Picking up a saw blade with the Gravity Gun and firing it was a new verb, and the game never once stopped to tell you the story — you were always in it.",
-      "mine": "— your memory goes here —",
+      "mine": "Gravity Gun everything.",
       "mentions": [
         "counter-strike"
       ],
@@ -2868,7 +2810,7 @@
       "region": "",
       "what": "Two friends lip-syncing to the Pokémon theme, then a decade of sketches — \"Food Battle,\" \"Shut Up!\" cartoons — that grew into a company.",
       "great": "One of the channels that defined what YouTube comedy was in its first years.",
-      "mine": "— your memory goes here —",
+      "mine": "Watched together with others, and quoted it at each other afterwards.",
       "mentions": [
         "nigahiga"
       ],
@@ -3143,7 +3085,7 @@
       "region": "",
       "what": "A gaming network and channel built on machinima — films made inside video game engines — that grew into one of the biggest channels on YouTube, hosting dozens of shows and creators.",
       "great": "It was where gaming video became a medium of its own before let's plays took over.",
-      "mine": "— your memory goes here —",
+      "mine": "Watched its shows — The Leet World most of all.",
       "mentions": [
         "rooster-teeth",
         "the-leet-world"
@@ -3198,7 +3140,7 @@
       "region": "",
       "what": "Sketch comedy by Ryan Higa, starting with friends in Hawaii — \"How to Be Ninja,\" \"How to Be Gangster.\" For a time the most-subscribed channel on YouTube.",
       "great": "Bedroom-made comedy that reached millions before YouTube had money in it, and proof that one teenager with a camera could be a channel.",
-      "mine": "— your memory goes here —",
+      "mine": "Watched together with others, and quoted it at each other afterwards.",
       "mentions": [
         "smosh"
       ],
@@ -3225,7 +3167,7 @@
       "region": "",
       "what": "A comedy series filmed inside Counter-Strike: short episodes of players talking over their microphones and playing together, scripted into a sitcom about a group of friends on a server.",
       "great": "It took the thing you actually did in Counter-Strike — talk over voice chat with people you knew — and made a show out of it.",
-      "mine": "— your memory goes here —",
+      "mine": "Of all the machinima, this was the one I watched most.",
       "mentions": [
         "counter-strike",
         "machinima"
@@ -3247,6 +3189,34 @@
       "tracks": null
     },
     {
+      "id": "bakugan",
+      "kind": "television",
+      "kindLabel": "Television",
+      "title": "Bakugan Battle Brawlers",
+      "year": 2007,
+      "mineYear": null,
+      "platform": "Cartoon Network",
+      "by": "Sega Toys & Spin Master",
+      "region": "",
+      "what": "An anime and toy line together: Dan Kuso and his friends battle with Bakugan, monsters that live as small balls and spring open into creatures when rolled onto magnetic metal cards. Dan's partner is the dragon Drago.",
+      "great": "The toy did exactly what the show did — roll it, and it popped open — which almost no tie-in toy ever managed.",
+      "mine": "I had Bakugan cards, alongside Pokémon and Yu-Gi-Oh! ones.",
+      "mentions": [
+        "yu-gi-oh",
+        "pokemon-anime"
+      ],
+      "where": [],
+      "status": "preserved",
+      "statusNote": "",
+      "tags": [
+        "anime",
+        "toys",
+        "cards"
+      ],
+      "ongoing": false,
+      "tracks": null
+    },
+    {
       "id": "call-of-duty-4",
       "kind": "games",
       "kindLabel": "Games",
@@ -3258,7 +3228,7 @@
       "region": "",
       "what": "Call of Duty moved from World War II to the present day: a campaign split between an SAS sergeant and a US Marine, and an online mode with levels, unlocks and perks.",
       "great": "\"All Ghillied Up\" is one of the best levels ever made, and the multiplayer's levelling system was copied by nearly every shooter for the next decade.",
-      "mine": "— your memory goes here —",
+      "mine": "Played the campaign on the family computer.",
       "mentions": [
         "call-of-duty-mw2",
         "counter-strike"
@@ -3685,7 +3655,7 @@
       "region": "",
       "what": "A Facebook virtual world: dress your avatar, decorate your apartment, visit friends, work jobs for coins. Later rebranded YoWorld.",
       "great": "— why it was worth playing —",
-      "mine": "— your memory goes here —",
+      "mine": "I decorated an apartment.",
       "mentions": [
         "farmville"
       ],
@@ -3767,7 +3737,7 @@
       "region": "",
       "what": "Fling birds from a slingshot to knock down structures and pop the green pigs who stole their eggs.",
       "great": "The physics made every throw slightly different, and the one-more-try loop made smartphones a games platform for everyone.",
-      "mine": "— your memory goes here —",
+      "mine": "On a family phone or tablet.",
       "mentions": [
         "snake-nokia",
         "temple-run"
@@ -3794,7 +3764,7 @@
       "region": "",
       "what": "A talking orange with a human mouth pasted on, pestering other fruit in a kitchen with terrible puns until they meet a knife. Spun off into a Cartoon Network series in 2012.",
       "great": "The joke was the lowest possible effort, and that was the joke. It is the clearest example of early YouTube becoming a franchise.",
-      "mine": "— your memory goes here —",
+      "mine": "Watched together with others, and quoted it at each other afterwards. To me, at the time, this was peak comedy.",
       "mentions": [],
       "where": [],
       "status": "at-risk",
@@ -3843,7 +3813,7 @@
       "region": "",
       "what": "The sequel: Task Force 141, Soap and Ghost, and Spec Ops co-op. Multiplayer added killstreaks up to a tactical nuke.",
       "great": "The most spectacular campaign of its time, and the multiplayer most people of that generation remember playing until morning.",
-      "mine": "— your memory goes here —",
+      "mine": "Played the campaign on the family computer.",
       "mentions": [
         "call-of-duty-4"
       ],
@@ -3922,7 +3892,7 @@
       "region": "",
       "what": "Tower defence on a lawn. Plant peashooters, sunflowers and walnuts in rows to stop zombies shambling toward your house.",
       "great": "It taught tower defence to people who had never heard the phrase, and every new plant and zombie arrived exactly when you understood the last one. The zombie's letters and the end song are still charming.",
-      "mine": "— your memory goes here —",
+      "mine": "Finished it — maybe more than once.",
       "mentions": [],
       "where": [],
       "status": "preserved",
@@ -3947,7 +3917,7 @@
       "region": "",
       "what": "\"Equals Three\": a few viral videos per episode, with jokes about each. For a while one of the most-subscribed channels on YouTube.",
       "great": "It was a weekly guide to what the internet was laughing at, which makes it a record of the viral-video era itself.",
-      "mine": "— your memory goes here —",
+      "mine": "Watched together with others, and quoted it at each other afterwards.",
       "mentions": [
         "viral-video-era"
       ],
@@ -4023,7 +3993,7 @@
       "region": "",
       "what": "Minecraft let's plays and music-video parodies — \"Revenge,\" his \"DJ Got Us Fallin' in Love\" Creeper parody, and \"Fallen Kingdom.\" Part of the wider Minecraft YouTube of the early 2010s.",
       "great": "The parodies were made with real effort, in a game made of blocks, and for a lot of kids they were Minecraft as much as the game was.",
-      "mine": "— your memory goes here —",
+      "mine": "I watched more Minecraft than I played, and had the songs on repeat.",
       "mentions": [
         "minecraft"
       ],
@@ -4135,7 +4105,7 @@
       "region": "",
       "what": "Let's plays, mostly horror games like Amnesia, with loud reactions and a \"brofist\" sign-off. The most-subscribed individual channel for years.",
       "great": "He made watching someone else play a game into its own entertainment, which was not obvious at the time.",
-      "mine": "— your memory goes here —",
+      "mine": "I watched more of these games than I played — horror games I was too scared to play myself.",
       "mentions": [],
       "where": [],
       "status": "at-risk",
@@ -4186,7 +4156,7 @@
       "region": "",
       "what": "\"Hey, Vsauce, Michael here.\" Questions like \"how much does a shadow weigh?\" followed wherever they led, through physics, philosophy and language.",
       "great": "It treated curiosity as the content and trusted viewers with real ideas. Its tangents taught more than most lessons did.",
-      "mine": "— your memory goes here —",
+      "mine": "It made me curious about science. I fell down its rabbit holes late at night, and it pointed me toward the field I ended up in — while also just being fun.",
       "mentions": [],
       "where": [],
       "status": "at-risk",
@@ -4310,7 +4280,7 @@
       "region": "",
       "what": "An explorer steals an idol and runs forever from demon monkeys — swipe to turn, jump and slide.",
       "great": "It invented the endless runner as a phone genre with three gestures.",
-      "mine": "— your memory goes here —",
+      "mine": "On my own phone.",
       "mentions": [
         "subway-surfers"
       ],
@@ -4363,7 +4333,7 @@
       "region": "",
       "what": "Let's plays, starting with horror games — Amnesia, Five Nights at Freddy's — with loud reactions and long charity livestreams.",
       "great": "He was warmer than the genre required, and his channel became a place people went for company as much as for the games.",
-      "mine": "— your memory goes here —",
+      "mine": "I watched more of these games than I played — horror games I was too scared to play myself.",
       "mentions": [
         "pewdiepie"
       ],
@@ -4389,7 +4359,7 @@
       "region": "",
       "what": "A graffiti kid runs along subway tracks from an inspector and his dog, dodging trains and collecting coins.",
       "great": "Bright, fast, and still updated, it became the most-downloaded mobile game of the 2010s.",
-      "mine": "— your memory goes here —",
+      "mine": "On my own phone.",
       "mentions": [
         "temple-run"
       ],
@@ -6062,17 +6032,17 @@
     }
   ],
   "counts": {
-    "total": 169,
-    "preserved": 127,
+    "total": 168,
+    "preserved": 126,
     "atRisk": 35,
     "gone": 7,
     "byKind": {
       "books": 6,
-      "games": 39,
+      "games": 37,
       "internet": 4,
       "movies": 30,
       "music": 19,
-      "television": 58,
+      "television": 59,
       "youtube": 13
     }
   },

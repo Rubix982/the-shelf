@@ -1162,3 +1162,79 @@ a:hover {
     display: none;
   }
 }
+
+/* =========================================================================
+   Pictures — linked from Wikipedia, mounted on paper
+   A light mount, because half of them are logos with transparent
+   backgrounds that would vanish on the dark ground.
+   ========================================================================= */
+
+.pic {
+  margin: 0 0 1.5rem;
+}
+
+.pic__img {
+  display: block;
+  max-width: 100%;
+  max-height: 22rem;
+  padding: 0.6rem;
+  background: #e8dfcf;
+  border-radius: 2px;
+  box-shadow: 0 10px 24px -10px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(0, 0, 0, 0.4);
+  object-fit: contain;
+}
+
+.pic figcaption {
+  margin-top: 0.45rem;
+  font-family: var(--mono);
+  font-size: 0.64rem;
+  color: var(--ink-faint);
+}
+
+.pic figcaption a {
+  color: var(--ink-dim);
+}
+
+
+.memory {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  column-gap: 0.8rem;
+}
+
+.memory__pic {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  width: 3.4rem;
+  height: 4.4rem;
+  object-fit: contain;
+  background: #e8dfcf;
+  padding: 0.2rem;
+  border-radius: 2px;
+  align-self: center;
+}
+
+.memory__text,
+.memory__src {
+  grid-column: 1;
+}
+
+.readout {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.readout__pic {
+  flex: none;
+  width: 3.2rem;
+  height: 3.8rem;
+  object-fit: contain;
+  background: #e8dfcf;
+  padding: 0.2rem;
+  border-radius: 2px;
+}
+
+.readout__words {
+  min-width: 0;
+}

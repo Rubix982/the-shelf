@@ -75,6 +75,20 @@
     return CLOTH[hash(e.id) % CLOTH.length];
   }
 
+  /* A picture linked from Wikipedia. If the link has rotted, or the page is
+     opened offline, the image removes itself and the spine stands alone. */
+  function picture(e, cls) {
+    if (!e.picture) return "";
+    return (
+      '<img class="' + cls + '" src="' + esc(e.picture.src) + '" alt="" loading="lazy" ' +
+      'referrerpolicy="no-referrer" onerror="this.remove()">'
+    );
+  }
+
+  function wikiUrl(page) {
+    return "https://en.wikipedia.org/wiki/" + encodeURIComponent(page.replace(/ /g, "_"));
+  }
+
   /* A memory counts once it is more than the placeholder prompt, which always
      opens with a dash. */
   function written(e) {
@@ -198,6 +212,7 @@
           var lv = livery(e);
           return (
             '<a class="memory" href="#/e/' + encodeURIComponent(e.id) + '" style="--spine-band:' + lv[2] + '">' +
+            picture(e, "memory__pic") +
             '<span class="memory__text">' + esc(e.mine) + "</span>" +
             '<span class="memory__src">' + esc(e.title) + (e.year ? " &middot; " + e.year : "") +
             " &middot; " + esc(e.kindLabel.toLowerCase()) + "</span>" +
@@ -327,13 +342,16 @@
     var mine = written(e) ? e.mine : "";
     if (mine.length > 220) mine = mine.slice(0, 217).replace(/\s+\S*$/, "") + "…";
     return (
+      picture(e, "readout__pic") +
+      '<div class="readout__words">' +
       '<p class="readout__title"><b>' + esc(e.title) + "</b>" +
       (e.year ? " &middot; " + e.year : "") +
       (e.platform ? " &middot; " + esc(e.platform) : "") +
       ' <span class="k k--' + esc(e.status) + '">' + esc(STATUS_WORD[e.status] || e.status) + "</span></p>" +
       (mine
         ? '<p class="readout__mine">' + esc(mine) + "</p>"
-        : '<p class="readout__mine readout__mine--empty">not remembered yet</p>')
+        : '<p class="readout__mine readout__mine--empty">not remembered yet</p>') +
+      "</div>"
     );
   }
 
@@ -382,7 +400,13 @@
     /* The side column: the thing itself as a spine, how safe it is, and what
        sits near it — so the page reads as one object pulled off a shelf of
        others, not a column of text beside an empty margin. */
-    var spineBox = '<div class="entry__spine" aria-hidden="true">' + spine(e) + "</div>";
+    var spineBox =
+      (e.picture
+        ? '<figure class="pic">' + picture(e, "pic__img") +
+          '<figcaption>picture via <a href="' + esc(wikiUrl(e.picture.page || e.title)) +
+          '" target="_blank" rel="noreferrer">Wikipedia</a></figcaption></figure>'
+        : "") +
+      '<div class="entry__spine" aria-hidden="true">' + spine(e) + "</div>";
     var side = "";
 
     if (e.mentions.length) {

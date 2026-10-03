@@ -43,6 +43,24 @@ An entry with nothing but a title and a `mine` is worth more than a complete
 record with no memory in it. Write the memory first; the release year can be
 looked up forever, and your memory cannot.
 
+## Pictures
+
+```bash
+npm run pictures
+```
+
+Finds each new entry on Wikipedia and writes the match to
+`ledger/pictures.yml`: the page it came from, Wikipedia's one-line
+description of that page, and the picture's address. The site links to the
+picture rather than storing it — cover art is not ours to redistribute — so
+offline, or once a link rots, the entry simply shows its spine instead.
+
+Check every new line before trusting it. Wikipedia is only used for the
+picture, but the search guesses wrong often enough to matter: the first run
+matched *Dark* to *His Dark Materials* and Strings to an American bluegrass
+player. Fix a line by setting `page` and `picture` (or `picture: none`) and
+keep `pinned: true` on it, so a re-run never touches it again.
+
 ## Capturing a playlist
 
 ```bash

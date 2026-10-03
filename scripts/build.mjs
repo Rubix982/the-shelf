@@ -121,7 +121,14 @@ function joinTracks(tracks, notes) {
   };
 }
 
-const files = (await fs.readdir(ledgerDir)).filter((f) => /\.ya?ml$/.test(f));
+/* Pictures are linked from Wikipedia, not held here; see
+   scripts/capture-pictures.mjs. Not a kind of entry, so kept out of the loop. */
+let pictures = {};
+try {
+  pictures = parseYaml(await fs.readFile(path.join(ledgerDir, "pictures.yml"), "utf8")) ?? {};
+} catch {}
+
+const files = (await fs.readdir(ledgerDir)).filter((f) => /\.ya?ml$/.test(f) && f !== "pictures.yml");
 const entries = [];
 const problems = [];
 
@@ -156,6 +163,10 @@ for (const file of files) {
       status: e.status ?? "at-risk",
       statusNote: (e.status_note ?? "").trim(),
       tags: e.tags ?? [],
+      picture: (() => {
+        const p = pictures[e.id ?? slug(e.title)];
+        return p && p.picture && p.picture !== "none" ? { src: p.picture, page: p.page ?? null } : null;
+      })(),
       // A living collection has no single year; it sorts after everything dated.
       ongoing: Boolean(e.ongoing),
       tracks: e.tracks_file

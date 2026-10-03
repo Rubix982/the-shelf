@@ -8,7 +8,8 @@
     "build": "node scripts/build.mjs",
     "serve": "node scripts/build.mjs && node --run serve:only",
     "serve:only": "npx --yes serve docs -l 4400",
-    "capture": "node scripts/capture-playlist.mjs"
+    "capture": "node scripts/capture-playlist.mjs",
+    "pictures": "node scripts/capture-pictures.mjs"
   },
   "dependencies": {
     "js-yaml": "^4.1.0"

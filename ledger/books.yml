@@ -12,7 +12,7 @@
     The books grew up with their readers — each one longer and darker than
     the last — and the midnight releases made reading a public event.
   mine: >
-    — your memory goes here —
+    Came to the books after the films.
   mentions: [harry-potter]
   status: preserved
   tags: [fantasy, formative]
@@ -91,3 +91,24 @@
     — your memory goes here —
   status: preserved
   tags: [childrens, mystery]
+
+- id: sherlock-holmes-stories
+  title: The Sherlock Holmes stories
+  year: 1887
+  platform: Short stories and novels
+  by: Arthur Conan Doyle
+  what: >
+    Four novels and fifty-six stories, from A Study in Scarlet (1887): the
+    consulting detective at 221B Baker Street and his friend Dr. Watson,
+    who narrates.
+  great: >
+    The template for every fictional detective since — the observation,
+    the explanation at the end, the friend who stands in for the reader.
+  mine: >
+    — your memory goes here —
+  mentions: [sherlock, columbo]
+  where:
+    - label: Project Gutenberg (public domain)
+      url: https://www.gutenberg.org/ebooks/author/69
+  status: preserved
+  tags: [detective, classic]

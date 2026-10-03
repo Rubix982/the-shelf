@@ -87,7 +87,7 @@
     "Objection!" into the microphone when you find it is still one of the
     best payoffs a game has offered for simply paying attention.
   mine: >
-    — your memory goes here —
+    I never played it myself — I watched it through let's plays.
   mentions: [phoenix-wright-justice-for-all]
   where:
     - label: No-Intro cartridge dumps
@@ -112,7 +112,7 @@
     may actually be guilty, which is the question the first game never
     had the nerve to pose.
   mine: >
-    — your memory goes here —
+    I never played it myself — I watched it through let's plays.
   mentions: [phoenix-wright-ace-attorney, phoenix-wright-trials-and-tribulations]
   where:
     - label: No-Intro cartridge dumps
@@ -134,7 +134,7 @@
     from the first case of the first game into its finale. Few series
     land their ending this cleanly.
   mine: >
-    — your memory goes here —
+    I never played it myself — I watched it through let's plays.
   mentions: [phoenix-wright-justice-for-all, apollo-justice-ace-attorney]
   where:
     - label: No-Intro cartridge dumps
@@ -156,7 +156,7 @@
     old hero diminished. Not everyone forgave it, which is a reason to
     write it down too.
   mine: >
-    — your memory goes here —
+    I never played it myself — I watched it through let's plays.
   mentions: [phoenix-wright-trials-and-tribulations]
   where:
     - label: No-Intro cartridge dumps
@@ -191,6 +191,7 @@
 - id: nfs-underground-2
   title: "Need for Speed: Underground 2"
   year: 2004
+  mine_year: 2011
   platform: PC
   by: EA Black Box
   what: >
@@ -202,7 +203,10 @@
     somewhere to be shown off, and the soundtrack — Snoop Dogg's
     "Riders on the Storm" over the title screen — set the whole era's mood.
   mine: >
-    — your memory goes here —
+    Reached me around 2011, when I was eleven or twelve — years after it
+    came out — on the family computer at home. I watched someone older play
+    it before I did. I spent more time in the garage than racing, and I
+    used cheats and trainers.
   mentions: [nfs-underground, nfs-most-wanted]
   where:
     - label: redump.org (disc images)
@@ -215,6 +219,7 @@
 - id: nfs-most-wanted
   title: "Need for Speed: Most Wanted"
   year: 2005
+  mine_year: 2011
   platform: PC
   by: EA Black Box
   what: >
@@ -226,7 +231,10 @@
     roadblocks, and losing them by dropping a water tower on a cruiser was
     as much the game as the racing.
   mine: >
-    — your memory goes here —
+    Around 2011, on the family computer, at eleven or twelve. Watched someone
+    older play it first. The police chases were the best part — better than
+    the races — and I spent as much time tuning in the garage as driving.
+    Cheats and trainers, too.
   mentions: [nfs-underground-2]
   where:
     - label: redump.org (disc images)
@@ -359,12 +367,16 @@
     and he got strong, and the radio stations made a long drive feel like
     an evening. It set the scale everything after it was measured against.
   mine: >
-    — your memory goes here —
+    Cheat codes — HESOYAM above all. And I got stuck on the helicopter
+    missions for ages.
   mentions: [nfs-underground-2]
   where:
     - label: redump.org (disc images)
       url: https://redump.org
   status: preserved
+  status_note: >
+    The original was pulled from sale in 2021 for the Definitive Edition
+    remaster; the original PC discs are dumped.
   tags: [open-world, action, pc, formative]
 
 - id: counter-strike
@@ -382,7 +394,8 @@
     cost something. de_dust2 is probably the most-played map in the history
     of the medium, and it is still learnable in an afternoon.
   mine: >
-    — your memory goes here —
+    Bots first, on the family computer — PODbot and the like — then online
+    and over LAN with friends. de_dust2, forever.
   mentions: [half-life-2]
   status: preserved
   status_note: >
@@ -448,7 +461,7 @@
     player's world is different, which makes it the closest thing games
     have to a personal journal.
   mine: >
-    — your memory goes here —
+    Both ways: survival, and creative mode just for building.
   status: preserved
   status_note: >
     The game is safe. Your own worlds are not — if any old save survives on
@@ -590,7 +603,7 @@
     A safe, cheerful online space for children, with moderated chat and an
     events calendar that made it feel alive.
   mine: >
-    — your memory goes here —
+    Free account only — never a member.
   status: gone
   status_note: >
     Disney shut it down in 2017. Fan-run private servers came and went —
@@ -628,7 +641,8 @@
     Arguable, and worth writing down because of that. It made games of
     waiting and asking friends, and tens of millions played it.
   mine: >
-    — your memory goes here —
+    Played on a family member's Facebook account. My crops withered
+    because I forgot to come back.
   mentions: [yoville]
   status: gone
   status_note: >
@@ -646,7 +660,7 @@
   great: >
     — why it was worth playing —
   mine: >
-    — your memory goes here —
+    Played for months, maybe years, and joined a legion.
   where:
     - label: Galaxy Legion (still online)
       url: https://galaxylegion.com/start/
@@ -769,3 +783,61 @@
   mentions: [temple-run]
   status: preserved
   tags: [mobile, runner]
+
+- id: prince-of-persia-sands-of-time
+  title: "Prince of Persia: The Sands of Time"
+  year: 2003
+  platform: PC
+  by: Ubisoft Montreal, with Jordan Mechner
+  what: >
+    The Prince releases the Sands of Time and uses the Dagger of Time to
+    rewind his mistakes, running along walls and across a crumbling palace.
+  great: >
+    Rewinding time made dying a tool instead of a punishment, and the
+    narration — "No, no, that's not how it happened" — turned every death
+    into the storyteller correcting himself.
+  mine: >
+    — your memory goes here —
+  mentions: [prince-of-persia]
+  status: preserved
+  tags: [action, platformer, pc, formative]
+
+- id: gta-3
+  title: Grand Theft Auto III
+  year: 2001
+  platform: PC
+  by: DMA Design (Rockstar North)
+  what: >
+    A silent criminal, betrayed and left for dead, works his way up through
+    Liberty City's gangs. The first 3D Grand Theft Auto.
+  great: >
+    The first time a whole city felt like it existed whether or not you
+    were looking at it. Everything open-world since started here.
+  mine: >
+    — your memory goes here —
+  mentions: [gta-vice-city, gta-liberty-city-stories]
+  status: preserved
+  status_note: >
+    The originals were pulled from sale in 2021 for the Definitive Edition
+    remasters; the original PC discs are dumped.
+  tags: [open-world, action, pc]
+
+- id: gta-vice-city
+  title: "Grand Theft Auto: Vice City"
+  year: 2002
+  platform: PC
+  by: Rockstar North
+  what: >
+    Tommy Vercetti, voiced by Ray Liotta, takes over a neon 1986 Miami
+    after a drug deal goes wrong.
+  great: >
+    The 80s soundtrack and the pastel city were the game. Driving at sunset
+    with Flash FM on is the memory, not any mission.
+  mine: >
+    — your memory goes here —
+  mentions: [gta-3, gta-san-andreas, gta-vice-city-stories]
+  status: preserved
+  status_note: >
+    The originals were pulled from sale in 2021 for the Definitive Edition
+    remasters; the original PC discs are dumped.
+  tags: [open-world, action, pc, formative]

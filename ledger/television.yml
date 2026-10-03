@@ -77,7 +77,8 @@
     Zuko — maybe the best redemption story in television, told over three
     years at exactly the pace it needed.
   mine: >
-    — your memory goes here —
+    Watched it on Nickelodeon as it aired, and again when it came to
+    Netflix in 2020. Zuko's arc and Uncle Iroh are what stuck.
   status: preserved
   tags: [animation, nickelodeon, formative]
 
@@ -146,7 +147,7 @@
     The Chūnin Exams arc — and Naruto against Neji especially — made an
     underdog story feel earned instead of promised.
   mine: >
-    — your memory goes here —
+    Watched it dubbed in Urdu/Hindi.
   mentions: [dragon-ball-z]
   status: preserved
   tags: [anime]
@@ -182,7 +183,7 @@
     A cat-and-mouse story fought entirely with reasoning. The potato-chip
     scene is a thriller made out of a teenager eating crisps.
   mine: >
-    — your memory goes here —
+    Watched it dubbed in Urdu/Hindi.
   status: preserved
   tags: [anime, thriller]
 
@@ -310,7 +311,8 @@
     It was the drama the whole country — and much of India — watched at
     the same time, and it made its leads stars across the border.
   mine: >
-    — your memory goes here —
+    The family watched it as it aired, and I watched with them or caught
+    it in passing.
   mentions: [zindagi-gulzar-hai, dastaan]
   status: at-risk
   status_note: >
@@ -329,7 +331,8 @@
     Kashaf is allowed to be bitter and difficult, and the drama takes her
     reasons seriously. It treats class honestly.
   mine: >
-    — your memory goes here —
+    The family watched it as it aired, and I watched with them or caught
+    it in passing.
   mentions: [humsafar]
   status: at-risk
   status_note: >
@@ -410,7 +413,8 @@
     It came in a hard year for cricket in Pakistan, when no international
     team would tour the country, and it felt like more than a trophy.
   mine: >
-    — your memory goes here —
+    Watched it live with the family. I was nine — too young to remember
+    it well.
   mentions: [world-cup-1992, afridi-shoaib-era]
   status: preserved
   tags: [cricket, pakistan, sports, formative]
@@ -1018,3 +1022,46 @@
     Ads are never archived by anyone on purpose. What exists is whatever
     the brand or a viewer uploaded.
   tags: [pakistani, ads]
+
+- id: columbo
+  title: Columbo
+  year: 1971
+  mine_year: 2026
+  platform: NBC, later ABC
+  by: Richard Levinson & William Link, starring Peter Falk
+  what: >
+    A rumpled LAPD lieutenant in a raincoat, with a cigar and an old
+    Peugeot, solves murders committed by the rich and clever. Each episode
+    shows you the murder first; the mystery is how he will catch them.
+  great: >
+    The confidence is the style. He lets the killer underestimate him,
+    flatters them, apologises, leaves — and then turns at the door: "Just
+    one more thing." He usually knows who did it in the first ten minutes,
+    and the pleasure is watching him be certain long before he can prove it.
+  mine: >
+    What draws me to detective stories, and to him most of all: the
+    confidence — knowing before you can prove it; the reasoning closing in;
+    the underdog everyone underestimates until he wins; and the ritual, the
+    same shape every episode.
+  mentions: [phoenix-wright-ace-attorney, death-note, fillmore, ishtiaq-ahmed, sherlock]
+  status: preserved
+  tags: [detective, drama, classic]
+
+- id: sherlock
+  title: Sherlock
+  year: 2010
+  platform: BBC
+  by: Steven Moffat & Mark Gatiss
+  what: >
+    Sherlock Holmes in modern London, with Benedict Cumberbatch as Holmes
+    and Martin Freeman as Watson. Four series of feature-length episodes,
+    2010–2017.
+  great: >
+    It put deduction on screen — text floating over the scene as Holmes
+    read it — and "A Study in Pink" made a hundred-year-old character feel
+    new.
+  mine: >
+    — your memory goes here —
+  mentions: [sherlock-holmes-stories, columbo]
+  status: preserved
+  tags: [detective, drama]

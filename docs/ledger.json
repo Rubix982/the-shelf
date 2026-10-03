@@ -29,6 +29,38 @@
       "tracks": null
     },
     {
+      "id": "sherlock-holmes-stories",
+      "kind": "books",
+      "kindLabel": "Books",
+      "title": "The Sherlock Holmes stories",
+      "year": 1887,
+      "mineYear": null,
+      "platform": "Short stories and novels",
+      "by": "Arthur Conan Doyle",
+      "region": "",
+      "what": "Four novels and fifty-six stories, from A Study in Scarlet (1887): the consulting detective at 221B Baker Street and his friend Dr. Watson, who narrates.",
+      "great": "The template for every fictional detective since — the observation, the explanation at the end, the friend who stands in for the reader.",
+      "mine": "— your memory goes here —",
+      "mentions": [
+        "sherlock",
+        "columbo"
+      ],
+      "where": [
+        {
+          "label": "Project Gutenberg (public domain)",
+          "url": "https://www.gutenberg.org/ebooks/author/69"
+        }
+      ],
+      "status": "preserved",
+      "statusNote": "",
+      "tags": [
+        "detective",
+        "classic"
+      ],
+      "ongoing": false,
+      "tracks": null
+    },
+    {
       "id": "looney-tunes",
       "kind": "television",
       "kindLabel": "Television",
@@ -131,6 +163,37 @@
         "pakistani",
         "detective",
         "formative"
+      ],
+      "ongoing": false,
+      "tracks": null
+    },
+    {
+      "id": "columbo",
+      "kind": "television",
+      "kindLabel": "Television",
+      "title": "Columbo",
+      "year": 1971,
+      "mineYear": 2026,
+      "platform": "NBC, later ABC",
+      "by": "Richard Levinson & William Link, starring Peter Falk",
+      "region": "",
+      "what": "A rumpled LAPD lieutenant in a raincoat, with a cigar and an old Peugeot, solves murders committed by the rich and clever. Each episode shows you the murder first; the mystery is how he will catch them.",
+      "great": "The confidence is the style. He lets the killer underestimate him, flatters them, apologises, leaves — and then turns at the door: \"Just one more thing.\" He usually knows who did it in the first ten minutes, and the pleasure is watching him be certain long before he can prove it.",
+      "mine": "What draws me to detective stories, and to him most of all: the confidence — knowing before you can prove it; the reasoning closing in; the underdog everyone underestimates until he wins; and the ritual, the same shape every episode.",
+      "mentions": [
+        "phoenix-wright-ace-attorney",
+        "death-note",
+        "fillmore",
+        "ishtiaq-ahmed",
+        "sherlock"
+      ],
+      "where": [],
+      "status": "preserved",
+      "statusNote": "",
+      "tags": [
+        "detective",
+        "drama",
+        "classic"
       ],
       "ongoing": false,
       "tracks": null
@@ -366,6 +429,34 @@
       "statusNote": "",
       "tags": [
         "anime"
+      ],
+      "ongoing": false,
+      "tracks": null
+    },
+    {
+      "id": "kikis-delivery-service",
+      "kind": "movies",
+      "kindLabel": "Movies",
+      "title": "Kiki's Delivery Service",
+      "year": 1989,
+      "mineYear": null,
+      "platform": "Film",
+      "by": "Hayao Miyazaki (Studio Ghibli)",
+      "region": "",
+      "what": "A thirteen-year-old witch leaves home for a year in a seaside town, starting a flying delivery service with her black cat Jiji.",
+      "great": "A story about losing your talent to burnout and finding it again, told gently enough for children and truly enough for adults.",
+      "mine": "— your memory goes here —",
+      "mentions": [
+        "spirited-away",
+        "ponyo"
+      ],
+      "where": [],
+      "status": "preserved",
+      "statusNote": "",
+      "tags": [
+        "animation",
+        "ghibli",
+        "japanese"
       ],
       "ongoing": false,
       "tracks": null
@@ -813,7 +904,7 @@
       "region": "",
       "what": "Seven novels, 1997–2007, following Harry from his first year at Hogwarts to the final fight against Voldemort.",
       "great": "The books grew up with their readers — each one longer and darker than the last — and the midnight releases made reading a public event.",
-      "mine": "— your memory goes here —",
+      "mine": "Came to the books after the films.",
       "mentions": [
         "harry-potter"
       ],
@@ -1108,7 +1199,7 @@
       "region": "",
       "what": "The Slim Shady LP (1999), The Marshall Mathers LP (2000), The Eminem Show (2002), and \"Lose Yourself\" from 8 Mile.",
       "great": "Technical rapping — rhymes inside rhymes — at a pace few could match, and \"Lose Yourself\" became the song people played before anything that mattered.",
-      "mine": "— your memory goes here —",
+      "mine": "Reached me through game soundtracks and anime music videos, and YouTube on the family computer.",
       "mentions": [],
       "where": [],
       "status": "preserved",
@@ -1262,7 +1353,7 @@
       "region": "",
       "what": "Parachutes (2000), A Rush of Blood to the Head (2002), X&Y (2005) and Viva la Vida (2008): \"Yellow,\" \"The Scientist,\" \"Fix You,\" \"Viva la Vida.\"",
       "great": "Earnest, melodic songs that never pretended to be cool. \"Fix You\" is one of those songs people remember the exact moment they needed.",
-      "mine": "— your memory goes here —",
+      "mine": "Reached me through game soundtracks and anime music videos, and YouTube on the family computer.",
       "mentions": [],
       "where": [],
       "status": "preserved",
@@ -1286,7 +1377,7 @@
       "region": "",
       "what": "Nu-metal and rap-rock from Los Angeles: Chester Bennington's screaming and Mike Shinoda's rapping over electronic production. Hybrid Theory (2000) and Meteora (2003), with \"In the End,\" \"Numb,\" and \"Crawling.\"",
       "great": "It gave a generation of teenagers words for feeling overwhelmed, without irony. \"In the End\" is still one of the most-played rock songs of the century.",
-      "mine": "— your memory goes here —",
+      "mine": "Reached me through game soundtracks and anime music videos, and YouTube on the family computer.",
       "mentions": [],
       "where": [],
       "status": "preserved",
@@ -1375,6 +1466,34 @@
       "tracks": null
     },
     {
+      "id": "gta-3",
+      "kind": "games",
+      "kindLabel": "Games",
+      "title": "Grand Theft Auto III",
+      "year": 2001,
+      "mineYear": null,
+      "platform": "PC",
+      "by": "DMA Design (Rockstar North)",
+      "region": "",
+      "what": "A silent criminal, betrayed and left for dead, works his way up through Liberty City's gangs. The first 3D Grand Theft Auto.",
+      "great": "The first time a whole city felt like it existed whether or not you were looking at it. Everything open-world since started here.",
+      "mine": "— your memory goes here —",
+      "mentions": [
+        "gta-vice-city",
+        "gta-liberty-city-stories"
+      ],
+      "where": [],
+      "status": "preserved",
+      "statusNote": "The originals were pulled from sale in 2021 for the Definitive Edition remasters; the original PC discs are dumped.",
+      "tags": [
+        "open-world",
+        "action",
+        "pc"
+      ],
+      "ongoing": false,
+      "tracks": null
+    },
+    {
       "id": "harry-potter",
       "kind": "movies",
       "kindLabel": "Movies",
@@ -1386,7 +1505,7 @@
       "region": "",
       "what": "Eight films, 2001–2011, from J. K. Rowling's seven novels: an orphan learns he is a wizard and grows up at Hogwarts, facing Voldemort.",
       "great": "The same cast grew up on screen over ten years, alongside the people watching. Prisoner of Azkaban showed the films could be more than faithful.",
-      "mine": "— your memory goes here —",
+      "mine": "The films came first; the books after.",
       "mentions": [
         "lord-of-the-rings"
       ],
@@ -1671,6 +1790,36 @@
       "tracks": null
     },
     {
+      "id": "gta-vice-city",
+      "kind": "games",
+      "kindLabel": "Games",
+      "title": "Grand Theft Auto: Vice City",
+      "year": 2002,
+      "mineYear": null,
+      "platform": "PC",
+      "by": "Rockstar North",
+      "region": "",
+      "what": "Tommy Vercetti, voiced by Ray Liotta, takes over a neon 1986 Miami after a drug deal goes wrong.",
+      "great": "The 80s soundtrack and the pastel city were the game. Driving at sunset with Flash FM on is the memory, not any mission.",
+      "mine": "— your memory goes here —",
+      "mentions": [
+        "gta-3",
+        "gta-san-andreas",
+        "gta-vice-city-stories"
+      ],
+      "where": [],
+      "status": "preserved",
+      "statusNote": "The originals were pulled from sale in 2021 for the Definitive Edition remasters; the original PC discs are dumped.",
+      "tags": [
+        "open-world",
+        "action",
+        "pc",
+        "formative"
+      ],
+      "ongoing": false,
+      "tracks": null
+    },
+    {
       "id": "kim-possible",
       "kind": "television",
       "kindLabel": "Television",
@@ -1707,7 +1856,7 @@
       "region": "",
       "what": "An outcast ninja, Naruto Uzumaki, who carries a sealed fox demon, trains to become the leader of his village.",
       "great": "The Chūnin Exams arc — and Naruto against Neji especially — made an underdog story feel earned instead of promised.",
-      "mine": "— your memory goes here —",
+      "mine": "Watched it dubbed in Urdu/Hindi.",
       "mentions": [
         "dragon-ball-z"
       ],
@@ -1838,7 +1987,7 @@
       "region": "",
       "what": "Terrorists against counter-terrorists in short rounds: plant or defuse the bomb, rescue or guard the hostages. Started as a Half-Life mod in 1999; version 1.6 is the one LAN parties and internet cafés ran for years.",
       "great": "One life per round and money carried between rounds made every death cost something. de_dust2 is probably the most-played map in the history of the medium, and it is still learnable in an afternoon.",
-      "mine": "— your memory goes here —",
+      "mine": "Bots first, on the family computer — PODbot and the like — then online and over LAN with friends. de_dust2, forever.",
       "mentions": [
         "half-life-2"
       ],
@@ -1930,6 +2079,34 @@
       "statusNote": "",
       "tags": [
         "adventure"
+      ],
+      "ongoing": false,
+      "tracks": null
+    },
+    {
+      "id": "prince-of-persia-sands-of-time",
+      "kind": "games",
+      "kindLabel": "Games",
+      "title": "Prince of Persia: The Sands of Time",
+      "year": 2003,
+      "mineYear": null,
+      "platform": "PC",
+      "by": "Ubisoft Montreal, with Jordan Mechner",
+      "region": "",
+      "what": "The Prince releases the Sands of Time and uses the Dagger of Time to rewind his mistakes, running along walls and across a crumbling palace.",
+      "great": "Rewinding time made dying a tool instead of a punishment, and the narration — \"No, no, that's not how it happened\" — turned every death into the storyteller correcting himself.",
+      "mine": "— your memory goes here —",
+      "mentions": [
+        "prince-of-persia"
+      ],
+      "where": [],
+      "status": "preserved",
+      "statusNote": "",
+      "tags": [
+        "action",
+        "platformer",
+        "pc",
+        "formative"
       ],
       "ongoing": false,
       "tracks": null
@@ -2275,7 +2452,7 @@
       "region": "",
       "what": "CJ returns home to Grove Street after his mother's death and is pulled back into gang life, in a state-sized open world spanning three cities, countryside and desert.",
       "great": "The world reacted to you — eat too much and CJ got fat, go to the gym and he got strong, and the radio stations made a long drive feel like an evening. It set the scale everything after it was measured against.",
-      "mine": "— your memory goes here —",
+      "mine": "Cheat codes — HESOYAM above all. And I got stuck on the helicopter missions for ages.",
       "mentions": [
         "nfs-underground-2"
       ],
@@ -2286,7 +2463,7 @@
         }
       ],
       "status": "preserved",
-      "statusNote": "",
+      "statusNote": "The original was pulled from sale in 2021 for the Definitive Edition remaster; the original PC discs are dumped.",
       "tags": [
         "open-world",
         "action",
@@ -2356,13 +2533,13 @@
       "kindLabel": "Games",
       "title": "Need for Speed: Underground 2",
       "year": 2004,
-      "mineYear": null,
+      "mineYear": 2011,
       "platform": "PC",
       "by": "EA Black Box",
       "region": "",
       "what": "Underground opened up into a free-roam city, Bayview, that you drove around between races to find shops and events, with even deeper customisation and SUVs added to the garage.",
       "great": "Driving between races was the point. The city gave the tuning somewhere to be shown off, and the soundtrack — Snoop Dogg's \"Riders on the Storm\" over the title screen — set the whole era's mood.",
-      "mine": "— your memory goes here —",
+      "mine": "Reached me around 2011, when I was eleven or twelve — years after it came out — on the family computer at home. I watched someone older play it before I did. I spent more time in the garage than racing, and I used cheats and trainers.",
       "mentions": [
         "nfs-underground",
         "nfs-most-wanted"
@@ -2474,7 +2651,7 @@
       "region": "",
       "what": "In a world where people can bend water, earth, fire or air, a twelve-year-old airbender, Aang, wakes from a hundred years frozen in ice to end the Fire Nation's war. Three seasons, called Books.",
       "great": "A children's cartoon with a complete, planned arc, real stakes, and Zuko — maybe the best redemption story in television, told over three years at exactly the pace it needed.",
-      "mine": "— your memory goes here —",
+      "mine": "Watched it on Nickelodeon as it aired, and again when it came to Netflix in 2020. Zuko's arc and Uncle Iroh are what stuck.",
       "mentions": [],
       "where": [],
       "status": "preserved",
@@ -2526,7 +2703,7 @@
       "region": "",
       "what": "A virtual world for kids where you were a penguin: decorate your igloo, play minigames for coins, adopt puffles, go to parties.",
       "great": "A safe, cheerful online space for children, with moderated chat and an events calendar that made it feel alive.",
-      "mine": "— your memory goes here —",
+      "mine": "Free account only — never a member.",
       "mentions": [],
       "where": [],
       "status": "gone",
@@ -2606,13 +2783,13 @@
       "kindLabel": "Games",
       "title": "Need for Speed: Most Wanted",
       "year": 2005,
-      "mineYear": null,
+      "mineYear": 2011,
       "platform": "PC",
       "by": "EA Black Box",
       "region": "",
       "what": "Daylight returns, and the police with it. You climb a Blacklist of fifteen rival racers in the city of Rockport to win back your BMW M3 GTR from Razor, while escalating police pursuits chase you down.",
       "great": "The chases. Heat levels rose until the city sent helicopters and roadblocks, and losing them by dropping a water tower on a cruiser was as much the game as the racing.",
-      "mine": "— your memory goes here —",
+      "mine": "Around 2011, on the family computer, at eleven or twelve. Watched someone older play it first. The police chases were the best part — better than the races — and I spent as much time tuning in the garage as driving. Cheats and trainers, too.",
       "mentions": [
         "nfs-underground-2"
       ],
@@ -2644,7 +2821,7 @@
       "region": "",
       "what": "A courtroom adventure. You investigate a crime scene, collect evidence, then defend your client in court by cross-examining witnesses and presenting the one piece of evidence that contradicts their testimony. A Game Boy Advance game in Japan first; the DS release added a fifth case built around the touch screen.",
       "great": "The puzzle is the testimony itself. You are not hunting for objects, you are hunting for the sentence that cannot be true, and shouting \"Objection!\" into the microphone when you find it is still one of the best payoffs a game has offered for simply paying attention.",
-      "mine": "— your memory goes here —",
+      "mine": "I never played it myself — I watched it through let's plays.",
       "mentions": [
         "phoenix-wright-justice-for-all"
       ],
@@ -2843,7 +3020,7 @@
       "region": "",
       "what": "A student, Light Yagami, finds a notebook that kills anyone whose name is written in it, and the detective L sets out to catch him.",
       "great": "A cat-and-mouse story fought entirely with reasoning. The potato-chip scene is a thriller made out of a teenager eating crisps.",
-      "mine": "— your memory goes here —",
+      "mine": "Watched it dubbed in Urdu/Hindi.",
       "mentions": [],
       "where": [],
       "status": "preserved",
@@ -3149,7 +3326,7 @@
       "region": "",
       "what": "The second Ace Attorney. Adds Psyche-Locks — chains over a character's secrets that you break by presenting the right evidence outside of court — and Franziska von Karma as the prosecutor.",
       "great": "Its last case asks what Phoenix does when the client he is defending may actually be guilty, which is the question the first game never had the nerve to pose.",
-      "mine": "— your memory goes here —",
+      "mine": "I never played it myself — I watched it through let's plays.",
       "mentions": [
         "phoenix-wright-ace-attorney",
         "phoenix-wright-trials-and-tribulations"
@@ -3182,7 +3359,7 @@
       "region": "",
       "what": "The third Ace Attorney and the end of Phoenix's original arc. Several cases reach back into Mia Fey's past, and the prosecutor is Godot, a coffee-drinking man in a visor with a grudge against Phoenix.",
       "great": "It reveals that the trilogy was planned as one story, tying threads from the first case of the first game into its finale. Few series land their ending this cleanly.",
-      "mine": "— your memory goes here —",
+      "mine": "I never played it myself — I watched it through let's plays.",
       "mentions": [
         "phoenix-wright-justice-for-all",
         "apollo-justice-ace-attorney"
@@ -3353,7 +3530,7 @@
       "region": "",
       "what": "Seven years after the trilogy, with a new rookie lawyer, Apollo Justice, and Phoenix disbarred and playing piano. Apollo can perceive a witness's nervous tics to find where they are lying.",
       "great": "It took the risk of handing the series to a new lead and showing its old hero diminished. Not everyone forgave it, which is a reason to write it down too.",
-      "mine": "— your memory goes here —",
+      "mine": "I never played it myself — I watched it through let's plays.",
       "mentions": [
         "phoenix-wright-trials-and-tribulations"
       ],
@@ -3398,6 +3575,34 @@
         "folk",
         "fusion",
         "formative"
+      ],
+      "ongoing": false,
+      "tracks": null
+    },
+    {
+      "id": "ponyo",
+      "kind": "movies",
+      "kindLabel": "Movies",
+      "title": "Ponyo",
+      "year": 2008,
+      "mineYear": null,
+      "platform": "Film",
+      "by": "Hayao Miyazaki (Studio Ghibli)",
+      "region": "",
+      "what": "A goldfish princess wants to become human after befriending a five-year-old boy, Sōsuke, and her wish floods his seaside town.",
+      "great": "Hand-drawn waves that are alive, and a film that sees the world at a five-year-old's height.",
+      "mine": "— your memory goes here —",
+      "mentions": [
+        "kikis-delivery-service",
+        "spirited-away"
+      ],
+      "where": [],
+      "status": "preserved",
+      "statusNote": "",
+      "tags": [
+        "animation",
+        "ghibli",
+        "japanese"
       ],
       "ongoing": false,
       "tracks": null
@@ -3492,7 +3697,7 @@
       "region": "",
       "what": "Pakistan won the second World Twenty20 in England, beating Sri Lanka by eight wickets in the final at Lord's, with Shahid Afridi unbeaten on 54.",
       "great": "It came in a hard year for cricket in Pakistan, when no international team would tour the country, and it felt like more than a trophy.",
-      "mine": "— your memory goes here —",
+      "mine": "Watched it live with the family. I was nine — too young to remember it well.",
       "mentions": [
         "world-cup-1992",
         "afridi-shoaib-era"
@@ -3651,7 +3856,7 @@
       "region": "",
       "what": "Plant crops, wait real hours for them to grow, and come back to harvest them before they withered — and send your friends requests for help.",
       "great": "Arguable, and worth writing down because of that. It made games of waiting and asking friends, and tens of millions played it.",
-      "mine": "— your memory goes here —",
+      "mine": "Played on a family member's Facebook account. My crops withered because I forgot to come back.",
       "mentions": [
         "yoville"
       ],
@@ -3858,7 +4063,7 @@
       "region": "",
       "what": "A browser sci-fi MMO, first played through Facebook: command starships, gather resources, build colonies and fight across a galaxy shared with every other player, with galactic politics between legions.",
       "great": "— why it was worth playing —",
-      "mine": "— your memory goes here —",
+      "mine": "Played for months, maybe years, and joined a legion.",
       "mentions": [],
       "where": [
         {
@@ -3924,6 +4129,33 @@
       "tags": [
         "youtube",
         "gaming"
+      ],
+      "ongoing": false,
+      "tracks": null
+    },
+    {
+      "id": "sherlock",
+      "kind": "television",
+      "kindLabel": "Television",
+      "title": "Sherlock",
+      "year": 2010,
+      "mineYear": null,
+      "platform": "BBC",
+      "by": "Steven Moffat & Mark Gatiss",
+      "region": "",
+      "what": "Sherlock Holmes in modern London, with Benedict Cumberbatch as Holmes and Martin Freeman as Watson. Four series of feature-length episodes, 2010–2017.",
+      "great": "It put deduction on screen — text floating over the scene as Holmes read it — and \"A Study in Pink\" made a hundred-year-old character feel new.",
+      "mine": "— your memory goes here —",
+      "mentions": [
+        "sherlock-holmes-stories",
+        "columbo"
+      ],
+      "where": [],
+      "status": "preserved",
+      "statusNote": "",
+      "tags": [
+        "detective",
+        "drama"
       ],
       "ongoing": false,
       "tracks": null
@@ -4011,7 +4243,7 @@
       "region": "",
       "what": "Khirad and Ashar marry at a dying mother's wish and are pulled apart by his mother's scheming. Starring Mahira Khan and Fawad Khan.",
       "great": "It was the drama the whole country — and much of India — watched at the same time, and it made its leads stars across the border.",
-      "mine": "— your memory goes here —",
+      "mine": "The family watched it as it aired, and I watched with them or caught it in passing.",
       "mentions": [
         "zindagi-gulzar-hai",
         "dastaan"
@@ -4039,7 +4271,7 @@
       "region": "",
       "what": "An open world made of blocks you can break and place. Survive the night against monsters, or build anything in creative mode. Playable in alpha from 2009; full release in 2011.",
       "great": "It gave you no goal and the world turned out to be enough. Every player's world is different, which makes it the closest thing games have to a personal journal.",
-      "mine": "— your memory goes here —",
+      "mine": "Both ways: survival, and creative mode just for building.",
       "mentions": [],
       "where": [],
       "status": "preserved",
@@ -4169,7 +4401,7 @@
       "region": "",
       "what": "Kashaf, from a struggling family, and Zaroon, from a wealthy one, meet at university and later marry. Starring Sanam Saeed and Fawad Khan.",
       "great": "Kashaf is allowed to be bitter and difficult, and the drama takes her reasons seriously. It treats class honestly.",
-      "mine": "— your memory goes here —",
+      "mine": "The family watched it as it aired, and I watched with them or caught it in passing.",
       "mentions": [
         "humsafar"
       ],
@@ -5816,17 +6048,17 @@
     }
   ],
   "counts": {
-    "total": 161,
-    "preserved": 119,
+    "total": 169,
+    "preserved": 127,
     "atRisk": 35,
     "gone": 7,
     "byKind": {
-      "books": 5,
-      "games": 36,
+      "books": 6,
+      "games": 39,
       "internet": 4,
-      "movies": 28,
+      "movies": 30,
       "music": 19,
-      "television": 56,
+      "television": 58,
       "youtube": 13
     }
   },

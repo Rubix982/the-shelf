@@ -269,7 +269,7 @@
     watching. Prisoner of Azkaban showed the films could be more than
     faithful.
   mine: >
-    — your memory goes here —
+    The films came first; the books after.
   mentions: [lord-of-the-rings]
   status: preserved
   tags: [fantasy, formative]
@@ -499,3 +499,37 @@
   mentions: [mulan]
   status: preserved
   tags: [animation, disney]
+
+- id: kikis-delivery-service
+  title: Kiki's Delivery Service
+  year: 1989
+  platform: Film
+  by: Hayao Miyazaki (Studio Ghibli)
+  what: >
+    A thirteen-year-old witch leaves home for a year in a seaside town,
+    starting a flying delivery service with her black cat Jiji.
+  great: >
+    A story about losing your talent to burnout and finding it again,
+    told gently enough for children and truly enough for adults.
+  mine: >
+    — your memory goes here —
+  mentions: [spirited-away, ponyo]
+  status: preserved
+  tags: [animation, ghibli, japanese]
+
+- id: ponyo
+  title: Ponyo
+  year: 2008
+  platform: Film
+  by: Hayao Miyazaki (Studio Ghibli)
+  what: >
+    A goldfish princess wants to become human after befriending a
+    five-year-old boy, Sōsuke, and her wish floods his seaside town.
+  great: >
+    Hand-drawn waves that are alive, and a film that sees the world at a
+    five-year-old's height.
+  mine: >
+    — your memory goes here —
+  mentions: [kikis-delivery-service, spirited-away]
+  status: preserved
+  tags: [animation, ghibli, japanese]

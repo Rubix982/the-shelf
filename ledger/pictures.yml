@@ -1,7 +1,7 @@
 # Pictures for ledger entries, linked from Wikipedia — not stored here.
 # Written by `npm run pictures`; check `page` and `about` before trusting a line.
-# Every line below was checked by hand on 2026-10-03 and pinned. To fix one, set
-# `page` and `picture` (or `picture: none`); pinned lines are never re-searched.
+# `check: true` means the match was weak. Fix one by hand by setting `page` and
+# `picture`, or `picture: none`, and adding `pinned: true` so a re-run leaves it.
 
 harry-potter-books:
   page: Harry Potter and the Philosopher's Stone
@@ -250,6 +250,18 @@ gta-vice-city:
   about: 2002 video game
   picture: >-
     https://upload.wikimedia.org/wikipedia/en/c/ce/Vice-city-cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled
+  pinned: true
+portal:
+  page: Portal (video game)
+  about: 2007 video game
+  picture: >-
+    https://upload.wikimedia.org/wikipedia/en/9/9f/Portal_standalonebox.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled
+  pinned: true
+portal-2:
+  page: Portal 2
+  about: 2011 video game
+  picture: >-
+    https://upload.wikimedia.org/wikipedia/en/f/f9/Portal2cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled
   pinned: true
 msn-messenger:
   page: MSN Messenger

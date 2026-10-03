@@ -457,7 +457,7 @@
     you the story — you were always in it.
   mine: >
     Gravity Gun everything.
-  mentions: [counter-strike]
+  mentions: [counter-strike, portal]
   status: preserved
   status_note: >
     Still sold on Steam.
@@ -797,3 +797,48 @@
     The originals were pulled from sale in 2021 for the Definitive Edition
     remasters; the original PC discs are dumped.
   tags: [open-world, action, pc, formative]
+
+- id: portal
+  title: Portal
+  year: 2007
+  platform: PC
+  by: Valve (Kim Swift and the Narbacular Drop team)
+  what: >
+    A first-person puzzle game: a gun that opens two linked portals, and a
+    series of test chambers run by GLaDOS, an AI who promises cake. Shipped
+    in The Orange Box alongside Half-Life 2's episodes.
+  great: >
+    One idea, explored completely in a few hours, then turned on you — the
+    moment you escape the test chambers and see the walls behind them. And
+    it ends with a song, "Still Alive," sung by the villain.
+  mine: >
+    I liked it a lot. On the family computer. "The cake is a lie," the
+    escape into the walls behind the test chambers, and "Still Alive" at
+    the end.
+  mentions: [portal-2, half-life-2]
+  status: preserved
+  status_note: >
+    Still sold on Steam.
+  tags: [puzzle, pc, formative]
+
+- id: portal-2
+  title: Portal 2
+  year: 2011
+  platform: PC
+  by: Valve
+  what: >
+    The sequel: a ruined Aperture Science, Wheatley (Stephen Merchant), the
+    recorded voice of founder Cave Johnson (J. K. Simmons), gels that make
+    you bounce and speed, and a separate co-op campaign for two robots.
+  great: >
+    Funnier than almost any game before it, with writing that makes the
+    puzzles feel like a story — and co-op that only works if two people
+    actually talk to each other.
+  mine: >
+    I liked it a lot — even more than the first. Wheatley, Cave Johnson and
+    his lemons, and the ending on the moon.
+  mentions: [portal, half-life-2]
+  status: preserved
+  status_note: >
+    Still sold on Steam.
+  tags: [puzzle, pc, co-op, formative]

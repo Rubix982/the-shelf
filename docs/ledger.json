@@ -2822,7 +2822,8 @@
       "great": "Physics became the puzzle. Picking up a saw blade with the Gravity Gun and firing it was a new verb, and the game never once stopped to tell you the story — you were always in it.",
       "mine": "Gravity Gun everything.",
       "mentions": [
-        "counter-strike"
+        "counter-strike",
+        "portal"
       ],
       "where": [],
       "status": "preserved",
@@ -3842,6 +3843,38 @@
       "tracks": null
     },
     {
+      "id": "portal",
+      "kind": "games",
+      "kindLabel": "Games",
+      "title": "Portal",
+      "year": 2007,
+      "mineYear": null,
+      "platform": "PC",
+      "by": "Valve (Kim Swift and the Narbacular Drop team)",
+      "region": "",
+      "what": "A first-person puzzle game: a gun that opens two linked portals, and a series of test chambers run by GLaDOS, an AI who promises cake. Shipped in The Orange Box alongside Half-Life 2's episodes.",
+      "great": "One idea, explored completely in a few hours, then turned on you — the moment you escape the test chambers and see the walls behind them. And it ends with a song, \"Still Alive,\" sung by the villain.",
+      "mine": "I liked it a lot. On the family computer. \"The cake is a lie,\" the escape into the walls behind the test chambers, and \"Still Alive\" at the end.",
+      "mentions": [
+        "portal-2",
+        "half-life-2"
+      ],
+      "where": [],
+      "status": "preserved",
+      "statusNote": "Still sold on Steam.",
+      "tags": [
+        "puzzle",
+        "pc",
+        "formative"
+      ],
+      "picture": {
+        "src": "https://upload.wikimedia.org/wikipedia/en/9/9f/Portal_standalonebox.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "Portal (video game)"
+      },
+      "ongoing": false,
+      "tracks": null
+    },
+    {
       "id": "ratatouille",
       "kind": "movies",
       "kindLabel": "Movies",
@@ -4841,6 +4874,39 @@
       "picture": {
         "src": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/be/Minecraft_game_logo_2023.png/250px-Minecraft_game_logo_2023.png",
         "page": "Minecraft"
+      },
+      "ongoing": false,
+      "tracks": null
+    },
+    {
+      "id": "portal-2",
+      "kind": "games",
+      "kindLabel": "Games",
+      "title": "Portal 2",
+      "year": 2011,
+      "mineYear": null,
+      "platform": "PC",
+      "by": "Valve",
+      "region": "",
+      "what": "The sequel: a ruined Aperture Science, Wheatley (Stephen Merchant), the recorded voice of founder Cave Johnson (J. K. Simmons), gels that make you bounce and speed, and a separate co-op campaign for two robots.",
+      "great": "Funnier than almost any game before it, with writing that makes the puzzles feel like a story — and co-op that only works if two people actually talk to each other.",
+      "mine": "I liked it a lot — even more than the first. Wheatley, Cave Johnson and his lemons, and the ending on the moon.",
+      "mentions": [
+        "portal",
+        "half-life-2"
+      ],
+      "where": [],
+      "status": "preserved",
+      "statusNote": "Still sold on Steam.",
+      "tags": [
+        "puzzle",
+        "pc",
+        "co-op",
+        "formative"
+      ],
+      "picture": {
+        "src": "https://upload.wikimedia.org/wikipedia/en/f/f9/Portal2cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "Portal 2"
       },
       "ongoing": false,
       "tracks": null
@@ -6650,13 +6716,13 @@
     }
   ],
   "counts": {
-    "total": 167,
-    "preserved": 126,
+    "total": 169,
+    "preserved": 128,
     "atRisk": 35,
     "gone": 6,
     "byKind": {
       "books": 6,
-      "games": 37,
+      "games": 39,
       "internet": 4,
       "movies": 30,
       "music": 19,
